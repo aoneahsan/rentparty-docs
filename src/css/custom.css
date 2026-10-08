@@ -1,0 +1,114 @@
+/*
+ * Rent Party docs theme: the game's own "party" palette and typefaces, mapped onto Infima.
+ * Light links use the brand's text ink (#a32190, 6.5:1 on the page); dark links use its dark ink
+ * (#f39be0, 9.2:1). Both fonts are self-hosted from src/fonts, beside their OFL licences; the build emits
+ * them as hashed assets.
+ */
+
+@font-face {
+  font-family: 'Atkinson Hyperlegible Next';
+  src: url('../fonts/atkinson-hyperlegible-next-latin-wght.woff2') format('woff2');
+  font-weight: 200 800;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Grandstander';
+  src: url('../fonts/grandstander-latin-wght.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --ifm-color-primary: #a32190;
+  --ifm-color-primary-dark: #931e82;
+  --ifm-color-primary-darker: #8b1c7a;
+  --ifm-color-primary-darkest: #721765;
+  --ifm-color-primary-light: #b3249e;
+  --ifm-color-primary-lighter: #bb26a6;
+  --ifm-color-primary-lightest: #d42bbb;
+
+  --ifm-background-color: #fffcfe;
+  --ifm-background-surface-color: #faf3f8;
+  --ifm-font-color-base: #301a2b;
+  --ifm-color-content-secondary: #654e60;
+
+  --ifm-font-family-base: 'Atkinson Hyperlegible Next', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --ifm-heading-font-family: 'Grandstander', 'Atkinson Hyperlegible Next', ui-rounded, system-ui, sans-serif;
+  --ifm-heading-font-weight: 700;
+  --ifm-font-size-base: 106.25%;
+  --ifm-line-height-base: 1.65;
+  --ifm-global-radius: 0.75rem;
+  --ifm-code-font-size: 92%;
+
+  --rp-cta-ink: #ffffff;
+  --rp-footer-ground: #301a2b;
+}
+
+[data-theme='dark'] {
+  --ifm-color-primary: #f39be0;
+  --ifm-color-primary-dark: #ef77d5;
+  --ifm-color-primary-darker: #ed66cf;
+  --ifm-color-primary-darkest: #e630bf;
+  --ifm-color-primary-light: #f7bfeb;
+  --ifm-color-primary-lighter: #f9d0f1;
+  --ifm-color-primary-lightest: #fce8f8;
+
+  --ifm-background-color: #1e111b;
+  --ifm-background-surface-color: #2c1b28;
+  --ifm-font-color-base: #f7eff5;
+  --ifm-color-content-secondary: #cab3c4;
+
+  --rp-cta-ink: #1e111b;
+  --rp-footer-ground: #150a13;
+}
+
+.navbar__title,
+.footer__title {
+  font-family: var(--ifm-heading-font-family);
+}
+
+/* The one call to action in the navbar: a pill that leaves the docs for the game. */
+.navbar-cta {
+  padding: 0.375rem 1rem;
+  border-radius: 999px;
+  background: var(--ifm-color-primary);
+  color: var(--rp-cta-ink);
+  font-weight: 700;
+}
+
+.navbar-cta:hover {
+  background: var(--ifm-color-primary-darker);
+  color: var(--rp-cta-ink);
+  text-decoration: none;
+}
+
+.navbar-cta:focus-visible {
+  outline: 3px solid var(--ifm-color-primary-darkest);
+  outline-offset: 2px;
+}
+
+.footer--dark {
+  --ifm-footer-background-color: var(--rp-footer-ground);
+  --ifm-footer-link-color: #f7eff5;
+  --ifm-footer-title-color: #f7eff5;
+  --ifm-footer-color: #f7eff5;
+  --ifm-footer-link-hover-color: #f39be0;
+}
+
+/* The active sidebar page carries a visible accent edge, not colour alone. */
+.menu__link--active:not(.menu__link--sublist) {
+  box-shadow: inset 3px 0 0 var(--ifm-color-primary);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+    animation-duration: 0.01ms !important;
+  }
+}

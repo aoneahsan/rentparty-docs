@@ -1,0 +1,28 @@
+basics:
+  label: Basics
+  permalink: /basics
+  description: Where to start with Rent Party.
+rules:
+  label: Rules
+  permalink: /rules
+  description: How Rent Party plays, rule by rule.
+online:
+  label: Online play
+  permalink: /online
+  description: Playing Rent Party with friends online.
+account:
+  label: Account
+  permalink: /account
+  description: Signing in, your profile and your settings.
+plans:
+  label: Plans
+  permalink: /plans
+  description: The Free, Pro and Family plans.
+help:
+  label: Help
+  permalink: /help
+  description: Answers, and ways to reach the Rent Party team.
+legal:
+  label: Legal
+  permalink: /legal
+  description: Privacy, terms, permissions and deleting an account.

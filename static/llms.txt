@@ -1,0 +1,27 @@
+# Rent Party docs
+
+> Player docs for Rent Party, a property-trading party game for friends and family: the rules, house rules, pausing, online play, your account, plans and help. The game runs at https://rentparty.aoneahsan.com in a current browser on phones, tablets and computers.
+
+The docs repeat the words of the game's own pages. Numbers the team can change, such as prices, plan limits and turn timers, are always current on the game's pages, which these docs link to.
+
+## Docs
+
+- [Getting started](https://rentparty-docs.aoneahsan.com/): what Rent Party is and the three ways to start a game
+- [The rules](https://rentparty-docs.aoneahsan.com/how-to-play/rules): turns, buying, auctions, rent, Jail, cards, building, trading, mortgages, bankruptcy and winning
+- [House rules](https://rentparty-docs.aoneahsan.com/how-to-play/house-rules): the four presets and every optional rule
+- [Pausing a game](https://rentparty-docs.aoneahsan.com/how-to-play/pausing): pausing, coming back, the final call and leaving a game
+- [CPU characters](https://rentparty-docs.aoneahsan.com/how-to-play/cpu-characters): the computer rivals and their four levels
+- [Rent Party names](https://rentparty-docs.aoneahsan.com/how-to-play/names): what each of the game's own words means
+- [Online play](https://rentparty-docs.aoneahsan.com/online-play): rooms, game invites, live and over-days games, timers, votes, watching and rated games
+- [Your account](https://rentparty-docs.aoneahsan.com/account): Google sign-in, profile, inbox and notifications, your data and deleting your account
+- [Plans and pricing](https://rentparty-docs.aoneahsan.com/plans-and-pricing): Free, Pro and Family, how buying works and friend invites
+- [Help and FAQ](https://rentparty-docs.aoneahsan.com/help): common questions and how to reach the team
+- [Privacy and terms](https://rentparty-docs.aoneahsan.com/privacy-and-terms): what each legal page covers, with links
+
+## The game
+
+- [Rent Party](https://rentparty.aoneahsan.com/): start a game
+- [How to play](https://rentparty.aoneahsan.com/how-to-play): the rules, with the current numbers
+- [Pricing](https://rentparty.aoneahsan.com/pricing): current prices and limits
+- [Help](https://rentparty.aoneahsan.com/help): questions and a form that reaches the team
+- [Privacy](https://rentparty.aoneahsan.com/privacy) · [Terms](https://rentparty.aoneahsan.com/terms) · [Permissions](https://rentparty.aoneahsan.com/permissions) · [Delete account](https://rentparty.aoneahsan.com/delete-account)

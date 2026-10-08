@@ -1,0 +1,31 @@
+name: Something in the docs is wrong
+description: A page says something the game doesn't do, a link is broken, or a sentence is unclear.
+title: "Docs mistake: "
+labels: ["documentation"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping keep the Rent Party docs right. If something in the game itself is broken, the game's [Help page](https://rentparty.aoneahsan.com/help) reaches the team faster.
+  - type: input
+    id: page
+    attributes:
+      label: Which page?
+      description: Paste the page's address.
+      placeholder: https://rentparty-docs.aoneahsan.com/how-to-play/rules
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What's wrong?
+      description: Quote the sentence if you can, and say what the game does instead.
+    validations:
+      required: true
+  - type: textarea
+    id: fix
+    attributes:
+      label: What should it say?
+      description: Optional. A suggested wording helps.
+    validations:
+      required: false

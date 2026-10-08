@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Help with a game, your account or a plan
+    url: https://rentparty.aoneahsan.com/help
+    about: This repository holds the docs only. The game's Help page has a form that reaches the Rent Party team.
+  - name: A privacy or legal request
+    url: https://rentparty.aoneahsan.com/privacy
+    about: The privacy page says where to send privacy and legal requests.

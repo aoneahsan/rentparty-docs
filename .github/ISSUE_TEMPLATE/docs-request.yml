@@ -1,0 +1,23 @@
+name: Something is missing from the docs
+description: You looked for an answer about Rent Party and couldn't find it here.
+title: "Docs request: "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tell us what you were trying to find out. The docs cover what the game does today, so a request for a new game feature goes through the game's [Help page](https://rentparty.aoneahsan.com/help) instead.
+  - type: textarea
+    id: question
+    attributes:
+      label: What were you trying to find out?
+      placeholder: How do sealed bids work in a pass-and-play game?
+    validations:
+      required: true
+  - type: input
+    id: looked
+    attributes:
+      label: Where did you look?
+      description: Optional. The pages you checked, or what you searched for.
+    validations:
+      required: false

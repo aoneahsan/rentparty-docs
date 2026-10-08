@@ -1,0 +1,13 @@
+{
+  "label": "How to play",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "slug": "/how-to-play",
+    "title": "How to play Rent Party",
+    "description": "The classic property-trading rules, applied for you. Auctions, rent, building, mortgages, Jail, bankruptcy, house rules, the CPU characters, and pausing a game to finish it over days.",
+    "keywords": ["rules", "how to play", "house rules", "pausing"]
+  }
+}
