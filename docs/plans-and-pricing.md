@@ -43,15 +43,18 @@ Family is paid per seat, you included, and the Pricing page shows how many seats
 
 ## How do you buy a plan? {#buying}
 
-On the Rent Party website, from [Pricing](https://rentparty.aoneahsan.com/pricing). After you pay, the team checks the payment by hand. What you paid for takes effect the day the team confirms it. We email you when your payment is in review and again when it’s confirmed.
+On the Rent Party website, from [Pricing](https://rentparty.aoneahsan.com/pricing). There are two ways to pay, and checkout shows which you can use.
+
+- **By card.** Choose **Pay by card**. You pay on our payment partner’s page, and they email you a confirmation. Your plan starts as soon as the payment goes through.
+- **A payment you report.** When checkout offers it, you make the payment another way and then report it there, with its reference. The team checks a payment you report by hand. Your plan starts the day it’s confirmed. We email you when a reported payment is in review and again when it’s confirmed.
 
 Plans are sold only on the Rent Party website, and the Android app shows the plan you’re on without selling one. Once your plan starts, it works everywhere you sign in, the Android app included.
 
-A plan doesn’t renew on its own.
+A plan doesn’t renew on its own. “How do you buy a plan?” in the [Terms](https://rentparty.aoneahsan.com/terms#how-do-you-buy-a-plan) covers buying in full.
 
 ## When does a plan start? {#plan-start}
 
-As soon as the Rent Party team confirms your payment. We check payments by hand, and the email that confirms yours gives the date your plan runs until: one month for each month you paid for. If it isn’t confirmed, your plan stays as it was and we email you. Write to us from the [Help page](https://rentparty.aoneahsan.com/help) if neither comes.
+When your card payment goes through. A payment you report starts your plan once the Rent Party team confirms it by hand, and either way the confirming email gives the date it runs until: one month for each month you paid for. If a payment you report isn’t confirmed, your plan stays as it was and we email you. Write to us from the [Help page](https://rentparty.aoneahsan.com/help) if neither comes.
 
 ## What happens when a plan ends? {#plan-end}
 

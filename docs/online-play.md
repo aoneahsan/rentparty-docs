@@ -42,7 +42,7 @@ Your plan sets how many live games and games over days you can be in at once. Wh
 
 Send each friend a game invite: a link, a QR code or a 6-character room code. The invite works while the room waits in its lobby, 24 hours by default.
 
-A friend with a code joins from Play online, under **Join with a code**. If a code doesn’t work, the game says why:
+A friend with a code joins from [Start a game](https://rentparty.aoneahsan.com/play), under **Join a room**, which takes the 6-character code, or the whole invite or Watch link. Play online has **Join with a code** too. If a code doesn’t work, the game says why:
 
 | You see | What to do |
 |---|---|

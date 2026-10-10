@@ -59,13 +59,19 @@ The build fails on any broken link, anchor or image, so a green build is also th
 <a id="contributing"></a>
 ## 🤝 Contributing&nbsp;[#](#contributing)
 
-Corrections and missing answers are welcome. [CONTRIBUTING.md](./CONTRIBUTING.md) covers reporting a problem, the writing rules and pull requests.
+Corrections and missing answers are welcome.
+
+- A ruleset protects `main` against deletion and force-pushes.
+- The Rent Party team maintains `main` and pushes to it directly.
+- Everyone else contributes through a fork and a pull request, which needs no access.
+
+[CONTRIBUTING.md](./CONTRIBUTING.md) covers reporting a problem, the writing rules, pull requests and asking for collaborator access.
 
 <a id="support"></a>
 ## 💬 Support&nbsp;[#](#support)
 
+- A mistake in the docs, or an answer that's missing: [open an issue](https://github.com/aoneahsan/rentparty-docs/issues/new/choose).
 - A game, your account or a plan: the game's [Help page](https://rentparty.aoneahsan.com/help).
-- A mistake in the docs: [open an issue](https://github.com/aoneahsan/rentparty-docs/issues/new/choose).
 - To support the Rent Party team: [aoneahsan.com/payment](https://aoneahsan.com/payment?project-id=rent-party&project-identifier=com.aoneahsan.rentparty).
 
 <a id="links"></a>

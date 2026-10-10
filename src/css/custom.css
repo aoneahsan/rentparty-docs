@@ -34,6 +34,8 @@
   --ifm-background-surface-color: #faf3f8;
   --ifm-font-color-base: #301a2b;
   --ifm-color-content-secondary: #654e60;
+  /* Infima's own placeholder grey is 1.5:1 on the search field in light mode; this ink is 6.4:1. */
+  --ifm-navbar-search-input-placeholder-color: var(--ifm-color-content-secondary);
 
   --ifm-font-family-base: 'Atkinson Hyperlegible Next', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
   --ifm-heading-font-family: 'Grandstander', 'Atkinson Hyperlegible Next', ui-rounded, system-ui, sans-serif;
@@ -60,6 +62,8 @@
   --ifm-background-surface-color: #2c1b28;
   --ifm-font-color-base: #f7eff5;
   --ifm-color-content-secondary: #cab3c4;
+  /* Dark mode keeps Infima's own placeholder grey, which already passes on the dark search field. */
+  --ifm-navbar-search-input-placeholder-color: var(--ifm-color-emphasis-500);
 
   --rp-cta-ink: #1e111b;
   --rp-footer-ground: #150a13;
@@ -101,6 +105,17 @@
 /* The active sidebar page carries a visible accent edge, not colour alone. */
 .menu__link--active:not(.menu__link--sublist) {
   box-shadow: inset 3px 0 0 var(--ifm-color-primary);
+}
+
+/* On a phone, table cells sit tighter, so a four-column table fits a 360px screen and none of it runs off the edge. */
+@media (max-width: 576px) {
+  :root {
+    --ifm-table-cell-padding: 0.375rem;
+  }
+
+  .markdown table {
+    font-size: 0.9375rem;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

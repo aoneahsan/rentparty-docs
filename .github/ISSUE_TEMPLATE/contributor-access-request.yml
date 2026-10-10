@@ -1,0 +1,29 @@
+name: Contributor access request
+description: Ask for collaborator access to this repository. Most changes don't need it.
+title: "Access request: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Most changes need no access: fork the repository and open a pull request, as [CONTRIBUTING.md](https://github.com/aoneahsan/rentparty-docs/blob/main/CONTRIBUTING.md) explains. Ask for collaborator access only if you plan to help regularly. The Rent Party team decides each request.
+  - type: textarea
+    id: work
+    attributes:
+      label: What would you like to work on?
+      description: The pages or topics you'd like to help with.
+    validations:
+      required: true
+  - type: textarea
+    id: earlier
+    attributes:
+      label: What have you contributed so far?
+      description: Optional. Links to issues or pull requests here, or to docs you've written elsewhere.
+    validations:
+      required: false
+  - type: checkboxes
+    id: agree
+    attributes:
+      label: Before you send
+      options:
+        - label: I've read CONTRIBUTING.md, and I know collaborators send their changes as pull requests too.
+          required: true

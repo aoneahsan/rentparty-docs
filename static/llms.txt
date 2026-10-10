@@ -6,22 +6,35 @@ The docs repeat the words of the game's own pages. Numbers the team can change, 
 
 ## Docs
 
-- [Getting started](https://rentparty-docs.aoneahsan.com/): what Rent Party is and the three ways to start a game
+- [Getting started](https://rentparty-docs.aoneahsan.com/): what Rent Party is, the three ways to play, and how to start a game or join a room
+- [How to play](https://rentparty-docs.aoneahsan.com/how-to-play): the index of the five how-to-play pages below
 - [The rules](https://rentparty-docs.aoneahsan.com/how-to-play/rules): turns, buying, auctions, rent, Jail, cards, building, trading, mortgages, bankruptcy and winning
 - [House rules](https://rentparty-docs.aoneahsan.com/how-to-play/house-rules): the four presets and every optional rule
 - [Pausing a game](https://rentparty-docs.aoneahsan.com/how-to-play/pausing): pausing, coming back, the final call and leaving a game
-- [CPU characters](https://rentparty-docs.aoneahsan.com/how-to-play/cpu-characters): the computer rivals and their four levels
+- [CPU characters](https://rentparty-docs.aoneahsan.com/how-to-play/cpu-characters): the six computer rivals and their four levels
 - [Rent Party names](https://rentparty-docs.aoneahsan.com/how-to-play/names): what each of the game's own words means
-- [Online play](https://rentparty-docs.aoneahsan.com/online-play): rooms, game invites, live and over-days games, timers, votes, watching and rated games
+- [Online play](https://rentparty-docs.aoneahsan.com/online-play): rooms, game invites, joining with a code or a link, live and over-days games, timers, votes, watching and rated games
 - [Your account](https://rentparty-docs.aoneahsan.com/account): Google sign-in, profile, inbox and notifications, your data and deleting your account
-- [Plans and pricing](https://rentparty-docs.aoneahsan.com/plans-and-pricing): Free, Pro and Family, how buying works and friend invites
+- [Plans and pricing](https://rentparty-docs.aoneahsan.com/plans-and-pricing): Free, Pro and Family, the two ways to pay, when a plan starts and ends, and friend invites
 - [Help and FAQ](https://rentparty-docs.aoneahsan.com/help): common questions and how to reach the team
 - [Privacy and terms](https://rentparty-docs.aoneahsan.com/privacy-and-terms): what each legal page covers, with links
 
+## What's new
+
+- [What's new](https://rentparty-docs.aoneahsan.com/blog): changes to the docs, newest first
+- [The Rent Party docs are here](https://rentparty-docs.aoneahsan.com/blog/rent-party-docs-are-here): the first post, on what the docs cover
+- [RSS feed](https://rentparty-docs.aoneahsan.com/blog/rss.xml): new posts, for a feed reader
+- [Atom feed](https://rentparty-docs.aoneahsan.com/blog/atom.xml): the same posts in Atom
+- [Sitemap](https://rentparty-docs.aoneahsan.com/sitemap.xml): every page, in the format search engines read
+
 ## The game
 
-- [Rent Party](https://rentparty.aoneahsan.com/): start a game
+- [Rent Party](https://rentparty.aoneahsan.com/): the game's home page
+- [Start a game](https://rentparty.aoneahsan.com/play): pick a kind of game, or join a room with a code or a link
 - [How to play](https://rentparty.aoneahsan.com/how-to-play): the rules, with the current numbers
 - [Pricing](https://rentparty.aoneahsan.com/pricing): current prices and limits
 - [Help](https://rentparty.aoneahsan.com/help): questions and a form that reaches the team
-- [Privacy](https://rentparty.aoneahsan.com/privacy) · [Terms](https://rentparty.aoneahsan.com/terms) · [Permissions](https://rentparty.aoneahsan.com/permissions) · [Delete account](https://rentparty.aoneahsan.com/delete-account)
+- [Privacy](https://rentparty.aoneahsan.com/privacy): what the game keeps about you, and how to change or delete it
+- [Terms](https://rentparty.aoneahsan.com/terms): the rules for using Rent Party, buying a plan included
+- [Permissions](https://rentparty.aoneahsan.com/permissions): every permission the Android app and the website use
+- [Delete account](https://rentparty.aoneahsan.com/delete-account): how to delete an account, and what goes and what stays

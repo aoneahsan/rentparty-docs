@@ -31,7 +31,7 @@ Open it from Games and tap I’m ready. Play resumes when everyone at the table 
 
 ## How do I buy Pro or Family? {#buy-a-plan}
 
-On the Rent Party website, from [Pricing](https://rentparty.aoneahsan.com/pricing). After you pay, the team checks the payment by hand. What you paid for takes effect the day the team confirms it. We email you when your payment is in review and again when it’s confirmed.
+On the Rent Party website, from [Pricing](https://rentparty.aoneahsan.com/pricing). A card payment takes effect as soon as it goes through. The team checks a payment you report by hand, and it takes effect the day they confirm it. We email you when a reported payment is in review and again when it’s confirmed. [Plans and pricing](./plans-and-pricing.md#buying) covers both ways to pay.
 
 ## Why didn’t I get an alert for my turn? {#alerts}
 

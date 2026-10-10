@@ -6,12 +6,14 @@ Thanks for helping. This repository is the source of [rentparty-docs.aoneahsan.c
 
 - [Ways to help](#ways-to-help)
 - [Reporting a problem](#reporting-a-problem)
+- [How this repository is governed](#how-this-repository-is-governed)
 - [Setting up locally](#setting-up-locally)
 - [How the site is organized](#how-the-site-is-organized)
 - [Writing a page](#writing-a-page)
 - [Voice and words](#voice-and-words)
 - [Checking your change](#checking-your-change)
 - [Pull requests](#pull-requests)
+- [Becoming a contributor](#becoming-a-contributor)
 - [What never goes in this repository](#what-never-goes-in-this-repository)
 - [Getting help](#getting-help)
 - [Supporting the team](#supporting-the-team)
@@ -32,7 +34,7 @@ This repository holds the docs only. The game's own code isn't here, so:
 <a id="reporting-a-problem"></a>
 ## 🐞 Reporting a problem&nbsp;[#](#reporting-a-problem)
 
-[Open an issue](https://github.com/aoneahsan/rentparty-docs/issues/new/choose) and pick one of the two forms:
+[Open an issue](https://github.com/aoneahsan/rentparty-docs/issues/new/choose) and pick the form that fits:
 
 | Form | Use it when |
 |---|---|
@@ -40,6 +42,14 @@ This repository holds the docs only. The game's own code isn't here, so:
 | Something is missing from the docs | You looked for an answer and couldn't find it here. |
 
 Give the page's address and quote the sentence when you can. "The Jail section says 2 tries, the game gives 3" is quicker to fix than "Jail is wrong".
+
+<a id="how-this-repository-is-governed"></a>
+## 🛡️ How this repository is governed&nbsp;[#](#how-this-repository-is-governed)
+
+- **`main` is protected.** A ruleset blocks deleting the branch and force-pushing to it.
+- **The Rent Party team maintains `main`** and pushes to it directly.
+- **Everyone else contributes through a fork and a pull request.** That needs no access, and [Pull requests](#pull-requests) has the steps.
+- **Every push to `main` redeploys the site**, through `.github/workflows/deploy-pages.yml`.
 
 <a id="setting-up-locally"></a>
 ## 💻 Setting up locally&nbsp;[#](#setting-up-locally)
@@ -71,6 +81,7 @@ This repository uses Yarn only. Please don't commit a `package-lock.json` or `pn
 | `docs/how-to-play/` | The rules, house rules, pausing, the CPU characters and the names list. `_category_.json` sets the folder's label, position and index page. |
 | `docs/*.md` | Online play, your account, plans and pricing, help, and privacy and terms. |
 | `docs/tags.yml` | Every tag a page may use. |
+| `docs/MANUAL-TASKS.md` | The maintainers' checklist of publishing steps. The site's settings leave it out of the build, so it is never a page. |
 | `blog/` | What's-new posts. Every post is signed by `team` from `blog/authors.yml`. |
 | `src/css/custom.css` | The theme. |
 | `static/` | Files served as they are: `CNAME`, `robots.txt`, `llms.txt`, the logo. |
@@ -114,7 +125,8 @@ The docs sound like the game: a warm host and a fair referee. In practice:
 - **No gambling words.** Bucks are play money; never bet, wager, jackpot or cash out.
 - **Say earn or collect**, never unlock. The computer opponents are CPU characters, never bots.
 - **The docs speak as the Rent Party team**, never as one person. No personal names on pages, in posts or in bylines.
-- **Plan and payment pages state facts** and link to the game's Pricing and Terms pages. They never add warnings or conditions of their own.
+- **Plan and payment pages state facts** and link to the game's Pricing and Terms pages. They never restate the Terms, and they never add warnings or conditions of their own.
+- **A card payment goes through "our payment partner".** The docs don't name the company; the game's Terms and Privacy pages do.
 - **Every claim must match the game.** Don't describe a feature, number or limit the game doesn't have. Unsure? Ask in the issue before writing it.
 
 <a id="checking-your-change"></a>
@@ -129,9 +141,17 @@ The docs sound like the game: a warm host and a fair referee. In practice:
 
 1. Fork the repository and branch from `main`.
 2. Keep each pull request to one topic: a fix, a new answer or one page's rewrite.
-3. Write plain commit messages that say what changed, like `Fix the Jail exit rule on the rules page`.
+3. Write commit messages as [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/): a type, a colon, then what changed, like `docs: fix the Jail exit rule on the rules page`. Use `docs` for page content, `fix` for something broken on the site and `chore` for upkeep.
 4. In the pull request, say what changed and why, and link the issue it closes.
 5. The team reviews every pull request. Once it's merged, the site redeploys from `main` on its own.
+
+<a id="becoming-a-contributor"></a>
+## 🔑 Becoming a contributor&nbsp;[#](#becoming-a-contributor)
+
+- **Fork and open a pull request.** Anyone can, and it needs no access. This is how most changes arrive.
+- **Ask for collaborator access** if you plan to help regularly. [Open an issue](https://github.com/aoneahsan/rentparty-docs/issues/new/choose), pick the "Contributor access request" form and say what you'd like to work on. The team decides each request.
+
+Collaborators send their changes as pull requests too.
 
 <a id="what-never-goes-in-this-repository"></a>
 ## 🔒 What never goes in this repository&nbsp;[#](#what-never-goes-in-this-repository)

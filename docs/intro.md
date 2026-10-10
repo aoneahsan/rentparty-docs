@@ -25,6 +25,8 @@ You roll two dice, buy the unowned streets you land on, trade for full color set
 4. **House rules.** Pick a preset or switch rules on one at a time. [House rules](./how-to-play/house-rules.md) lists them all.
 5. **Ready to roll.** Check the summary, then choose Start game. For an online game, the last step is Create room, and your friends join with a [game invite](./online-play.md#invites).
 
+Got a room code or an invite link? Put it under **Join a room** on the Start a game page and take your seat.
+
 ## Do you need an account? {#account}
 
 No. Pass-and-play and CPU games work without one, and they’re saved on this device. Sign in with Google to play online, keep cloud saves and earn coins. [Your account](./account.md) covers what signing in adds.

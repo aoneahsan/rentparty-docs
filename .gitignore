@@ -19,6 +19,9 @@
 package-lock.json
 pnpm-lock.yaml
 
+# Temporary browser profile from a local render check: never committed
+/.tmp-profile
+
 # Logs and OS files
 npm-debug.log*
 yarn-debug.log*

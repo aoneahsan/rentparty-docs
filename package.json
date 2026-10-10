@@ -4,6 +4,13 @@
   "private": true,
   "description": "Player docs for Rent Party: the rules, online play, your account, plans and help.",
   "homepage": "https://rentparty-docs.aoneahsan.com",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aoneahsan/rentparty-docs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aoneahsan/rentparty-docs/issues"
+  },
   "packageManager": "yarn@4.18.1",
   "engines": {
     "node": ">=20.0"

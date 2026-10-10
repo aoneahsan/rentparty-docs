@@ -44,7 +44,7 @@ If notifications are blocked in your phone’s or browser’s settings, allow th
 
 ## Friends, blocks and reports {#friends-and-safety}
 
-When a friend opens a room for friends, it shows up under Friends’ rooms on Play online.
+When a friend opens a room for friends, it’s listed for you on Play online.
 
 **Blocking** someone ends your friendship. You won’t see each other’s chat, and neither of you can join a room the other hosts or send a friend request. They can’t watch games you play in. Games you’re already in together carry on.
 
