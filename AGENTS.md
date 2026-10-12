@@ -2,7 +2,7 @@
 
 This guide exists twice at the repository root, as two mirrored files: only line 1 differs. Change both in the same commit.
 
-**Last Updated:** 2026-10-10
+**Last Updated:** 2026-10-12
 
 ## What this repository is
 
@@ -17,7 +17,7 @@ Yarn only, at the version pinned in `package.json`. Run `corepack enable` once.
 | Command | What it does |
 |---|---|
 | `yarn install --immutable` | Installs exactly what `yarn.lock` records. |
-| `yarn typecheck` | Type-checks `docusaurus.config.ts` and `sidebars.ts`. |
+| `yarn typecheck` | Type-checks `docusaurus.config.ts`, `sidebars.ts`, the local plugin in `plugins/` and the components in `src/`. |
 | `yarn build` | Builds the site into `build/`. It is also the link checker, and it must end with no error and no warning. |
 | `yarn serve` | Serves the last build, to read it the way a visitor will. |
 | `yarn clear` | Clears Docusaurus's caches. |
@@ -44,6 +44,7 @@ A change is done once it builds, and the changed page has been read in the serve
 - One workflow, `.github/workflows/deploy-pages.yml`, builds and deploys the site. There is no other host and no other deploy script.
 - The docs plugin's `exclude` list in `docusaurus.config.ts` restates the defaults and adds `MANUAL-TASKS.md` and `story/**`, so `docs/MANUAL-TASKS.md` is never a page. Keep both entries.
 - No secret ever enters this repository: no `.env` file, key, token or password. `.env.example` lists the optional settings with empty values, and a build never needs one.
+- `plugins/site-pages.ts` builds `/sitemap` and `/feed` from the docs and posts, writes `/feed.xml` as a copy of `blog/rss.xml`, and gives every `sitemap.xml` URL a lastmod. `src/theme/BlogListPage` is ejected only to give the blog list its one `<h1>` (the theme draws none); recheck it on every Docusaurus upgrade.
 - A ruleset protects `main` against deletion and force-pushes. The Rent Party team pushes to it directly, and everyone else contributes through a fork and a pull request.
 
 ## How it deploys

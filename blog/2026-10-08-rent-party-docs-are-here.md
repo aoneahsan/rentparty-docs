@@ -3,6 +3,7 @@ slug: rent-party-docs-are-here
 title: The Rent Party docs are here
 description: The rules, online play, your account, plans and help for Rent Party, in one place, with search on every page.
 authors: [team]
+tags: [basics]
 date: 2026-10-10
 ---
 

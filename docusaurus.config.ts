@@ -1,11 +1,15 @@
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
+import sitePages, { withLastmod } from './plugins/site-pages';
 
 /** The docs site's own address. `static/CNAME` holds the same host for GitHub Pages. */
 const SITE_URL = 'https://rentparty-docs.aoneahsan.com';
 
 /** The game itself. Every "go and do it" link on the site points here. */
 const APP_URL = 'https://rentparty.aoneahsan.com';
+
+/** The blog's route: the blog plugin's `routeBasePath` below, with its leading slash. */
+const BLOG_PATH = '/blog';
 
 /**
  * Analytics stay off unless the build environment names an ID, and each provider is skipped entirely when its
@@ -100,6 +104,9 @@ const config: Config = {
           blogDescription: 'Changes to the Rent Party docs, newest first.',
           blogSidebarTitle: 'Recent posts',
           showReadingTime: false,
+          // A post's last update comes from git: shown under the post, and its sitemap lastmod. No name is shown.
+          showLastUpdateTime: true,
+          showLastUpdateAuthor: false,
           onInlineAuthors: 'throw',
           onInlineTags: 'throw',
           onUntruncatedBlogPosts: 'throw',
@@ -117,16 +124,23 @@ const config: Config = {
           customCss: './src/css/custom.css',
         },
         sitemap: {
+          // Every URL carries a truthful lastmod and nothing else: search engines ignore changefreq and priority.
           lastmod: 'date',
-          changefreq: 'weekly',
+          changefreq: null,
           priority: null,
           filename: 'sitemap.xml',
           ignorePatterns: ['/tags/**', '/blog/tags/**', '/blog/archive', '/blog/authors/**', '/search'],
+          // A page git cannot date (the blog list, a category index, /sitemap, /feed) takes the newest date it lists.
+          createSitemapItems: async ({ defaultCreateSitemapItems, ...params }) =>
+            withLastmod(await defaultCreateSitemapItems(params), BLOG_PATH),
         },
         ...(GA_MEASUREMENT_ID ? { gtag: { trackingID: GA_MEASUREMENT_ID, anonymizeIP: true } } : {}),
       } satisfies Preset.Options,
     ],
   ],
+
+  // `/sitemap` and `/feed` for people, and `/feed.xml` beside `/sitemap.xml` for machines.
+  plugins: [sitePages({ blogPath: BLOG_PATH })],
 
   themes: [
     [
@@ -218,13 +232,15 @@ const config: Config = {
         },
         {
           title: 'Site',
-          // Files written after the pages are built (feeds, sitemap, llms.txt) are invisible to the link
-          // checker, so they use `pathname://`, which links to the file as it is without routing.
+          // Three pages, then four files. Files written after the pages are built (feeds, sitemap, llms.txt) are
+          // invisible to the link checker, so they use `pathname://`, which links to the file as it is without routing.
           items: [
-            { label: 'What’s new', to: '/blog' },
-            { label: 'RSS feed', href: 'pathname:///blog/rss.xml' },
-            { label: 'Atom feed', href: 'pathname:///blog/atom.xml' },
-            { label: 'Sitemap', href: 'pathname:///sitemap.xml' },
+            { label: 'What’s new', to: BLOG_PATH },
+            { label: 'Feed', to: '/feed' },
+            { label: 'Sitemap', to: '/sitemap' },
+            { label: 'RSS feed', href: `pathname://${BLOG_PATH}/rss.xml` },
+            { label: 'Atom feed', href: `pathname://${BLOG_PATH}/atom.xml` },
+            { label: 'sitemap.xml', href: 'pathname:///sitemap.xml' },
             { label: 'llms.txt', href: 'pathname:///llms.txt' },
           ],
         },

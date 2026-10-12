@@ -67,7 +67,7 @@ yarn start
 | `yarn start` | Serves the site locally and reloads as you edit. |
 | `yarn build` | Builds the production site into `build/`. It fails on any broken link, anchor, image or unknown tag. |
 | `yarn serve` | Serves the last build, to check it the way visitors will see it. |
-| `yarn typecheck` | Type-checks `docusaurus.config.ts` and `sidebars.ts`. |
+| `yarn typecheck` | Type-checks `docusaurus.config.ts`, `sidebars.ts`, the local plugin in `plugins/` and the components in `src/`. |
 | `yarn clear` | Clears Docusaurus's caches when a build behaves oddly. |
 
 This repository uses Yarn only. Please don't commit a `package-lock.json` or `pnpm-lock.yaml`.

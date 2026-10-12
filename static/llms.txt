@@ -23,9 +23,12 @@ The docs repeat the words of the game's own pages. Numbers the team can change, 
 
 - [What's new](https://rentparty-docs.aoneahsan.com/blog): changes to the docs, newest first
 - [The Rent Party docs are here](https://rentparty-docs.aoneahsan.com/blog/rent-party-docs-are-here): the first post, on what the docs cover
-- [RSS feed](https://rentparty-docs.aoneahsan.com/blog/rss.xml): new posts, for a feed reader
+- [Feed](https://rentparty-docs.aoneahsan.com/feed): every post, newest first, with the RSS and Atom links
+- [feed.xml](https://rentparty-docs.aoneahsan.com/feed.xml): new posts, for a feed reader
+- [RSS feed](https://rentparty-docs.aoneahsan.com/blog/rss.xml): the same posts as feed.xml, at the blog's address
 - [Atom feed](https://rentparty-docs.aoneahsan.com/blog/atom.xml): the same posts in Atom
-- [Sitemap](https://rentparty-docs.aoneahsan.com/sitemap.xml): every page, in the format search engines read
+- [Sitemap](https://rentparty-docs.aoneahsan.com/sitemap): every page, grouped and searchable
+- [sitemap.xml](https://rentparty-docs.aoneahsan.com/sitemap.xml): every page, in the format search engines read
 
 ## The game
 
