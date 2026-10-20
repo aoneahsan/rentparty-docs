@@ -5,27 +5,27 @@ sidebar_position: 5
 tags: [plans]
 ---
 
-Free is the whole game. You get every mode and every house rule on Free. Pro and Family only raise limits on things that cost us money to run, so every difference between the plans is a limit, never a game feature.
+Free is the whole game. You get every mode and every house rule on Free. Pro and Family raise limits on things that cost us money to run, AI allowances included. They also raise the level the AI features run at. Every difference between the plans is a limit or the AI level, never a game feature.
 
 The [Pricing page](https://rentparty.aoneahsan.com/pricing) shows the current prices and limits, with the date they were set.
 
 ## Is Rent Party free? {#free}
 
-Yes — the whole game is free to play; Pro and Family only raise limits, like how many online games you can run at once.
+Yes — the whole game is free to play; Pro and Family raise limits, like how many online games you can run at once. They raise the AI level too.
 
 ## What are the plans? {#plans}
 
 | Plan | Price | In short |
 |---|---|---|
-| Free | Costs nothing | The whole game, start to finish. |
-| Pro | Monthly | Higher limits, for you. |
-| Family | Per seat, monthly | The highest limits, for everyone on the plan. |
+| Free | Costs nothing | The whole game, start to finish, with AI at Spark. |
+| Pro | Monthly | Higher limits, for you, with AI at Pulse, then Surge. |
+| Family | Per seat, monthly | The highest limits, for everyone on the plan, with AI at Surge. |
 
 [Compare plans](https://rentparty.aoneahsan.com/pricing) for the current prices.
 
 ## What do Pro and Family add? {#limits}
 
-Higher limits. You can run more live games and games over days at once, save more games to the cloud, keep more replays longer and let more people watch the games you host. The Pricing page compares the plans on these rows:
+Higher limits, and a higher AI level. You can run more live games and games over days at once, save more games to the cloud, keep more replays longer, let more people watch the games you host and use the AI features more. The Pricing page compares the plans on these rows:
 
 - Live online games at once
 - Games over days at once
@@ -34,8 +34,21 @@ Higher limits. You can run more live games and games over days at once, save mor
 - Replays kept for
 - Spectators per game you host
 - Friends
+- AI level
+- Help assistant questions a day
+- Game recaps a month
+- Trade reads a day
+- Fresh table-talk lines a game (a day in local games)
+- Voice recordings a month
+- Paid months in a row to reach Surge
 
 No token, board, dice skin, frame or CPU character comes with a plan. Looks are earned with coins on every plan.
+
+## What do the AI levels mean? {#ai-level}
+
+Your AI level sets how much thought goes into help answers, recaps and trade reads. Free runs at Spark. Pro runs at Pulse, then Surge after a set number of paid months in a row, shown on the Pricing page. Family runs at Surge for everyone on the plan.
+
+[AI features and voice](./ai-features.md#levels) explains the levels and how Pro reaches Surge.
 
 ## How does the Family plan work? {#family}
 

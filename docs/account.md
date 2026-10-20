@@ -60,8 +60,8 @@ The same section holds **Analytics on this device**. Switched off, no analytics 
 
 From Settings, or on the [Delete account page](https://rentparty.aoneahsan.com/delete-account). You confirm with Google, and the account is deleted at once and can’t be undone. We email you when it’s done. To keep a copy of your data, download it first.
 
-- **Deleted at once:** your profile, cloud saves, saved replays, friends, blocks, coins, collection, daily-challenge progress and push subscriptions. A paid plan ends with the account.
-- **What stays:** finished online games keep your seat as “Former player”. Payment records stay only as long as tax law requires, with no game data. Reports you made or received keep an anonymous id.
+- **Deleted at once:** your profile, cloud saves, saved replays, friends, blocks, coins, collection, daily-challenge progress and push subscriptions, voice recordings and AI allowance counts. A paid plan ends with the account.
+- **What stays:** finished online games keep your seat as “Former player”. Payment records stay only as long as tax law requires, with no game data. Reports you made or received keep an anonymous id. A recap you asked for stays with its game for the rest of the table, with no link to you.
 
 Online games still running or paused count as a forfeit for you, and the rest of the table plays on. If you own a Family plan, make another member its owner first, or the Family ends with your account and its members go back to their own plans.
 

@@ -9,7 +9,7 @@ They’re the computer opponents, each with a name and a personality, and you ca
 
 ## Who are the rivals? {#rivals}
 
-Every rival talks back, and one of them holds grudges.
+Every rival talks back, and one of them holds grudges. You can hear them out loud, too: [table talk](../ai-features.md#table-talk) has the switches.
 
 | Rival | Plays like | Best at | Says |
 |---|---|---|---|

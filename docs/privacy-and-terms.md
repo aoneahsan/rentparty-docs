@@ -16,6 +16,8 @@ A few answers from it:
 - Rent Party shows no third-party ads. A small panel can promote the team’s own other apps.
 - Pass-and-play and CPU games are saved only on your device. The team never receives those saves.
 - Rent Party is for anyone aged 13 and over, and the game’s own content is family-friendly.
+- Voice recordings, and the words heard in them, are deleted within 24 hours, or at once from the recording sheet. Other players never hear them.
+- The AI features send only what each one needs, and only when you ask. The privacy page lists [what each one sends and where](https://rentparty.aoneahsan.com/privacy#ai-features), and [AI features and voice](./ai-features.md#what-is-sent) sums it up.
 
 [Read the privacy policy](https://rentparty.aoneahsan.com/privacy).
 
@@ -27,6 +29,7 @@ These terms are the rules for using Rent Party, on the website at rentparty.aone
 - what’s free, what plans add, and how buying a plan and a Family plan work;
 - what happens when a plan ends;
 - what bucks and coins are worth, and what friend invites earn;
+- how the AI features work, and what plans include of them;
 - fair play, leaving games and missed turns;
 - what you can say in names, rooms and chat, and how reports and blocks work;
 - what happens when someone breaks these rules;
@@ -38,7 +41,7 @@ These terms are the rules for using Rent Party, on the website at rentparty.aone
 
 ## Permissions {#permissions}
 
-The only permission prompt you’ll see in Rent Party is for notifications, and it comes only after you tap to turn alerts on. Say no and the game plays the same.
+Rent Party asks for two permissions: notifications and the microphone. Each comes only after you tap. Notifications come up when you turn alerts on. The microphone comes up when you press the mic and then Start to record, and Rent Party uses it only while you record. Say no to either and the game plays the same. Without the microphone, you type.
 
 The permissions page lists every permission the Android app and the website use, what each is for, when you’re asked and what happens if you refuse. [See the permissions](https://rentparty.aoneahsan.com/permissions).
 

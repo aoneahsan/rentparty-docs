@@ -1,6 +1,6 @@
 # Rent Party docs
 
-> Player docs for Rent Party, a property-trading party game for friends and family: the rules, house rules, pausing, online play, your account, plans and help. The game runs at https://rentparty.aoneahsan.com in a current browser on phones, tablets and computers.
+> Player docs for Rent Party, a property-trading party game for friends and family: the rules, house rules, pausing, online play, your account, plans, the help assistant and the other AI features, and help. The game runs at https://rentparty.aoneahsan.com in a current browser on phones, tablets and computers.
 
 The docs repeat the words of the game's own pages. Numbers the team can change, such as prices, plan limits and turn timers, are always current on the game's pages, which these docs link to.
 
@@ -15,8 +15,9 @@ The docs repeat the words of the game's own pages. Numbers the team can change, 
 - [Rent Party names](https://rentparty-docs.aoneahsan.com/how-to-play/names): what each of the game's own words means
 - [Online play](https://rentparty-docs.aoneahsan.com/online-play): rooms, game invites, joining with a code or a link, live and over-days games, timers, votes, watching and rated games
 - [Your account](https://rentparty-docs.aoneahsan.com/account): Google sign-in, profile, inbox and notifications, your data and deleting your account
-- [Plans and pricing](https://rentparty-docs.aoneahsan.com/plans-and-pricing): Free, Pro and Family, the two ways to pay, when a plan starts and ends, and friend invites
-- [Help and FAQ](https://rentparty-docs.aoneahsan.com/help): common questions and how to reach the team
+- [Plans and pricing](https://rentparty-docs.aoneahsan.com/plans-and-pricing): Free, Pro and Family, AI levels, the two ways to pay, when a plan starts and ends, and friend invites
+- [AI features and voice](https://rentparty-docs.aoneahsan.com/ai-features): Rent Party's help assistant, game recaps, trade reads, table talk and voice recordings, where each one is, what each sends, the AI levels and allowances, how to switch the CPU voices off, and what happens when AI is resting
+- [Help and FAQ](https://rentparty-docs.aoneahsan.com/help): common questions, the help assistant, and how to reach the team
 - [Privacy and terms](https://rentparty-docs.aoneahsan.com/privacy-and-terms): what each legal page covers, with links
 
 ## What's new

@@ -5,7 +5,7 @@ sidebar_position: 6
 tags: [help]
 ---
 
-Quick answers to the questions players ask most. Still stuck? [Write to the team](#write-to-the-team).
+Quick answers to the questions players ask most. Still stuck? Ask the help assistant on the game’s [Help page](https://rentparty.aoneahsan.com/help), typed or out loud, or [write to the team](#write-to-the-team).
 
 :::note[Numbers on this page]
 
@@ -49,9 +49,15 @@ You can report someone’s profile, a chat message or a room: choose Report on i
 
 Not in an app store yet. Rent Party runs in a current browser on phones, tablets and computers, iPhone and iPad included, with the same game, the same account and the same table everywhere.
 
+## Can I ask the game a question? {#help-assistant}
+
+Yes. On the game’s [Help page](https://rentparty.aoneahsan.com/help), choose **Ask a question**, or in a game, open the pause menu and choose it there. The help assistant answers only from these docs and the Help page, and it names the pages it used so you can check. Rather talk? Choose **Ask by voice**, say your question and check the words before it’s asked. [AI features and voice](./ai-features.md#help-assistant) has the details.
+
 ## How do I reach the team? {#write-to-the-team}
 
 Tell us what happened, or what you’d like to see. The form on the game’s [Help page](https://rentparty.aoneahsan.com/help) goes straight to the Rent Party team. Pick what it’s about: My account, Something’s broken, A game question, An idea, Plans and payments, or Something else.
+
+You can say it, too. Choose **Ask by voice** on the Help page and tell us what you’d like the team to know. You check the message before anything is sent, and the recording is deleted within 24 hours.
 
 Writing about a payment or an error? Paste the reference from the email or the error screen. Signed in, any reply comes to your Inbox and to your email.
 
