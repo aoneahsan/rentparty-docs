@@ -1,56 +1,61 @@
-# CLAUDE.md · Rent Party docs
+# CLAUDE.md — Rent Party public docs
 
-This guide exists twice at the repository root, as two mirrored files: only line 1 differs. Change both in the same commit.
+**Last Updated:** 2026-10-20 · **Context optimized:** 2026-10-20 · **Next routine context pass:** 2026-11-19
 
-**Last Updated:** 2026-10-12
+The `AGENTS.md` and `CLAUDE.md` pair are mirrors except for the first heading. Update both together.
 
-## What this repository is
+## Repository boundary
 
-The source of [rentparty-docs.aoneahsan.com](https://rentparty-docs.aoneahsan.com), the player docs for Rent Party: a Docusaurus site published to GitHub Pages. This repository is public.
+This public repository is `aoneahsan/rentparty-docs`, branch `main`, remote `o`. It builds [rentparty-docs.aoneahsan.com](https://rentparty-docs.aoneahsan.com) with Docusaurus and GitHub Pages. The private game code is the sibling `../monopoly/` checkout and is never edited from a docs task.
 
-It is not the game. The game's code lives elsewhere, and nothing here builds or changes it. The game runs at [rentparty.aoneahsan.com](https://rentparty.aoneahsan.com).
+Use the product's published pages and approved screens as facts. The approved voice, glossary, and public-surface rules live in `../docs/story/`. Never invent a feature, number, limit, quote, plan fact, or service behavior.
 
-## Commands
+## Commands and done condition
 
-Yarn only, at the version pinned in `package.json`. Run `corepack enable` once.
+Use the Yarn version pinned in `package.json`.
 
-| Command | What it does |
+```bash
+yarn install --immutable
+yarn typecheck
+yarn build
+yarn serve
+```
+
+A docs change is ready only when typecheck and build pass without errors, the exact build has been read in controlled Chrome at desktop and phone widths in light and dark themes, links and anchors work, and `git diff --check` passes. A push to `main` runs `.github/workflows/deploy-pages.yml`; verify the Actions run and representative live routes after pushing.
+
+## Content contract
+
+- Every statement about the game must match the game's published pages or approved screens. Link to changing plan prices and limits instead of copying them.
+- Plans and legal pages summarize and link to the product legal pages. No sentence about refunds appears in docs, pricing, checkout, or plan copy.
+- Card payments are handled by “our payment partner” except where an already-approved legal surface names a processor.
+- The docs speak as the Rent Party team. Do not use a personal byline or another board game's brand, streets, tokens, or card names.
+- Every docs page has `title`, `description`, and `tags` front matter, answer-first question headings with explicit IDs, and relative links between docs pages. Follow `CONTRIBUTING.md`.
+- `docs/MANUAL-TASKS.md` and `docs/story/**` remain excluded from published docs in `docusaurus.config.ts`.
+- Public prose follows the approved Story Bible and content map. New or rewritten surfaces use the story workflow and its owner gates.
+
+## Site and deployment contract
+
+- `static/CNAME` contains exactly `rentparty-docs.aoneahsan.com`; `docusaurus.config.ts` uses the same canonical URL and `/` base path.
+- `.github/workflows/deploy-pages.yml` is the only deploy workflow. Do not add another host or deploy script.
+- `plugins/site-pages.ts` generates `/sitemap`, `/feed`, and `feed.xml`; it gives sitemap entries their last-modified date. `src/theme/BlogListPage` supplies the blog list's missing `<h1>` and must be checked after Docusaurus upgrades.
+- Analytics stays disabled while `.env.example` IDs are empty. Enabling analytics requires the approved first-visit notice in the same change.
+- Never commit an `.env`, key, token, password, product secret, private product source, or private operational record.
+- The owner maintains `main` directly. Other contributors use forks and pull requests. Never force-push or weaken branch protection.
+
+## Route by task
+
+| Need | Read |
 |---|---|
-| `yarn install --immutable` | Installs exactly what `yarn.lock` records. |
-| `yarn typecheck` | Type-checks `docusaurus.config.ts`, `sidebars.ts`, the local plugin in `plugins/` and the components in `src/`. |
-| `yarn build` | Builds the site into `build/`. It is also the link checker, and it must end with no error and no warning. |
-| `yarn serve` | Serves the last build, to read it the way a visitor will. |
-| `yarn clear` | Clears Docusaurus's caches. |
+| Writing, front matter, links, contribution flow | `CONTRIBUTING.md` |
+| Site metadata, navigation, plugins | `docusaurus.config.ts` · `sidebars.ts` |
+| Generated sitemap/feed behavior | `plugins/site-pages.ts` |
+| Theme and components | matching file under `src/` |
+| Player facts | matching published product page, then the smallest page in `docs/` |
+| Product voice and names | `../docs/story/story-bible.md` · `voice-fingerprint.md` · `content-map.md` |
+| Restore and ownership | `../RESTORE.md` |
 
-A change is done once it builds, and the changed page has been read in the served build, in light and dark, at a phone width and a desktop width.
+Do not load generated `.docusaurus/` or `build/`, dependencies, or every docs page for orientation.
 
-## Content rules that bind every edit
+## Context record
 
-- **Approved words only.** Every sentence about the game comes from the game's own published pages (How to play, Pricing, Help, Privacy, Terms, Permissions, Delete account) and its own screens. Describe nothing the game doesn't do, and invent no number, limit or feature.
-- **Numbers the team can change stay on the game's pages.** Never copy a price or a plan limit; link to the game's Pricing page.
-- **Plans and legal pages summarize and link out.** They never restate the Terms or the Privacy page.
-- **No sentence about refunds on any docs page.** A page may link to the Terms and say nothing more.
-- **Nothing that reads as a warning beside a description of paying.** Plan pages state facts.
-- **A card payment goes through "our payment partner".** The docs never name the company.
-- **The docs speak as the Rent Party team**, never as one person: no personal name on a page, in a post or in a byline.
-- **No other board game's names**: not its brand, its streets, its tokens or its card decks. Use the game's own words, which the docs' names page lists.
-- **Every page carries `title`, `description` and `tags` front matter**, question headings with explicit ids, and relative links between docs pages.
-
-[CONTRIBUTING.md](./CONTRIBUTING.md) is the full writing guide.
-
-## The standard this repository keeps
-
-- `static/CNAME` holds exactly `rentparty-docs.aoneahsan.com`, and `url` in `docusaurus.config.ts` matches it.
-- One workflow, `.github/workflows/deploy-pages.yml`, builds and deploys the site. There is no other host and no other deploy script.
-- The docs plugin's `exclude` list in `docusaurus.config.ts` restates the defaults and adds `MANUAL-TASKS.md` and `story/**`, so `docs/MANUAL-TASKS.md` is never a page. Keep both entries.
-- No secret ever enters this repository: no `.env` file, key, token or password. `.env.example` lists the optional settings with empty values, and a build never needs one.
-- `plugins/site-pages.ts` builds `/sitemap` and `/feed` from the docs and posts, writes `/feed.xml` as a copy of `blog/rss.xml`, and gives every `sitemap.xml` URL a lastmod. `src/theme/BlogListPage` is ejected only to give the blog list its one `<h1>` (the theme draws none); recheck it on every Docusaurus upgrade.
-- A ruleset protects `main` against deletion and force-pushes. The Rent Party team pushes to it directly, and everyone else contributes through a fork and a pull request.
-
-## How it deploys
-
-A push to `main` runs the workflow, which builds the site and publishes it to GitHub Pages. Nothing else deploys it.
-
-## Analytics and the first-visit notice
-
-Analytics is off: both IDs in `.env.example` stay unset, so no analytics script loads. The site has no account and shows no first-visit legal notice. Switching analytics on requires the first-visit legal notice bar in the same change: one quiet bar at the foot of the page, shown once, never a dialog.
+Pass 1 audited repository root, docs, blog, plugins, theme/source, static files, workflow, and build output. The workspace + coordination root + docs guide chain remains below 32 KiB. Skip routine context optimization before 2026-11-19 unless the tree changes materially or a proven stale instruction risks incorrect work.

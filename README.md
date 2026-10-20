@@ -30,13 +30,14 @@ Read the docs at [rentparty-docs.aoneahsan.com](https://rentparty-docs.aoneahsan
 
 ```bash
 corepack enable
-yarn install
+yarn install --immutable
 yarn start
 ```
 
-`yarn start` serves the site locally while you edit. Before you open a pull request, build it:
+`yarn start` serves the site locally while you edit. Before you open a pull request, run the typecheck and build:
 
 ```bash
+yarn typecheck
 yarn build
 ```
 
