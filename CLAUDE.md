@@ -47,6 +47,7 @@ A docs change is ready only when typecheck and build pass without errors, the ex
 - Analytics stays disabled while `.env.example` IDs are empty. Enabling analytics requires the approved first-visit notice in the same change.
 - Never commit an `.env`, key, token, password, product secret, private product source, or private operational record.
 - The owner maintains `main` directly. Other contributors use forks and pull requests. Never force-push or weaken branch protection.
+<!-- RULE:stop-work-git-gate v2026-10-20 -->
 - **Stop-work Git gate:** Before ending any work session, audit the coordination root, `monopoly/`, and
   `rentparty-docs/`. Commit every legitimate change in its owning repository, push its designated branch to `o`,
   then verify all three worktrees are clean and each branch is 0 ahead and 0 behind. Never leave intended work only
