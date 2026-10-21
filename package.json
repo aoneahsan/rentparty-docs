@@ -31,14 +31,14 @@
     "@docusaurus/theme-common": "3.10.2",
     "@easyops-cn/docusaurus-search-local": "^0.55.3",
     "@mdx-js/react": "^3.1.1",
-    "react": "^19.3.0",
-    "react-dom": "^19.3.0"
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
   },
   "devDependencies": {
     "@docusaurus/module-type-aliases": "3.10.2",
     "@docusaurus/plugin-content-blog": "3.10.2",
     "@docusaurus/types": "3.10.2",
-    "@types/node": "^24.19.1",
+    "@types/node": "^26.6.5",
     "@types/react": "^19.3.0",
     "typescript": "~6.0.3"
   },
