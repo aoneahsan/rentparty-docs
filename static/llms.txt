@@ -7,6 +7,7 @@ The docs repeat the words of the game's own pages. Numbers the team can change, 
 ## Docs
 
 - [Getting started](https://rentparty-docs.aoneahsan.com/): what Rent Party is, the three ways to play, and how to start a game or join a room
+- [Page tours and the walkthrough](https://rentparty-docs.aoneahsan.com/tours-and-walkthrough): the tour button on eight of the game's pages, how to skip, jump or leave a tour, and How Rent Party works, six screens covering one game night
 - [How to play](https://rentparty-docs.aoneahsan.com/how-to-play): the index of the five how-to-play pages below
 - [The rules](https://rentparty-docs.aoneahsan.com/how-to-play/rules): turns, buying, auctions, rent, Jail, cards, building, trading, mortgages, bankruptcy and winning
 - [House rules](https://rentparty-docs.aoneahsan.com/how-to-play/house-rules): the four presets and every optional rule
