@@ -1,6 +1,6 @@
 ---
 title: Online play
-description: Playing Rent Party online. Live rooms and games over days, game invites and room codes, turn timers and strikes, sealed bids, table votes, End by agreement, watching, chat and rated games.
+description: Playing Rent Party online. Live rooms and games over days, game invites and room codes, turn timers and strikes, the 2-minute offline rule, sealed bids, table votes, End by agreement, watching, chat and rated games.
 sidebar_position: 3
 tags: [online]
 ---
@@ -72,7 +72,7 @@ Each decision has its own timer. When one runs out:
 | Raising money you owe | The game raises the money for you: buildings are sold first, then deeds are mortgaged. You’re bankrupt only if that still isn’t enough. Running out of time counts as a strike. |
 | A trade offer | The offer closes. No strike for that. |
 
-Connection lost? Your timer keeps running, so reconnect when you can.
+Connection lost? Your timer keeps running, so reconnect when you can. In a live game, you have 2 minutes to come back: [What if someone goes offline?](#offline) explains.
 
 ## How do sealed bids work? {#sealed-bids}
 
@@ -91,6 +91,21 @@ A rated game still counts toward ratings when it ends this way.
 ## What happens if someone leaves? {#leaving}
 
 Leaving an online game counts as a forfeit, paused or not. Their deeds go to auction, and the rest of the table plays on. [Pausing a game](./how-to-play/pausing.md#leaving) has the details.
+
+## What if someone goes offline? {#offline}
+
+In a live game, a player who’s offline for 2 minutes leaves the game. Paused games and games over days aren’t affected.
+
+While the clock runs, their seat shows **Offline** and a countdown, and a banner tells the table. If they’re back in time, they play on. If not:
+
+| Players left | What happens |
+|---|---|
+| 2 | The other player wins. |
+| More than 2 | The game goes on, and their deeds go to auction. |
+
+If the room uses the [No auctions](./how-to-play/house-rules.md#house-rules) house rule, the deeds go back to the bank, as that rule says. A rated game counts it as a loss, like any forfeit.
+
+To keep it fair, the clock starts when the game starts or resumes, it never runs for a CPU character, and it runs only while someone else at the table is still connected. If Rent Party itself goes down, nobody loses a seat to it.
 
 ## Can people watch? {#watching}
 

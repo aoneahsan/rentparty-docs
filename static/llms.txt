@@ -1,6 +1,6 @@
 # Rent Party docs
 
-> Player docs for Rent Party, a property-trading party game for friends and family: the rules, house rules, pausing, online play, your account, plans, the help assistant and the other AI features, and help. The game runs at https://rentparty.aoneahsan.com in a current browser on phones, tablets and computers.
+> Player docs for Rent Party, a property-trading party game for friends and family: the rules, house rules, pausing, online play, Online now and matches, reputation, table records, coins, the community feed, your account, plans, the help assistant and the other AI features, and help. The game runs at https://rentparty.aoneahsan.com in a current browser on phones, tablets and computers.
 
 The docs repeat the words of the game's own pages. Numbers the team can change, such as prices, plan limits and turn timers, are always current on the game's pages, which these docs link to.
 
@@ -14,7 +14,12 @@ The docs repeat the words of the game's own pages. Numbers the team can change, 
 - [Pausing a game](https://rentparty-docs.aoneahsan.com/how-to-play/pausing): pausing, coming back, the final call and leaving a game
 - [CPU characters](https://rentparty-docs.aoneahsan.com/how-to-play/cpu-characters): the six computer rivals and their four levels
 - [Rent Party names](https://rentparty-docs.aoneahsan.com/how-to-play/names): what each of the game's own words means
-- [Online play](https://rentparty-docs.aoneahsan.com/online-play): rooms, game invites, joining with a code or a link, live and over-days games, timers, votes, watching and rated games
+- [Online play](https://rentparty-docs.aoneahsan.com/online-play): rooms, game invites, joining with a code or a link, live and over-days games, timers, the 2-minute offline rule, votes, watching and rated games
+- [Online now and matches](https://rentparty-docs.aoneahsan.com/online-now): who's online, hiding yourself, challenging a friend, inviting someone to your room, and finding a match at a similar reputation level
+- [Reputation and streaks](https://rentparty-docs.aoneahsan.com/reputation): what the score counts, the 10 levels, the New label, the daily streak and its badges
+- [Table records](https://rentparty-docs.aoneahsan.com/table-records): keeping a real-board game's deeds, bucks and box between nights, the edit log, sharing with friends, and bringing it online as an unrated friends' game with no coins
+- [Coins](https://rentparty-docs.aoneahsan.com/coins): coin packs on the website, coin tables and how table fees settle, coin challenges, and sending coins with the 10% transfer fee. Coins are in-app only, can't be withdrawn or exchanged for money, and have no cash value
+- [Community](https://rentparty-docs.aoneahsan.com/community): posting, who sees a post, likes, comments, reporting and blocking
 - [Your account](https://rentparty-docs.aoneahsan.com/account): Google sign-in, profile, inbox and notifications, your data and deleting your account
 - [Plans and pricing](https://rentparty-docs.aoneahsan.com/plans-and-pricing): Free, Pro and Family, AI levels, the two ways to pay, when a plan starts and ends, and friend invites
 - [AI features and voice](https://rentparty-docs.aoneahsan.com/ai-features): Rent Party's help assistant, game recaps, trade reads, table talk and voice recordings, where each one is, what each sends, the AI levels and allowances, how to switch the CPU voices off, and what happens when AI is resting
@@ -24,6 +29,7 @@ The docs repeat the words of the game's own pages. Numbers the team can change, 
 ## What's new
 
 - [What's new](https://rentparty-docs.aoneahsan.com/blog): changes to the docs, newest first
+- [Table records, coins, Online now and Community](https://rentparty-docs.aoneahsan.com/blog/table-records-coins-and-community): the five new pages and the 2-minute offline rule
 - [The Rent Party docs are here](https://rentparty-docs.aoneahsan.com/blog/rent-party-docs-are-here): the first post, on what the docs cover
 - [Feed](https://rentparty-docs.aoneahsan.com/feed): every post, newest first, with the RSS and Atom links
 - [feed.xml](https://rentparty-docs.aoneahsan.com/feed.xml): new posts, for a feed reader

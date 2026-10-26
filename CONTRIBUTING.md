@@ -79,7 +79,7 @@ This repository uses Yarn only. Please don't commit a `package-lock.json` or `pn
 |---|---|
 | `docs/intro.md` | Getting started, the site's home page. |
 | `docs/how-to-play/` | The rules, house rules, pausing, the CPU characters and the names list. `_category_.json` sets the folder's label, position and index page. |
-| `docs/*.md` | Online play, your account, plans and pricing, help, and privacy and terms. |
+| `docs/*.md` | Online play, Online now, reputation, table records, coins, community, your account, plans and pricing, AI features, page tours, help, and privacy and terms. |
 | `docs/tags.yml` | Every tag a page may use. |
 | `docs/MANUAL-TASKS.md` | The maintainers' checklist of publishing steps. The site's settings leave it out of the build, so it is never a page. |
 | `blog/` | What's-new posts. Every post is signed by `team` from `blog/authors.yml`. |

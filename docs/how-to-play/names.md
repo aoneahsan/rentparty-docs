@@ -22,7 +22,7 @@ Every name that’s ours, in one place.
 | Lucky Break · Neighborhood Mail | The two card decks. |
 | Jail pass | The card that gets you out of Jail. Keep it or trade it. |
 | bucks | The play money in every game. |
-| coins | Earned in online and CPU games and spent on tokens, boards and dice skins. Separate from bucks. |
+| coins | Earned in online and CPU games, or got in a coin pack on the website. Spent on tokens, boards and dice skins, put in at coin tables, or sent to another player. In-app only, with no cash value, and separate from bucks. [Coins](../coins.md) has the details. |
 | Kettleford | The board that comes with the game. |
 
 ## Around the game {#around-the-game}

@@ -206,6 +206,7 @@ const config: Config = {
             { label: 'Getting started', to: '/' },
             { label: 'How to play', to: '/how-to-play' },
             { label: 'Online play', to: '/online-play' },
+            { label: 'Coins', to: '/coins' },
             { label: 'Your account', to: '/account' },
             { label: 'Plans and pricing', to: '/plans-and-pricing' },
             { label: 'Help and FAQ', to: '/help' },

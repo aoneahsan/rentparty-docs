@@ -25,7 +25,7 @@ Some names are our own. [Rent Party names](./names.md) lists every one.
 
 Pick how you’re playing: online with friends, around one phone or tablet, or against CPU characters. Then switch on any house rules you want before the first roll.
 
-A game seats 2 to 6 players. Each of you starts with 1,500 bucks and picks a token. Someone always has a favorite.
+A game seats 2 to 8 players. Each of you starts with 1,500 bucks and picks a token. Someone always has a favorite.
 
 ## How does a turn work? {#turns}
 

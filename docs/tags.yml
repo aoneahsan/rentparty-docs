@@ -10,6 +10,14 @@ online:
   label: Online play
   permalink: /online
   description: Playing Rent Party with friends online.
+coins:
+  label: Coins
+  permalink: /coins
+  description: Coins, coin packs, coin tables and sending coins.
+community:
+  label: Community
+  permalink: /community
+  description: The community feed, likes, comments and reports.
 account:
   label: Account
   permalink: /account
