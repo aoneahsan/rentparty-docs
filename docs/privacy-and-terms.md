@@ -17,6 +17,7 @@ A few answers from it:
 - Pass-and-play and CPU games are saved only on your device. The team never receives those saves.
 - Rent Party is for anyone aged 13 and over, and the game’s own content is family-friendly.
 - Voice recordings, and the words heard in them, are deleted within 24 hours, or at once from the recording sheet. Other players never hear them.
+- Community posts reach only the people you share them with, and a post or comment you delete is gone for good 30 days later. Settings decides whether you show on Online now.
 - The AI features send only what each one needs, and only when you ask. The privacy page lists [what each one sends and where](https://rentparty.aoneahsan.com/privacy#ai-features), and [AI features and voice](./ai-features.md#what-is-sent) sums it up.
 
 [Read the privacy policy](https://rentparty.aoneahsan.com/privacy).
@@ -31,7 +32,7 @@ These terms are the rules for using Rent Party, on the website at rentparty.aone
 - what bucks and coins are worth, and what friend invites earn;
 - how the AI features work, and what plans include of them;
 - fair play, leaving games and missed turns;
-- what you can say in names, rooms and chat, and how reports and blocks work;
+- what you can say in names, rooms, chat and community posts, and how reports and blocks work;
 - what happens when someone breaks these rules;
 - who owns the game, and whether it can change or go offline;
 - who’s responsible if something goes wrong, and which law applies;
