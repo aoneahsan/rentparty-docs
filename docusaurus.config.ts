@@ -162,6 +162,8 @@ const config: Config = {
   ],
 
   themeConfig: {
+    // The product's own 1200 x 630 share card (`monopoly/public/share/`), the og:image and twitter:image of every page.
+    image: 'img/rent-party-share-1200x630.png',
     colorMode: {
       defaultMode: 'light',
       disableSwitch: false,

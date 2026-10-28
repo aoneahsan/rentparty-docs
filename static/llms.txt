@@ -19,6 +19,7 @@ The docs repeat the words of the game's own pages. Numbers the team can change, 
 - [Online now and matches](https://rentparty-docs.aoneahsan.com/online-now): who's online, hiding yourself, challenging a friend, inviting someone to your room, and finding a match at a similar reputation level
 - [Reputation and streaks](https://rentparty-docs.aoneahsan.com/reputation): what the score counts, the 10 levels, the New label, the daily streak and its badges
 - [Table records](https://rentparty-docs.aoneahsan.com/table-records): keeping a real-board game's deeds, bucks and box between nights, the edit log, sharing with friends, and bringing it online as an unrated friends' game with no coins
+- [Replays](https://rentparty-docs.aoneahsan.com/replays): every finished game's replay (online, pass-and-play or against CPU characters), where to open it, what it shows, the controls, who can watch an online one, and how long an online replay is kept
 - [Coins](https://rentparty-docs.aoneahsan.com/coins): coin packs on the website, coin tables and how table fees settle, coin challenges, and sending coins with the 10% transfer fee. Coins are in-app only, can't be withdrawn or exchanged for money, and have no cash value
 - [Community](https://rentparty-docs.aoneahsan.com/community): posting, who sees a post, likes, comments, reporting and blocking
 - [Your account](https://rentparty-docs.aoneahsan.com/account): Google sign-in, profile, inbox and notifications, your data and deleting your account
