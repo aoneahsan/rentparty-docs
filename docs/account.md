@@ -54,7 +54,7 @@ When a friend opens a room for friends, it’s listed for you on Play online.
 
 Yes. In Settings, under Your data, **Download my data** gives you one file with everything tied to your account: profile, settings, stats, coins, collection, badges, plan history, payments, friends, blocks, game history and messages to the team.
 
-The same section holds **Analytics on this device**. Switched off, no analytics service loads, and your choice is kept on this device.
+Rent Party counts anonymous use of the game to make it better. The details are in the [Privacy Policy](https://rentparty.aoneahsan.com/privacy).
 
 ## How do you delete your account? {#delete-account}
 
