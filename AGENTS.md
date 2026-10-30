@@ -4,8 +4,8 @@
 
 | Context record | Value |
 |---|---|
-| Last optimized | 2026-10-21 |
-| Next routine optimization eligible | 2026-11-20 |
+| Last optimized | 2026-10-30 |
+| Next routine optimization eligible | 2026-11-29 |
 | Guide bytes | 4797 B |
 
 The `AGENTS.md` and `CLAUDE.md` pair are mirrors except for the first heading. Update both together.
@@ -69,4 +69,4 @@ Do not load generated `.docusaurus/` or `build/`, dependencies, or every docs pa
 
 ## Context record
 
-The 2026-10-21 maintenance pass verified repository root, docs, blog, plugins, theme/source, static files, workflow, and build output. The workspace + coordination root + docs guide chain remains below 32 KiB. Skip routine context optimization before 2026-11-20 unless the tree changes materially or a proven stale instruction risks incorrect work.
+The 2026-10-21 maintenance pass verified repository root, docs, blog, plugins, theme/source, static files, workflow, and build output. The workspace + coordination root + docs guide chain remains below 32 KiB. Skip routine context optimization before 2026-11-29 unless the tree changes materially or a proven stale instruction risks incorrect work.
