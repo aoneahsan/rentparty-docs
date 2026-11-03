@@ -50,6 +50,10 @@ When a friend opens a room for friends, it’s listed for you on Play online.
 
 **Reporting**: you can report someone’s profile, a chat message or a room. Choose Report on it, pick a reason and add details if you like. Reports are private both ways. They never learn who reported them, and you won’t see the outcome.
 
+## How do you message a friend? {#message-a-friend}
+
+Open Friends, press Message on a friend’s row and say hi. Only friends can message each other, messages stay between the two of you, and a block from either side closes the conversation.
+
 ## Can you download your data? {#your-data}
 
 Yes. In Settings, under Your data, **Download my data** gives you one file with everything tied to your account: profile, settings, stats, coins, collection, badges, plan history, payments, friends, blocks, game history and messages to the team.

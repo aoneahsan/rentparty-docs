@@ -8,48 +8,20 @@ tags: [coins, online]
 
 Take your table to a new city. Its streets and cards have local names; the rules stay the same. Coins buy looks, never luck.
 
-## City boards {#city-boards}
+## What does a city set include? {#city-set}
 
-Pick a city for game night. Its streets, deeds and cards take local names. The rules stay the same.
+Every city is a set of seven looks: street names, deed cards, card backs, banknotes, an avatar, dice and a token. Buy one at a time or complete the set, and none of them changes the rules or the luck.
+
+| Look | What it changes | Who sees it |
+|---|---|---|
+| Street names | Streets, stations and cards get the city's names. Rent and rules don't change. | Everyone sees it when you host |
+| Deed cards | Your deed cards get the city's street-sign band, with its landmark as a watermark. | Shows on your screen |
+| Card backs | Card backs show the city's landmark. Only the back changes. | Shows on your screen |
+| Banknotes | Your bucks print as notes with the country's currency code and symbol and the city's landmark. The amounts don't change. | Shows on your screen |
+| Avatar | Your picture wears a city frame, with the city's landmark on its badge. | Everyone at the table sees it |
+| Dice | Dice in the city's colors, with its landmark on the one. Every roll stays fair. | Everyone at the table sees it |
+| Token | Your token on the board, stamped for the city. | Everyone at the table sees it |
 
 The host picks the city for the whole online table. Everyone sees its streets and cards.
 
-## Deeds {#deeds}
-
-Give the deeds in your hand a new look. Ownership and rent stay put.
-
-Your deed look shows on your screen.
-
-## Card looks {#card-looks}
-
-Change how Lucky Break and Neighborhood Mail cards look. Their instructions stay the same.
-
-Your card look shows on your screen.
-
-## Bucks designs {#bucks-designs}
-
-Change the look of your bucks. Your balance stays put.
-
-Your bucks look shows on your screen.
-
-## Avatars {#avatars}
-
-Pick the face your friends see at the table.
-
-Everyone at the table sees your avatar.
-
-## City dice {#city-dice}
-
-Take a pair of city dice to the table. They change the look of a roll, never its result.
-
-Your dice look shows when you roll.
-
-## City tokens {#city-tokens}
-
-Pick a city token for your seat at the table.
-
-Everyone at the table sees your token.
-
-## Bundles {#bundles}
-
-Bring several looks to the table. See every item and the coin total before you add the bundle.
+Complete the set charges only for the looks still missing.

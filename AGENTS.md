@@ -27,7 +27,7 @@ yarn build
 yarn serve
 ```
 
-A docs change is ready only when typecheck and build pass without errors, the exact build has been read in controlled Chrome at desktop and phone widths in light and dark themes, links and anchors work, and `git diff --check` passes. A push to `main` runs `.github/workflows/deploy-pages.yml`; verify the Actions run and representative live routes after pushing.
+A docs change is ready only when typecheck and build pass without errors, the exact build has been read in controlled Chrome at desktop and phone widths in light and dark themes, links and anchors work, and `git diff --check` passes. A push to `main` is source control only and publishes nothing: publish the verified `build/` tree to the `gh-pages` branch by hand with an ordinary push (no Actions, no `docusaurus deploy`, which force-pushes), then check representative live routes and the served asset hash.
 
 ## Content contract
 
@@ -42,7 +42,7 @@ A docs change is ready only when typecheck and build pass without errors, the ex
 ## Site and deployment contract
 
 - `static/CNAME` contains exactly `rentparty-docs.aoneahsan.com`; `docusaurus.config.ts` uses the same canonical URL and `/` base path.
-- `.github/workflows/deploy-pages.yml` is the only deploy workflow. Do not add another host or deploy script.
+- GitHub Pages serves the `gh-pages` branch (`build_type` legacy, path `/`); there is no GitHub Actions workflow (owner, 2026-10-31). `static/CNAME` and `static/.nojekyll` must stay. Method: `aoneahsan-cccs-docusaurus` → `references/domains-and-deploy.md`. Do not add another host or deploy script.
 - `plugins/site-pages.ts` generates `/sitemap`, `/feed`, and `feed.xml`; it gives sitemap entries their last-modified date. `src/theme/BlogListPage` supplies the blog list's missing `<h1>` and must be checked after Docusaurus upgrades.
 - Analytics stays disabled while `.env.example` IDs are empty. Enabling analytics requires the approved first-visit notice in the same change.
 - Never commit an `.env`, key, token, password, product secret, private product source, or private operational record.
