@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrentparty_docs=self.webpackChunkrentparty_docs||[]).push([["3220"],{1912(t){t.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"What\u2019s new in the Rent Party docs","authorsListPath":"/blog/authors"}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrentparty_docs=self.webpackChunkrentparty_docs||[]).push([["3186"],{8070(s){s.exports=JSON.parse('{"tags":[{"label":"Basics","permalink":"/blog/tags/basics","description":"Where to start with Rent Party.","count":2}]}')}}]);

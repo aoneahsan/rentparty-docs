@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rentparty-docs.aoneahsan.com/sitemap.xml

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkrentparty_docs=self.webpackChunkrentparty_docs||[]).push([["6431"],{9328(t){t.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Changes to the Rent Party docs, newest first.","blogTitle":"What\u2019s new in the Rent Party docs"}}')}}]);

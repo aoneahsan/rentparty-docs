@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><?xml-stylesheet type="text/xsl" href="rss.xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Rent Party docs: what’s new</title>
+        <link>https://rentparty-docs.aoneahsan.com/blog</link>
+        <description>Changes to the Rent Party docs, newest first.</description>
+        <lastBuildDate>Mon, 26 Oct 2026 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en-US</language>
+        <copyright>Made by the Rent Party team.</copyright>
+        <item>
+            <title><![CDATA[Table records, coins, Online now and Community]]></title>
+            <link>https://rentparty-docs.aoneahsan.com/blog/table-records-coins-and-community</link>
+            <guid>https://rentparty-docs.aoneahsan.com/blog/table-records-coins-and-community</guid>
+            <pubDate>Mon, 26 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[Five new pages in the Rent Party docs, for table records, Online now and matches, reputation and streaks, coins and the community feed, plus the 2-minute offline rule for live games.]]></description>
+            <content:encoded><![CDATA[<p>Five new pages cover what’s new in Rent Party: table records, Online now and matches, reputation and streaks, coins, and the community feed.</p>
+<!-- -->
+<ul>
+<li class=""><a class="" href="https://rentparty-docs.aoneahsan.com/table-records">Table records</a>: keep a real-board game’s deeds, bucks and box between nights, share it with friends, and bring it online.</li>
+<li class=""><a class="" href="https://rentparty-docs.aoneahsan.com/online-now">Online now and matches</a>: see who’s around, hide yourself, challenge a friend or find a match at a similar level.</li>
+<li class=""><a class="" href="https://rentparty-docs.aoneahsan.com/reputation">Reputation and streaks</a>: what your score counts, the 10 levels, “New”, and the daily streak badges.</li>
+<li class=""><a class="" href="https://rentparty-docs.aoneahsan.com/coins">Coins</a>: coin packs on the website, coin tables, coin challenges and sending coins. Coins are in-app only, with no cash value.</li>
+<li class=""><a class="" href="https://rentparty-docs.aoneahsan.com/community">Community</a>: posts, who sees them, likes, comments, reporting and blocking.</li>
+</ul>
+<p><a class="" href="https://rentparty-docs.aoneahsan.com/online-play#offline">Online play</a> now explains the 2-minute offline rule for live games.</p>]]></content:encoded>
+            <category>Basics</category>
+        </item>
+        <item>
+            <title><![CDATA[The Rent Party docs are here]]></title>
+            <link>https://rentparty-docs.aoneahsan.com/blog/rent-party-docs-are-here</link>
+            <guid>https://rentparty-docs.aoneahsan.com/blog/rent-party-docs-are-here</guid>
+            <pubDate>Sat, 10 Oct 2026 00:00:00 GMT</pubDate>
+            <description><![CDATA[The rules, online play, your account, plans and help for Rent Party, in one place, with search on every page.]]></description>
+            <content:encoded><![CDATA[<p>The rules, online play, your account, plans and help for Rent Party now live in one place, with search on every page.</p>
+<!-- -->
+<p>The words come from the game itself: <a class="" href="https://rentparty-docs.aoneahsan.com/how-to-play/rules">the rules</a> match its <a href="https://rentparty.aoneahsan.com/how-to-play" target="_blank" rel="noopener noreferrer" class="">How to play</a> page, and <a class="" href="https://rentparty-docs.aoneahsan.com/help">Help and FAQ</a> matches its <a href="https://rentparty.aoneahsan.com/help" target="_blank" rel="noopener noreferrer" class="">Help</a> page. Here they’re split by topic, so you can jump straight to the rule you need.</p>
+<p>New here? Start with <a class="" href="https://rentparty-docs.aoneahsan.com/">Getting started</a>. Rather learn by playing? <a href="https://rentparty.aoneahsan.com/play" target="_blank" rel="noopener noreferrer" class="">Practice against a CPU character</a>.</p>]]></content:encoded>
+            <category>Basics</category>
+        </item>
+    </channel>
+</rss>

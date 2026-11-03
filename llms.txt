@@ -1,0 +1,55 @@
+# Rent Party docs
+
+> Player docs for Rent Party, a property-trading party game for friends and family: the rules, house rules, pausing, online play, Online now and matches, reputation, table records, coins, the community feed, your account, plans, the help assistant and the other AI features, and help. The game runs at https://rentparty.aoneahsan.com in a current browser on phones, tablets and computers.
+
+The docs repeat the words of the game's own pages. Numbers the team can change, such as prices, plan limits and turn timers, are always current on the game's pages, which these docs link to.
+
+## Docs
+
+- [Getting started](https://rentparty-docs.aoneahsan.com/): what Rent Party is, the three ways to play, and how to start a game or join a room
+- [Page tours and the walkthrough](https://rentparty-docs.aoneahsan.com/tours-and-walkthrough): the tour button on eight of the game's pages, how to skip, jump or leave a tour, and How Rent Party works, six screens covering one game night
+- [Learn the game](https://rentparty-docs.aoneahsan.com/learn-the-game): the real game screen on a demo table, a coach through every control in 16 steps, then a practice game against a CPU character
+- [How to play](https://rentparty-docs.aoneahsan.com/how-to-play): the index of the five how-to-play pages below
+- [The rules](https://rentparty-docs.aoneahsan.com/how-to-play/rules): turns, buying, auctions, rent, Jail, cards, building, trading, mortgages, bankruptcy and winning
+- [House rules](https://rentparty-docs.aoneahsan.com/how-to-play/house-rules): the four presets and every optional rule
+- [Pausing a game](https://rentparty-docs.aoneahsan.com/how-to-play/pausing): pausing, coming back, the final call and leaving a game
+- [CPU characters](https://rentparty-docs.aoneahsan.com/how-to-play/cpu-characters): the six computer rivals and their four levels
+- [Rent Party names](https://rentparty-docs.aoneahsan.com/how-to-play/names): what each of the game's own words means
+- [Online play](https://rentparty-docs.aoneahsan.com/online-play): rooms, game invites, joining with a code or a link, live and over-days games, timers, the 2-minute offline rule, votes, watching and rated games
+- [Online now and matches](https://rentparty-docs.aoneahsan.com/online-now): who's online, hiding yourself, challenging a friend, inviting someone to your room, and finding a match at a similar reputation level
+- [Reputation and streaks](https://rentparty-docs.aoneahsan.com/reputation): what the score counts, the 10 levels, the New label, the daily streak and its badges
+- [Table records](https://rentparty-docs.aoneahsan.com/table-records): keeping a real-board game's deeds, bucks and box between nights, the edit log, sharing with friends, and bringing it online as an unrated friends' game with no coins
+- [Replays](https://rentparty-docs.aoneahsan.com/replays): every finished game's replay (online, pass-and-play or against CPU characters), where to open it, what it shows, the controls, who can watch an online one, and how long an online replay is kept
+- [Coins](https://rentparty-docs.aoneahsan.com/coins): coin packs on the website, coin tables and how table fees settle, coin challenges, and sending coins with the 10% transfer fee. Coins are in-app only, can't be withdrawn or exchanged for money, and have no cash value
+- [City boards](https://rentparty-docs.aoneahsan.com/city-boards): Take your table to a new city. Its streets and cards have local names; the rules stay the same. Coins buy looks, never luck.
+- [Community](https://rentparty-docs.aoneahsan.com/community): posting, who sees a post, likes, comments, reporting and blocking
+- [Your account](https://rentparty-docs.aoneahsan.com/account): Google sign-in, profile, inbox and notifications, your data and deleting your account
+- [Plans and pricing](https://rentparty-docs.aoneahsan.com/plans-and-pricing): Free, Pro and Family, AI levels, the two ways to pay, when a plan starts and ends, and friend invites
+- [AI features and voice](https://rentparty-docs.aoneahsan.com/ai-features): Rent Party's help assistant, game recaps, trade reads, table talk and voice recordings, where each one is, what each sends, the AI levels and allowances, how to switch the CPU voices off, and what happens when AI is resting
+- [New versions](https://rentparty-docs.aoneahsan.com/new-versions): Update now, or Rent Party asks you to the next time you open it.
+- [Help and FAQ](https://rentparty-docs.aoneahsan.com/help): common questions, the help assistant, and how to reach the team
+- [Privacy and terms](https://rentparty-docs.aoneahsan.com/privacy-and-terms): what each legal page covers, with links
+
+## What's new
+
+- [What's new](https://rentparty-docs.aoneahsan.com/blog): changes to the docs, newest first
+- [Table records, coins, Online now and Community](https://rentparty-docs.aoneahsan.com/blog/table-records-coins-and-community): the five new pages and the 2-minute offline rule
+- [The Rent Party docs are here](https://rentparty-docs.aoneahsan.com/blog/rent-party-docs-are-here): the first post, on what the docs cover
+- [Feed](https://rentparty-docs.aoneahsan.com/feed): every post, newest first, with the RSS and Atom links
+- [feed.xml](https://rentparty-docs.aoneahsan.com/feed.xml): new posts, for a feed reader
+- [RSS feed](https://rentparty-docs.aoneahsan.com/blog/rss.xml): the same posts as feed.xml, at the blog's address
+- [Atom feed](https://rentparty-docs.aoneahsan.com/blog/atom.xml): the same posts in Atom
+- [Sitemap](https://rentparty-docs.aoneahsan.com/sitemap): every page, grouped and searchable
+- [sitemap.xml](https://rentparty-docs.aoneahsan.com/sitemap.xml): every page, in the format search engines read
+
+## The game
+
+- [Rent Party](https://rentparty.aoneahsan.com/): the game's home page
+- [Start a game](https://rentparty.aoneahsan.com/play): pick a kind of game, or join a room with a code or a link
+- [How to play](https://rentparty.aoneahsan.com/how-to-play): the rules, with the current numbers
+- [Pricing](https://rentparty.aoneahsan.com/pricing): current prices and limits
+- [Help](https://rentparty.aoneahsan.com/help): questions and a form that reaches the team
+- [Privacy](https://rentparty.aoneahsan.com/privacy): what the game keeps about you, and how to change or delete it
+- [Terms](https://rentparty.aoneahsan.com/terms): the rules for using Rent Party, buying a plan included
+- [Permissions](https://rentparty.aoneahsan.com/permissions): every permission the Android app and the website use
+- [Delete account](https://rentparty.aoneahsan.com/delete-account): how to delete an account, and what goes and what stays
