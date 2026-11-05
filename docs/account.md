@@ -38,7 +38,7 @@ Every alert lands in your **Inbox**: turn alerts, invites and plan news. From th
 |---|---|
 | Push notifications | Your turn, invites, pause votes and results, on every device you allow. |
 | Quiet hours | Alerts wait until quiet hours end. Game clocks don’t stop, so your turn timer keeps running. Quiet hours and dates follow your time zone. |
-| Email | Turn alerts email you only if you haven’t acted after 6 hours. Payment, plan, final-call and deletion emails always arrive. |
+| Email | Game alerts don’t come by email. They land in your Inbox, and on push if it’s on. This switch covers Family invites and news from the team. Payment, plan, support and deletion emails always arrive. |
 
 If notifications are blocked in your phone’s or browser’s settings, allow them for Rent Party there, then come back. [Why didn’t I get an alert?](./help.md#alerts) covers the rest.
 

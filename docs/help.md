@@ -35,7 +35,7 @@ On the Rent Party website, from [Pricing](https://rentparty.aoneahsan.com/pricin
 
 ## Why didn’t I get an alert for my turn? {#alerts}
 
-A push needs notifications allowed on that device and switched on in Settings, and it waits until your quiet hours end before it reaches you. Every alert still lands in your Inbox, so check there first. The email follows only if email alerts are on and you haven’t taken your turn after 6 hours.
+A push needs notifications allowed on that device and switched on in Settings, and it waits until your quiet hours end before it reaches you. Every alert still lands in your Inbox, so check there first. Game alerts don’t come by email.
 
 ## How do I delete my account? {#delete-account}
 
