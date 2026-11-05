@@ -70,8 +70,3 @@ Do not load generated `.docusaurus/` or `build/`, dependencies, or every docs pa
 ## Context record
 
 The 2026-10-21 maintenance pass verified repository root, docs, blog, plugins, theme/source, static files, workflow, and build output. The workspace + coordination root + docs guide chain remains below 32 KiB. Skip routine context optimization before 2026-11-29 unless the tree changes materially or a proven stale instruction risks incorrect work.
-
-<!-- cloudflare-pages-v1 -->
-## Hosting: Cloudflare Pages
-
-This site deploys on Cloudflare Pages, project `rentparty-docs`, domain `rentparty-docs.aoneahsan.com` (rule: docs sites deploy on Cloudflare Pages, owner, 2026-11-05). Build and check it locally, then run `yarn deploy`. This replaces every GitHub Pages instruction elsewhere in this repo; no GitHub Actions and no `docusaurus deploy`.
