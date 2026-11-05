@@ -21,7 +21,8 @@
     "build": "NODE_OPTIONS=--no-experimental-webstorage docusaurus build",
     "serve": "docusaurus serve",
     "clear": "docusaurus clear",
-    "typecheck": "tsc"
+    "typecheck": "tsc",
+    "deploy": "yarn build && npx -y wrangler@4 pages deploy build --project-name rentparty-docs --branch main --commit-dirty=true"
   },
   "dependencies": {
     "@docusaurus/core": "3.10.2",
