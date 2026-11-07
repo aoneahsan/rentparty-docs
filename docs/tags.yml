@@ -34,3 +34,7 @@ legal:
   label: Legal
   permalink: /legal
   description: Privacy, terms, permissions and deleting an account.
+compare:
+  label: Compare
+  permalink: /compare-tag
+  description: How Rent Party differs from other games, and how to get a table going.

@@ -1,0 +1,18 @@
+.facts h3 {
+  margin-block-start: 1.5rem;
+}
+
+/* A wide table scrolls inside its own box, so the page itself never scrolls sideways on a phone. */
+.scroll {
+  overflow-x: auto;
+}
+
+.scroll table {
+  display: table;
+  margin-block-end: 1rem;
+}
+
+.scroll th[scope='row'] {
+  font-weight: 600;
+  text-align: start;
+}
