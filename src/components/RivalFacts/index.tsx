@@ -65,8 +65,17 @@ function Out({ href, children }: { href: string; children: ReactNode }) {
   );
 }
 
-/** The prices and the rows for one rival, with their sources and the day they were read. */
-export default function RivalFacts({ slug }: { slug: string }): ReactNode {
+/**
+ * The prices and the rows for one rival, with their sources and the day they were read. `hideNotStated` drops the
+ * side-by-side rows their pages did not state; the guide then says once which those were.
+ */
+export default function RivalFacts({
+  slug,
+  hideNotStated = false,
+}: {
+  slug: string;
+  hideNotStated?: boolean;
+}): ReactNode {
   const rival = RIVALS.find((candidate) => candidate.slug === slug);
   if (rival === undefined) throw new Error(`No rival named ${slug} in compare-facts.json.`);
   return (
@@ -120,6 +129,7 @@ export default function RivalFacts({ slug }: { slug: string }): ReactNode {
           <tbody>
             {facts.features.map(({ key, label }) => {
               const theirs = rival.features[key] ?? { status: 'not-stated' };
+              if (hideNotStated && theirs.status === 'not-stated') return null;
               return (
                 <tr key={key}>
                   <th scope="row">{label}</th>
