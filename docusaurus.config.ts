@@ -170,6 +170,7 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     metadata: [
+      { name: 'yandex-verification', content: 'bfb02722189028cf' },
       { name: 'theme-color', content: '#faf3f8', media: '(prefers-color-scheme: light)' },
       { name: 'theme-color', content: '#1e111b', media: '(prefers-color-scheme: dark)' },
     ],
