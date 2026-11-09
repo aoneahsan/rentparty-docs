@@ -1,6 +1,6 @@
 ---
 title: Online play
-description: Playing Rent Party online. Live rooms and games over days, game invites and room codes, turn timers and strikes, the 2-minute offline rule, sealed bids, table votes, End by agreement, watching, chat and rated games.
+description: Playing Rent Party online. Live rooms and games over days, game invites and room codes, turn timers and strikes, the 2-minute offline rule, sealed bids, table votes, End by agreement, watching, chat, voice at the table, trading on anyone's turn and rated games.
 sidebar_position: 3
 tags: [online]
 ---
@@ -114,6 +114,23 @@ Yes, when the host lets people watch. Spectators join with the Watch link, and y
 ## How does chat work? {#chat}
 
 Say something to the table with typed messages, quick chat and emotes. If typed chat is off, quick chat and emotes still work. Choose **Report message** on any message that breaks the chat rules in the [Terms](https://rentparty.aoneahsan.com/terms).
+
+Typed messages stay with the game until it’s deleted. While Game chat is closed, a count on the **Game chat** button shows how many new messages are waiting, and the newest one pops up with **Read**. A seated player who doesn’t have the game open gets an alert, and a push where alerts are on, so nobody misses the table talking.
+
+## Can you talk at the table? {#voice}
+
+Yes. Seated players have two buttons beside Chat:
+
+| Button | What a tap does |
+|---|---|
+| **Mic** | Starts off. Tap to talk to the table; tap again to go quiet. |
+| **Speaker** | Starts on. Tap to stop listening; tap again to hear the table. |
+
+The first tap on Mic is when your browser, or Android, asks to use the microphone. If voice isn’t on right now, either button tries again. Sound that a browser holds back starts with your next tap anywhere on the game. Spectators don’t join the voice, and you never hear a player you’ve blocked, or who blocked you. Nothing you say is recorded; [Privacy](https://rentparty.aoneahsan.com/privacy) explains what happens when you talk at the table.
+
+## Can you trade while you wait? {#trading-off-turn}
+
+Yes. **Trade** works on anyone’s turn, unless the table switched on turn-only trading. Close an offer half-made to take your turn: **Trade** turns into **Finish offer**, and the deal is still there when you open it. If something in it changed hands meanwhile, it comes out, and the offer says so.
 
 ## How do rated games work? {#rated-games}
 
