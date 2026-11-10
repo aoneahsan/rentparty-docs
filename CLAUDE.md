@@ -1,12 +1,12 @@
 # CLAUDE.md — Rent Party public docs
 
-**Last Updated:** 2026-10-21
+**Last Updated:** 2026-11-10
 
 | Context record | Value |
 |---|---|
-| Last optimized | 2026-10-30 |
-| Next routine optimization eligible | 2026-11-29 |
-| Guide bytes | 4797 B |
+| Last optimized | 2026-11-10 |
+| Next routine optimization eligible | 2026-12-10 |
+| Guide bytes | 5135 B |
 
 The `AGENTS.md` and `CLAUDE.md` pair are mirrors except for the first heading. Update both together.
 
