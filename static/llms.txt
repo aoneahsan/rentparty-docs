@@ -45,6 +45,16 @@ The docs repeat the words of the game's own pages. Numbers the team can change, 
 - [Moving from Tabletopia to Rent Party](https://rentparty-docs.aoneahsan.com/compare/tabletopia): On Tabletopia your group moves the pieces and keeps the rules. On Rent Party the game does that. What you give up, how to start, and dated facts on both.
 - [Moving from a Jackbox Party Pack to Rent Party](https://rentparty-docs.aoneahsan.com/compare/jackbox-party-packs): Jackbox packs are quick rounds on a shared screen, and Rent Party is one long game. Keep both for different nights. How to start, with dated facts on both.
 
+## White-label & licensing
+
+- [White-label Rent Party](https://rentparty-docs.aoneahsan.com/white-label): Run Rent Party under your own name, logo and domain, hosted by the Rent Party team, or buy its source code outright. What a license covers and how it differs from a buyout.
+- [What you get on each platform](https://rentparty-docs.aoneahsan.com/white-label/delivered): What a white-label Rent Party includes on the web and on Android and iOS, and what stays the same as Rent Party itself.
+- [Setting up your Rent Party](https://rentparty-docs.aoneahsan.com/white-label/setup): What happens between paying for a white-label license and your Rent Party going live, step by step.
+- [Updates and renewals](https://rentparty-docs.aoneahsan.com/white-label/updates-and-renewals): The updates included with a white-label license or a buyout, what counts as an update, and how to renew with your license key.
+- [Verify a license](https://rentparty-docs.aoneahsan.com/white-label/verify-a-license): How to check whether a white-label Rent Party is licensed, by its license key or by the domain it runs on, and what each answer means.
+- [White-label questions](https://rentparty-docs.aoneahsan.com/white-label/faq): Answers about white-label Rent Party licenses and the source buyout, from source code and exclusivity to iOS, trademarks and payments.
+- [White-label prices](https://rentparty.aoneahsan.com/white-label/pricing): the current prices and the total for the platforms you pick, on the game's site
+
 ## What's new
 
 - [What's new](https://rentparty-docs.aoneahsan.com/blog): changes to the docs, newest first

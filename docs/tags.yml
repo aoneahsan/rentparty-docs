@@ -38,3 +38,7 @@ compare:
   label: Compare
   permalink: /compare-tag
   description: How Rent Party differs from other games, and how to get a table going.
+white-label:
+  label: White-label
+  permalink: /white-label-tag
+  description: Running Rent Party under your own brand, the source buyout, updates and checking a license.
