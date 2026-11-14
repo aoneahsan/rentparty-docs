@@ -16,7 +16,7 @@ The current prices, and the total for the platforms you pick, are on the [white-
 
 A **license** is hosted by us. No source code changes hands, and others may license Rent Party too until someone buys it outright.
 
-A **buyout** hands you the source code of every repository that builds the web app and the Android app. After a buyout we stop selling Rent Party to anyone else, and licenses sold before it keep their terms. The [buyout page](https://rentparty.aoneahsan.com/white-label/buyout) has the details and the price.
+A **buyout** hands you the source code of every repository that builds the web app and the Android app. After a buyout we stop selling Rent Party to anyone else, and licenses sold before it keep their terms. You also pay us a royalty of 7% of the gross revenue Rent Party earns, every quarter, for as long as it earns. The [buyout page](https://rentparty.aoneahsan.com/white-label/buyout) has the details and the price.
 
 ## Which platforms can I license? {#platforms}
 

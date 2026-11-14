@@ -16,6 +16,10 @@ No. With a license we host and run Rent Party under your brand. The source code 
 
 Yes, until someone buys it outright. After a buyout we stop selling it, and licenses sold before then keep their terms.
 
+## Is there anything to pay after a buyout? {#royalty}
+
+Yes, a royalty of 7% of the gross revenue Rent Party earns, not counting sales tax or VAT you collect. You pay it every quarter with a revenue statement, for as long as Rent Party earns revenue, and it's still owed if you sell it on.
+
 ## Is there an iPhone app? {#ios}
 
 The mobile platform covers Android and iOS. We deliver iOS once you provide or fund an Apple developer account.
@@ -34,4 +38,4 @@ Your deployment carries its license key, and anyone can [check it](./verify-a-li
 
 ## Where are the terms for payments? {#payments}
 
-In the [Terms of Service](https://rentparty.aoneahsan.com/terms#what-do-white-label-licenses-and-buyouts-cover) and the [Privacy Policy](https://rentparty.aoneahsan.com/privacy#white-label-buyers).
+Licenses, renewals and buyouts are paid by Wise transfer, and a license is issued once we've confirmed the transfer. The full terms are in the [Terms of Service](https://rentparty.aoneahsan.com/terms#what-do-white-label-licenses-and-buyouts-cover) and the [Privacy Policy](https://rentparty.aoneahsan.com/privacy#white-label-buyers).

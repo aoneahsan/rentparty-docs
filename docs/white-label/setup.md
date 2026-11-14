@@ -12,7 +12,7 @@ Setup runs in the order below. We tell you at each step what we need next.
 
 ## What happens right after I pay? {#after-paying}
 
-We email your license key and its certificate to the address you bought with. The payment itself is taken by our payment partner on its own page.
+You pay by Wise transfer from our payment page and send us the transfer reference. Once we've confirmed the transfer, we email your license key and its certificate to the address you bought with.
 
 ## What do you need from me? {#what-we-need}
 
