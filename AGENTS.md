@@ -12,7 +12,7 @@ The `AGENTS.md` and `CLAUDE.md` pair are mirrors except for the first heading. U
 
 ## Repository boundary
 
-This public repository is `aoneahsan/rentparty-docs`, branch `main`, remote `o`. It builds [rentparty-docs.aoneahsan.com](https://rentparty-docs.aoneahsan.com) with Docusaurus and GitHub Pages. The private game code is the sibling `../monopoly/` checkout and is never edited from a docs task.
+This public repository is `aoneahsan/rentparty-docs`, branch `main`, remote `o`. It builds [rentparty-docs.aoneahsan.com](https://rentparty-docs.aoneahsan.com) with Docusaurus and GitHub Pages. The private game code is the sibling `../rentparty/` checkout and is never edited from a docs task.
 
 Use the product's published pages and approved screens as facts. The approved voice, glossary, and public-surface rules live in `../docs/story/`. Never invent a feature, number, limit, quote, plan fact, or service behavior.
 
@@ -48,7 +48,7 @@ A docs change is ready only when typecheck and build pass without errors, the ex
 - Never commit an `.env`, key, token, password, product secret, private product source, or private operational record.
 - The owner maintains `main` directly. Other contributors use forks and pull requests. Never force-push or weaken branch protection.
 <!-- RULE:stop-work-git-gate v2026-10-20 -->
-- **Stop-work Git gate:** Before ending any work session, audit the coordination root, `monopoly/`, and
+- **Stop-work Git gate:** Before ending any work session, audit the coordination root, `rentparty/`, and
   `rentparty-docs/`. Commit every legitimate change in its owning repository, push its designated branch to `o`,
   then verify all three worktrees are clean and each branch is 0 ahead and 0 behind. Never leave intended work only
   on disk; if a push is impossible, do not call the task complete and report the exact blocker.
