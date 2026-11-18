@@ -16,7 +16,7 @@ Every control on the game screen, in the order a turn uses them:
 2. **Who’s playing:** one chip per player, showing their bucks and how many deeds they hold.
 3. **Roll the dice:** doubles mean you go again, and 3 in a row send you to Jail.
 4. **Buy a street:** buy it at the printed price, or turn it down and it goes to auction.
-5. **Bid at auction:** everyone can bid, you included. A pass is final.
+5. **Bid at auction:** bidding goes round the table, you included. When it’s your go, raise or pass. A pass is final.
 6. **Latest move:** who paid whom; press it for the whole game log.
 7. **Your deeds:** press any street on the board to read its deed.
 8. **Manage what you own:** every build and every mortgage happens here.

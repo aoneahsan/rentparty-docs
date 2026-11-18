@@ -43,7 +43,7 @@ Turning it down isn’t the end of it. You can still bid, and you might get it f
 
 ## How do auctions work when nobody buys a street? {#auctions}
 
-If the player who lands on an unowned street doesn’t buy it, it goes to auction straight away, everyone — that player included — can bid, and the highest bid wins.
+If the player who lands on an unowned street doesn’t buy it, it goes to auction straight away. Bidding goes round the table from the next player, the one who turned it down included: when it’s your go, raise the bid or pass. Nobody bids twice in a row, and the highest bid wins once it comes back round to its bidder.
 
 You can’t bid more bucks than you’re holding. Pass when the price gets silly. If nobody bids at all, the street stays with the bank, so the next person to land on it gets the same choice to buy it or send it to auction.
 
@@ -70,7 +70,7 @@ Maya just landed on one of your stations, and you own all 4. That’s 200 bucks,
 
 You go to Jail by landing on Go to jail, by drawing a card that sends you there, or by rolling doubles 3 times in one turn.
 
-Three ways out: pay 50 bucks, use a Jail pass, or roll doubles. Roll your way out and you move by that roll, with no extra roll after it. After 3 tries without doubles, you pay the 50 bucks and move.
+Three ways out: pay 50 bucks, use a Jail pass, or roll doubles. Roll your way out and you move by that roll, with no extra roll after it. After 3 tries without doubles, you pay the 50 bucks and move. With the Time served house rule on, that third miss lets you walk out free instead.
 
 Jail stops your token. It doesn’t stop your deeds: you still collect rent, build and trade while you’re there.
 

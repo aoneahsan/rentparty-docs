@@ -35,6 +35,7 @@ They match the game’s current settings. The game’s own [How to play](https:/
 | City-tax choice | Land on City tax and pay either 200 bucks or 10% of your net worth, and you have to pick one before you count. |
 | Sealed bids | For live and local games, as [the auction section](./rules.md#auctions) explains. Around one device, everyone types a bid in secret, passing the device between bids. |
 | Quick deal | Everyone starts with 2 random deeds from the bank. |
+| Time served | Miss doubles three times in Jail and you walk out free, no fine. |
 
 If your family always piled the taxes in the middle of the board and handed the pile to whoever stopped on the quiet corner, the piggy bank is that rule.
 
