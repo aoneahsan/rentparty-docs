@@ -45,5 +45,6 @@ When the Start a game page offers **Install Rent Party**, choosing Install adds 
 - [Online play](./online-play.md), to get the crew back at one table.
 - [Pausing a game](./how-to-play/pausing.md), for when life calls.
 - [Help and FAQ](./help.md), when something doesn’t look right.
+- [Developers](./developers/index.md), to pull your stats and results into your own code or an AI assistant.
 
 Rather learn by playing? [Practice against a CPU character](https://rentparty.aoneahsan.com/play).

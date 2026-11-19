@@ -1,0 +1,8 @@
+{
+  "label": "Developers",
+  "position": 6.8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "developers/index" },
+  "description": "Read your own Rent Party records and results from your code or an AI assistant, get a webhook when a game ends, and turn on two-step sign-in."
+}
