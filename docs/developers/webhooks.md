@@ -7,12 +7,6 @@ last_update:
   date: 2026-11-19
 ---
 
-:::warning[Not switched on yet (19 November 2026)]
-
-Webhooks arrive with an upcoming Rent Party release. This page describes them as they’ll work.
-
-:::
-
 A webhook is a signed `POST` from Rent Party to an address you own, sent the moment something happens on your account. The last bankruptcy lands, and your server hears who won. Add the address under **Settings → Other apps → Webhooks**, pick its events, and check the signature on every request so you know it really came from us.
 
 ## Which events are there? {#events}

@@ -8,12 +8,6 @@ last_update:
   date: 2026-11-19
 ---
 
-:::warning[Not switched on yet (19 November 2026)]
-
-The MCP server arrives with an upcoming Rent Party release. The address below won’t answer until then.
-
-:::
-
 The Rent Party MCP server lets an AI assistant read your records when you ask. *“How many of my last ten games did I win?”* *“Which saved games haven’t I touched in a month?”* Give the assistant one address, sign in to Rent Party, and choose on the consent page what it may see. It works with Claude, ChatGPT, Claude Code, Cursor and any other assistant that speaks MCP.
 
 ## What’s the address? {#address}

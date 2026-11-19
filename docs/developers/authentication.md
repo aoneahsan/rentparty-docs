@@ -8,12 +8,6 @@ last_update:
   date: 2026-11-19
 ---
 
-:::warning[Not switched on yet (19 November 2026)]
-
-Access tokens arrive with an upcoming Rent Party release. This page describes them as they’ll work.
-
-:::
-
 An access token is a long secret your code sends with every request, as `Authorization: Bearer <token>`. You make it under **Settings → Other apps**, pick what it may read and when it runs out, and revoke it whenever you like. An app that connects for you uses OAuth instead, so you never hand it a token.
 
 ## How do you make a token? {#make-a-token}
@@ -74,7 +68,7 @@ With two-step sign-in on, Approve asks for a code. The app then shows under **Se
 
 ## How many requests can you send? {#rate-limits}
 
-Each token and each connected app gets **120 requests a minute**. Above that sits a daily total for your whole account, set by your plan: **5,000 a day on Free, 50,000 on Pro and Family**. Every token and app you have shares it, so making more tokens doesn’t raise it. Settings → Other apps shows your limits beside today’s count.
+Each token and each connected app gets **120 requests a minute**. Above that sits a daily total for your whole account, set by your plan. Every token and app you have shares it, so making more tokens doesn’t raise it. Settings → Other apps shows your plan’s numbers beside today’s count.
 
 Every answer carries three headers:
 

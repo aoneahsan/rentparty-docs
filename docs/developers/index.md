@@ -8,12 +8,6 @@ last_update:
   date: 2026-11-19
 ---
 
-:::warning[Not switched on yet (19 November 2026)]
-
-These doors open with an upcoming Rent Party release. Until then, Settings → Other apps isn’t in the game.
-
-:::
-
 Your games leave a trail: wins, ratings, badges, the saves you haven’t finished. This section is for taking that trail somewhere else. A spreadsheet of every game night. A bot in your group chat that posts the winner. An AI assistant that can tell you how your last ten games went.
 
 There are three ways in, and you open each one yourself under **Settings → Other apps**.

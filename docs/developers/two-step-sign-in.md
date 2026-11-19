@@ -7,12 +7,6 @@ last_update:
   date: 2026-11-19
 ---
 
-:::warning[Not switched on yet (19 November 2026)]
-
-Two-step sign-in arrives with an upcoming Rent Party release. Settings → Security won’t show it until then.
-
-:::
-
 Two-step sign-in asks for a six-digit code from an authenticator app after you sign in with Google. If someone gets into your Google account, they still can’t take your seat, your coins or your saves without your phone. It’s your choice for your own account. The Rent Party team doesn’t get that choice: two-step is required on every admin account.
 
 ## How do you turn it on? {#turn-on}

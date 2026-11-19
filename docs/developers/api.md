@@ -8,12 +8,6 @@ last_update:
   date: 2026-11-19
 ---
 
-:::warning[Not switched on yet (19 November 2026)]
-
-The API arrives with an upcoming Rent Party release. The addresses below won’t answer until then.
-
-:::
-
 The Rent Party API is a REST API at one address. It reads your own records, and it can remove a saved game when you’ve allowed that. Every route and field is described in an OpenAPI file, and that file is the reference. This page tells you where it lives and the rules every list follows.
 
 ## What’s the base address? {#base-address}
