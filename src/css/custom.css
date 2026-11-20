@@ -127,3 +127,6 @@
     animation-duration: 0.01ms !important;
   }
 }
+
+/* The /apps page is reached from the navbar, footer and home line, not the docs sidebar (2026-11-20). */
+.menu__list-item.hidden { display: none; }

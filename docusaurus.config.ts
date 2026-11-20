@@ -1,12 +1,13 @@
 import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 import sitePages, { withLastmod } from './plugins/site-pages';
+import { OTHER_PLATFORMS, platformHref } from './src/data/platforms';
 
 /** The docs site's own address. `static/CNAME` holds the same host for GitHub Pages. */
 const SITE_URL = 'https://rentparty-docs.aoneahsan.com';
 
 /** The game itself. Every "go and do it" link on the site points here. */
-const APP_URL = 'https://rentparty.aoneahsan.com';
+const APP_URL = platformHref('web');
 
 /** The blog's route: the blog plugin's `routeBasePath` below, with its leading slash. */
 const BLOG_PATH = '/blog';
@@ -187,6 +188,15 @@ const config: Config = {
         { to: '/online-play', label: 'Online play', position: 'left' },
         { to: '/plans-and-pricing', label: 'Plans', position: 'left' },
         { to: '/help', label: 'Help', position: 'left' },
+        {
+          type: 'dropdown',
+          label: 'Get Rent Party',
+          position: 'right',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({ label: platform.name, href: platform.href })),
+            { label: 'All apps', to: '/apps' },
+          ],
+        },
         { href: `${APP_URL}/play`, label: 'Start a game', position: 'right', className: 'navbar-cta' },
       ],
     },
@@ -203,6 +213,13 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [
+        {
+          title: 'Get Rent Party',
+          items: [
+            ...OTHER_PLATFORMS.map((platform) => ({ label: platform.name, href: platform.href })),
+            { label: 'All apps', to: '/apps' },
+          ],
+        },
         {
           title: 'Docs',
           items: [

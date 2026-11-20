@@ -9,6 +9,8 @@ tags: [basics]
 
 Rent Party is a property-trading party game for friends and family. Take on friends online or around one phone, or play CPU characters offline, then pause any game and pick it up days later.
 
+**Get Rent Party:** [play in your browser](https://rentparty.aoneahsan.com/play) on any phone, tablet or computer · [all apps](/apps)
+
 You roll two dice, buy the unowned streets you land on, trade for full color sets, and build houses and hotels so the rent on your streets keeps climbing. The game runs the bank. The last player who isn’t bankrupt wins.
 
 ## Three ways to pull up a chair {#ways-to-play}
