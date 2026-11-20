@@ -4,6 +4,12 @@
 
 The docs repeat the words of the game's own pages. Numbers the team can change, such as prices, plan limits and turn timers, are always current on the game's pages, which these docs link to.
 
+
+## Get Rent Party
+
+- [All apps](https://rentparty-docs.aoneahsan.com/apps): every released surface of Rent Party.
+- [Rent Party web app](https://rentparty.aoneahsan.com)
+
 ## Docs
 
 - [Getting started](https://rentparty-docs.aoneahsan.com/): what Rent Party is, the three ways to play, and how to start a game or join a room
