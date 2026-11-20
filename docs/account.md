@@ -28,7 +28,7 @@ A short setup follows your first sign-in, and you can skip any step for now:
 
 Your display name, avatar, stats and badges, the token, board, dice and frame you have equipped, and a link to your public card. Everyone sees your display name.
 
-**The leaderboard** is off until you switch it on. The leaderboard then shows your display name, token, rating, rank and number of rated games to anyone, signed in or not. Your games count toward your rating either way.
+**The leaderboard** is on unless you switch it off. It shows your display name, token, points, wins, rating, rank and number of rated games to anyone, signed in or not. Your games earn points either way.
 
 ## Where do alerts go? {#inbox-and-notifications}
 

@@ -34,6 +34,8 @@ On [Play online](https://rentparty.aoneahsan.com/online), under Start a room, ch
 | Friends | Listed for your friends. Anyone else needs your link or code. |
 | Anyone | Listed under public rooms for anyone to join. |
 
+A Ranked Table on [Start a game](https://rentparty.aoneahsan.com/play) has the same three choices. Listed for friends or for anyone, it still asks each person for the table fee before they sit down.
+
 The host’s game settings also cover the seats, the turn deadline for a game over days, whether people can watch, and whether the game is [rated](#rated-games). Only the host can change these.
 
 Your plan sets how many live games and games over days you can be in at once. When you reach it, finish one to start another. [Plans and pricing](./plans-and-pricing.md) explains the limits.
@@ -42,7 +44,13 @@ Your plan sets how many live games and games over days you can be in at once. Wh
 
 Send each friend a game invite: a link, a QR code or a 6-character room code. The invite works while the room waits in its lobby, 24 hours by default.
 
-A friend with a code joins from [Start a game](https://rentparty.aoneahsan.com/play), under **Join a room**, which takes the 6-character code, or the whole invite or Watch link. Play online has **Join with a code** too. If a code doesn’t work, the game says why:
+A friend with a code joins from [Start a game](https://rentparty.aoneahsan.com/play), under **Join a room**, which takes the 6-character code, or the whole invite or Watch link. Play online has **Join with a code** too.
+
+Next to Join, **Scan code** opens the camera: hold it up to the QR code on the host’s room page and the room opens. The picture stays on your phone. In the Android app, Scan code needs the update that adds the camera; until then, type the code.
+
+Under Join a room, **Open tables** lists the rooms waiting for players right now: every room listed for anyone, and the rooms your friends listed for friends. Each one says whether it’s a Ranked Table, with its fee, or a Friendly one.
+
+If a code doesn’t work, the game says why:
 
 | You see | What to do |
 |---|---|
@@ -136,7 +144,7 @@ Yes. **Trade** works on anyone’s turn, unless the table switched on turn-only 
 
 A game can be rated when every seat is a person and it uses Official or Tournament rules. A forfeit in a rated game counts as a rated loss.
 
-Your games count toward your rating either way. The leaderboard shows you only after you switch it on in [your profile](./account.md#profile).
+Every rated game you finish earns leaderboard points: 10 for a win, 4 for second, 2 for third and 1 for any other place. The [leaderboard](https://rentparty.aoneahsan.com/leaderboard) ranks by points, then wins, then rating. You’re on it from your first rated game unless you switch it off in [your profile](./account.md#profile); your games earn points and move your rating either way.
 
 ## How does a game end? {#results}
 
