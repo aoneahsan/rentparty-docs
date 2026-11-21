@@ -47,7 +47,7 @@ You can report someone’s profile, a chat message or a room: choose Report on i
 
 ## Is there an app? {#app}
 
-Not in an app store yet. Rent Party runs in a current browser on phones, tablets and computers, iPhone and iPad included, with the same game, the same account and the same table everywhere.
+Yes, for Android: [Rent Party on Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.rentparty). Rent Party also runs in a current browser on phones, tablets and computers, iPhone and iPad included. It’s the same game, the same account and the same table everywhere. The one difference: plans are bought on the website, and the app shows yours.
 
 ## Can I ask the game a question? {#help-assistant}
 

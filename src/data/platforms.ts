@@ -1,9 +1,10 @@
 /**
  * Every place Rent Party is released — the ONLY place a store or surface URL lives in this docs site
  * (standard aoneahsan-cccs-platform-links). Each surface passed its release proof on `verified`:
- * the web app and this site answered 200. Not on Google Play yet, so not listed.
+ * the web app and this site answered 200; Google Play lists com.aoneahsan.rentparty on the owner's CanyonDigital
+ * developer page (2026-11-21).
  */
-export type PlatformId = 'web' | 'docs';
+export type PlatformId = 'web' | 'android' | 'docs';
 
 export interface Platform {
   id: PlatformId;
@@ -20,13 +21,14 @@ export interface Platform {
 
 export const PLATFORMS: readonly Platform[] = [
   {id: 'web', name: 'Rent Party web app', href: 'https://rentparty.aoneahsan.com', title: 'In your browser', text: 'Play online with friends, pass one phone around the couch, or take on the CPU characters. It installs to your home screen too.', cta: 'Start a game', primary: true, verified: '2026-11-20'},
+  {id: 'android', name: 'Google Play', href: 'https://play.google.com/store/apps/details?id=com.aoneahsan.rentparty', title: 'On Android', text: 'The same game on your home screen, with a buzz when it’s your turn online. Your account and saved games come with you.', cta: 'Get it on Google Play', verified: '2026-11-21'},
   {id: 'docs', name: 'Documentation', href: 'https://rentparty-docs.aoneahsan.com', title: 'These docs', text: 'The rules, the house rules, online rooms, coins and plans, one page each.', cta: 'Read the docs', verified: '2026-11-20'},
 ];
 
 export const APPS_PAGE = {
   title: 'Get Rent Party',
-  description: 'Every place Rent Party is released: the web app and these docs.',
-  lead: 'Game night runs in your browser on any phone, tablet or computer. Keep the rules a tab away.',
+  description: 'Every place Rent Party is released: the web app, the Android app on Google Play and these docs.',
+  lead: 'Game night runs in your browser or the Android app. Keep the rules a tab away.',
 } as const;
 
 /** This site is the docs surface. */
