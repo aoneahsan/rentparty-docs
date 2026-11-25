@@ -327,7 +327,10 @@ export default function sitePages({ blogPath }: SitePagesOptions): PluginModule 
       async allContentLoaded({ allContent, actions }) {
         const data = collect(allContent, `${base}${blogPath}`);
         hasPosts = data.posts.length > 0;
-        const site = await actions.createData('site-pages.json', JSON.stringify(data));
+        const dataFile = await actions.createData('site-pages.json', JSON.stringify(data));
+        // The route registry ships each module path in the client bundle; an absolute path would publish this
+        // machine's folders and give every machine different chunk names, so pass it through the @generated alias.
+        const site = `@generated/${path.relative(context.generatedFilesDir, dataFile).split(path.sep).join('/')}`;
         actions.addRoute({
           path: `${base}/sitemap`,
           component: '@site/src/components/SitemapPage',
