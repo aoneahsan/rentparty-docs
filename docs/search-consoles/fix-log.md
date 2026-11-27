@@ -7,7 +7,9 @@ Fixed path in every repo (`aoneahsan-cccs-search-issue-remediation`). Newest fir
 
 Status: boxes 4, 5, 7 and 8 plus the slash switch fixed; 1, 2 and 6 Pending; 3 answered by owner law. `yarn build`
 (zero warnings) ends with `yarn seo:contract` (`plugins/seo-contract.mts`), which failed on a planted noindex on the home
-page, then passed. Rendered `/sitemap/` at 1440 (topic chips intact). Live proof is added after publishing.
+page, then passed. Rendered `/sitemap/` at 1440 (topic chips intact). Live-verified, google-pending (commit `d745d64`, gh-pages
+`0c083a9`, IndexNow 200): Person, Organization and WebSite on every page; `/blog/archive/` carries no noindex; old tag
+and author URLs land; 0 unslashed sitemap URLs.
 
 | Box | SA | What was wrong (evidence) | Root fix (file) | Contract | Live proof |
 |---|---|---|---|---|---|
@@ -30,7 +32,7 @@ page, then passed. Rendered `/sitemap/` at 1440 (topic chips intact). Live proof
 
 ```bash
 H=https://rentparty-docs.aoneahsan.com
-for p in /intro /tags/basics/ /blog/authors/team/; do printf '%s %s\n' "$p" "$(curl -s -o /dev/null -w '%{http_code} %{redirect_url}' "$H$p")"; done
+for p in /learn-the-game /tags/basics/ /blog/authors/team/; do printf '%s %s\n' "$p" "$(curl -s -o /dev/null -w '%{http_code} %{redirect_url}' "$H$p")"; done
 curl -s "$H/" | grep -oE '"@type":"(Person|Organization|WebSite)"' | sort -u
 curl -s "$H/blog/archive/" | grep -c noindex   # 0
 curl -s "$H/sitemap.xml" | grep -oE '<loc>[^<]*</loc>' | grep -vc '/</loc>'   # 0
