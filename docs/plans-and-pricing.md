@@ -2,7 +2,7 @@
 title: Plans and pricing
 description: Rent Party is free to play, start to finish. What the Pro and Family plans add, how buying a plan works, when a plan starts and ends, and how friend invites earn Pro.
 sidebar_position: 5
-tags: [plans]
+topics: [plans]
 ---
 
 Free is the whole game. You get every mode and every house rule on Free. Pro and Family raise limits on things that cost us money to run, AI allowances included. They also raise the level the AI features run at. Every difference between the plans is a limit or the AI level, never a game feature.

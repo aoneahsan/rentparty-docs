@@ -2,7 +2,7 @@
 title: Reputation and streaks
 description: How Rent Party’s reputation works. What the score counts, the 10 levels, the New label, your daily streak, and the streak badges for 7 and 30 days in a row.
 sidebar_position: 3.4
-tags: [online, account]
+topics: [online, account]
 ---
 
 Your reputation grows when you finish what you start, stay connected and come back day after day. It starts with your first online game.

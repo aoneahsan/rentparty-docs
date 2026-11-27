@@ -3,7 +3,7 @@ title: The Rent Party API
 sidebar_label: The API
 sidebar_position: 3
 description: The Rent Party REST API. Its base address, what it reads, cursor pagination at 20 rows by default and 50 at most, and the OpenAPI file that describes every route and field.
-tags: [account]
+topics: [account]
 last_update:
   date: 2026-11-19
 ---

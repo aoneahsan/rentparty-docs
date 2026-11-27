@@ -3,7 +3,7 @@ title: Page tours and the walkthrough
 sidebar_label: Page tours and the walkthrough
 description: "Rent Party’s two ways to learn the game: a tour of the page you’re on, from the button in the header, and How Rent Party works, six screens covering one game night."
 sidebar_position: 1.5
-tags: [help]
+topics: [help]
 ---
 
 New here? Rent Party shows you around two ways. A page tour walks through the page you’re on, and [How Rent Party works](https://rentparty.aoneahsan.com/how-rent-party-works) covers the whole game in six screens. It takes about a minute, and you can leave at any step.

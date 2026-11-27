@@ -2,7 +2,7 @@
 title: Table records
 description: Keeping a real-board Rent Party game between nights. Record the deeds, bucks and box, read the edit log, share the record with friends, and bring the game online as a friends’ game.
 sidebar_position: 3.6
-tags: [basics, online]
+topics: [basics, online]
 ---
 
 Playing on a real board over several nights? Keep the deeds, the bucks and the box in a table record, so nobody has to remember who owned what.

@@ -2,7 +2,7 @@
 title: House rules
 description: The four presets and every house rule you can switch on before a Rent Party game, from the piggy bank on Town Square to sealed bids and Quick deal.
 sidebar_position: 2
-tags: [rules]
+topics: [rules]
 ---
 
 Before a game starts, pick a preset or switch house rules on one at a time. They’re set at the House rules step when you [start a game](../intro.md#start-a-game).

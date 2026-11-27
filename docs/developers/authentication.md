@@ -3,7 +3,7 @@ title: Access tokens and sign-in for apps
 sidebar_label: Access tokens
 sidebar_position: 2
 description: How your own code proves it may read your Rent Party records. Access tokens and their scopes, the 10-minute rule for seeing one again, expiry, OAuth for apps, rate limits and the error shape.
-tags: [account]
+topics: [account]
 last_update:
   date: 2026-11-19
 ---

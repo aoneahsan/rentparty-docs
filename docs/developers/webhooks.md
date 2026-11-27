@@ -2,7 +2,7 @@
 title: Webhooks
 sidebar_position: 5
 description: Rent Party webhooks tell your own server when a game finishes, a badge is earned or a saved game comes and goes. Signed with Standard Webhooks, retried for just over a day, with checking code for Node, Python and PHP.
-tags: [account]
+topics: [account]
 last_update:
   date: 2026-11-19
 ---

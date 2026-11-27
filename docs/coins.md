@@ -3,7 +3,7 @@ title: "Coins: coin packs, coin tables and sending coins"
 sidebar_label: Coins
 description: Where Rent Party coins come from, coin packs on the website, coin tables and how table fees settle, coin challenges with friends, and sending coins to another player.
 sidebar_position: 3.8
-tags: [coins, online]
+topics: [coins, online]
 ---
 
 Coins are in-app only. They can’t be withdrawn, cashed out or exchanged for money, and they have no cash value.

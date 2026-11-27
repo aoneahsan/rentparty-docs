@@ -2,7 +2,7 @@
 title: Privacy and terms
 description: What Rent Party’s privacy policy, terms, permissions and delete-account pages cover, with a link to each. The game’s own pages are the ones that apply.
 sidebar_position: 7
-tags: [legal]
+topics: [legal]
 ---
 
 These are short guides to the game’s legal pages, not the pages themselves. The pages on rentparty.aoneahsan.com are the ones that apply, and each shows the date it was last updated.

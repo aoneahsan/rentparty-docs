@@ -2,7 +2,7 @@
 title: Online now and matches
 description: Who’s on Rent Party right now, hiding yourself from the list, challenging a friend to a friendly game or a coin challenge, inviting someone to your room, and finding a match at a similar reputation level.
 sidebar_position: 3.2
-tags: [online]
+topics: [online]
 ---
 
 [Online now](https://rentparty.aoneahsan.com/online-now) shows who’s around right now. Challenge a friend, invite someone to your room, or let Rent Party find you a match.

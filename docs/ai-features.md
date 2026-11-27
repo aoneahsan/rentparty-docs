@@ -3,7 +3,7 @@ title: AI features and voice
 sidebar_label: AI features and voice
 description: "Rent Party’s help assistant, game recaps, trade reads, table talk and voice recordings: where each one is, what each sends, the AI levels and allowances, how to switch the CPU voices off, and what happens when AI is resting."
 sidebar_position: 5.5
-tags: [help]
+topics: [help]
 ---
 
 Stuck on a rule halfway through a trade, or wondering where last night’s game got away from you? Rent Party’s AI features are for that, and each one runs only when you press its button or switch it on. The game plays the same without any of them.

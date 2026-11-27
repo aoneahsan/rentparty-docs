@@ -2,8 +2,9 @@
 slug: table-records-coins-and-community
 title: Table records, coins, Online now and Community
 description: Five new pages in the Rent Party docs, for table records, Online now and matches, reputation and streaks, coins and the community feed, plus the 2-minute offline rule for live games.
-authors: [team]
-tags: [basics]
+authors:
+  - name: "The Rent Party team"
+    url: https://rentparty.aoneahsan.com
 date: 2026-10-26
 ---
 

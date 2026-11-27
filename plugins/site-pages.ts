@@ -8,6 +8,7 @@
  * - `postBuild` copies the blog's RSS feed to `/feed.xml` with its own self link, so the two never disagree.
  * - `withLastmod` gives every sitemap URL a date; the sitemap plugin's `createSitemapItems` calls it.
  */
+import { readFileSync } from 'node:fs';
 import { access, copyFile, readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { setTimeout as delay } from 'node:timers/promises';
@@ -80,7 +81,8 @@ function docPage(doc: DocMetadata): SitePage {
     permalink: doc.permalink,
     title: doc.title,
     description: doc.description,
-    tags: doc.tags.map((tag) => tag.label),
+    // Topics are front matter, not tag routes: the /tags/* pages were retired (rentparty-docs#1, SA-P32).
+    tags: topicsOf(doc.frontMatter),
   };
 }
 
@@ -176,7 +178,7 @@ function collect(allContent: AllContent, blogPermalink: string): SitePagesData {
       permalink: metadata.permalink,
       title: metadata.title,
       description: metadata.description,
-      tags: metadata.tags.map((tag) => tag.label),
+      tags: [],
       date: metadata.date.toISOString().slice(0, 10),
     }))
     .sort((a, b) => b.date.localeCompare(a.date));
@@ -282,12 +284,46 @@ export function rootFeed({
  * @returns the same entries, each with a lastmod
  * @throws naming the URL, when an entry is still undated
  */
+/**
+ * A pathname without its trailing slash (`/` stays `/`): under `trailingSlash: true` sitemap URLs end in `/`, and the
+ * date lookups compare routes in this one form.
+ *
+ * @param pathname - a pathname
+ * @returns the same route, slashless
+ */
+export function routeKey(pathname: string): string {
+  return pathname.length > 1 ? pathname.replace(/\/+$/, '') : pathname;
+}
+
+/** Topic key → label, from `docs/topics.yml` (`key:` then an indented `label: …`). */
+const TOPIC_LABELS: ReadonlyMap<string, string> = (() => {
+  const labels = new Map<string, string>();
+  let key = '';
+  for (const line of readFileSync(path.join(process.cwd(), 'docs', 'topics.yml'), 'utf8').split('\n')) {
+    key = /^([^\s#][^:]*):\s*$/.exec(line)?.[1] ?? key;
+    const label = /^\s+label:\s*"?(.*?)"?\s*$/.exec(line)?.[1];
+    if (label !== undefined && key) labels.set(key, label);
+  }
+  return labels;
+})();
+
+/**
+ * A doc's topic labels from its `topics:` front matter.
+ *
+ * @param frontMatter - the doc's front matter
+ * @returns the labels, falling back to the key
+ */
+function topicsOf(frontMatter: object): string[] {
+  const topics = (frontMatter as {topics?: unknown}).topics;
+  return Array.isArray(topics) ? topics.map((topic) => TOPIC_LABELS.get(String(topic)) ?? String(topic)) : [];
+}
+
 export function withLastmod<Item extends { readonly url: string; readonly lastmod?: string | null }>(
   items: readonly Item[],
   blogPath: string
 ): Item[] {
   const dated = items.flatMap((item) =>
-    item.lastmod ? [{ path: new URL(item.url).pathname, lastmod: item.lastmod }] : []
+    item.lastmod ? [{ path: routeKey(new URL(item.url).pathname), lastmod: item.lastmod }] : []
   );
   const newest = (inside: (pathname: string) => boolean): string | undefined =>
     dated
@@ -297,7 +333,7 @@ export function withLastmod<Item extends { readonly url: string; readonly lastmo
 
   return items.map((item) => {
     if (item.lastmod) return item;
-    const pathname = new URL(item.url).pathname;
+    const pathname = routeKey(new URL(item.url).pathname);
     let lastmod: string | undefined;
     if (pathname === '/sitemap') lastmod = newest(() => true);
     // `/apps` lists the released surfaces; it changes when their proof date does.

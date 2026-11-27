@@ -2,7 +2,7 @@
 title: White-label questions
 sidebar_label: Questions
 description: Answers about white-label Rent Party licenses and the source buyout, from source code and exclusivity to iOS, trademarks and payments.
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 6
 last_update:
   date: 2026-11-13

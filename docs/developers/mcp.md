@@ -3,7 +3,7 @@ title: Connect an AI assistant (MCP)
 sidebar_label: AI assistants (MCP)
 sidebar_position: 4
 description: Connect Claude, ChatGPT, Claude Code or Cursor to your Rent Party records through the MCP server. The address, what the consent page asks, how removing a saved game is confirmed, and how to disconnect.
-tags: [account]
+topics: [account]
 last_update:
   date: 2026-11-19
 ---

@@ -2,7 +2,7 @@
 title: Rent Party names
 description: What Rent Party’s own words mean, from streets, deeds and stations to Town Square, Lucky Break, Neighborhood Mail, bucks, coins and the three kinds of invite.
 sidebar_position: 5
-tags: [rules]
+topics: [rules]
 ---
 
 Every name that’s ours, in one place.

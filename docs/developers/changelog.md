@@ -2,7 +2,7 @@
 title: Developer changelog
 sidebar_position: 7
 description: Every change to the Rent Party API, the MCP server and webhooks, newest first.
-tags: [account]
+topics: [account]
 last_update:
   date: 2026-11-19
 ---

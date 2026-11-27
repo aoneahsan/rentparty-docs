@@ -2,7 +2,7 @@
 title: CPU characters
 description: Rent Party’s six computer rivals, from Sunny to Pip, the level each one is best at, and how to practice against them with no account and no connection.
 sidebar_position: 4
-tags: [rules]
+topics: [rules]
 ---
 
 They’re the computer opponents, each with a name and a personality, and you can play them on Easy, Normal, Hard or Expert. Begin on Easy. Move up whenever you like.

@@ -2,7 +2,7 @@
 title: Verify a license
 sidebar_label: Verify a license
 description: How to check whether a white-label Rent Party is licensed, by its license key or by the domain it runs on, and what each answer means.
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 5
 last_update:
   date: 2026-11-13

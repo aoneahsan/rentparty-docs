@@ -2,7 +2,7 @@
 title: Pausing a game
 description: How pausing works in Rent Party. Local and CPU games pause any time, online games pause when the whole table agrees, and a paused game waits with every seat saved.
 sidebar_position: 3
-tags: [rules, online]
+topics: [rules, online]
 ---
 
 Local and CPU games pause any time, and they’re still there after you close the app. An online game pauses only when everyone at the table agrees. It resumes once everyone’s ready.

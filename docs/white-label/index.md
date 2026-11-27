@@ -3,7 +3,7 @@ title: White-label Rent Party
 sidebar_label: Overview
 description: Run Rent Party under your own name, logo and domain, hosted by the Rent Party team, or buy its source code outright. What a license covers and how it differs from a buyout.
 slug: /white-label
-tags: [white-label]
+topics: [white-label]
 last_update:
   date: 2026-11-13
 ---

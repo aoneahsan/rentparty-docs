@@ -1,4 +1,5 @@
 import type { Config } from '@docusaurus/types';
+import { seoRedirects } from './plugins/seo-redirects.mts';
 import type * as Preset from '@docusaurus/preset-classic';
 import sitePages, { withLastmod } from './plugins/site-pages';
 import { OTHER_PLATFORMS, platformHref } from './src/data/platforms';
@@ -51,7 +52,9 @@ const config: Config = {
   baseUrl: '/',
   organizationName: 'aoneahsan',
   projectName: 'rentparty-docs',
-  trailingSlash: false,
+  // Every page is `<route>/index.html`: GitHub Pages then 301s `/x` to `/x/`. With `false` it served `x.html` and
+  // 404ed every slashed link (rentparty-docs#1, SA-P26).
+  trailingSlash: true,
 
   future: { v4: true },
 
@@ -73,7 +76,12 @@ const config: Config = {
     localeConfigs: { en: { htmlLang: 'en-US' } },
   },
 
-  headTags: clarityTags,
+  headTags: [
+    // Publisher entity on every page (rentparty-docs#1 AEO 7-8): the owner and Zaions, with the profiles in
+    // projects-finalization-record/ecosystem/owner-profile.json, which match aoneahsan.com.
+    { tagName: 'script', attributes: { type: 'application/ld+json' }, innerHTML: JSON.stringify({"@context": "https://schema.org", "@graph": [{"@type": "Person", "@id": "https://aoneahsan.com/#person", "name": "Ahsan Mahmood", "alternateName": ["Ahsan", "aoneahsan", "a1ahsan", "A1 Ahsan", "AOne Ahsan"], "url": "https://aoneahsan.com", "jobTitle": "Founder and developer, Zaions", "worksFor": {"@id": "https://zaions.com/#organization"}, "sameAs": ["https://aoneahsan.com", "https://zaions.com", "https://github.com/aoneahsan", "https://www.linkedin.com/in/aoneahsan", "https://www.npmjs.com/~aoneahsan", "https://www.upwork.com/freelancers/aoneahsan", "https://orcid.org/0009-0006-2311-8687"]}, {"@type": "Organization", "@id": "https://zaions.com/#organization", "name": "Zaions", "alternateName": ["Zaions products", "Zaions projects"], "url": "https://zaions.com", "logo": "https://zaions.com/assets/logos/zaions-mark.png", "founder": {"@id": "https://aoneahsan.com/#person"}, "sameAs": ["https://zaions.com", "https://github.com/aoneahsan"]}, {"@type": "WebSite", "@id": "https://rentparty-docs.aoneahsan.com/#website", "name": "Rent Party Docs", "url": "https://rentparty-docs.aoneahsan.com/", "publisher": {"@id": "https://zaions.com/#organization"}, "author": {"@id": "https://aoneahsan.com/#person"}, "about": {"@type": "SoftwareApplication", "name": "Rent Party", "url": "https://rentparty.aoneahsan.com"}}]}) },
+    ...(clarityTags ?? []),
+  ],
 
   presets: [
     [
@@ -95,6 +103,8 @@ const config: Config = {
             '**/*.test.{js,jsx,ts,tsx}',
             '**/__tests__/**',
             'MANUAL-TASKS.md',
+            // docs/search-consoles/ is the fleet's fixed-path record of search-console work, never a page.
+            'search-consoles/**',
             'story/**',
           ],
         },
@@ -108,7 +118,8 @@ const config: Config = {
           // A post's last update comes from git: shown under the post, and its sitemap lastmod. No name is shown.
           showLastUpdateTime: true,
           showLastUpdateAuthor: false,
-          onInlineAuthors: 'throw',
+          // One author, the Rent Party team, written inline in each post: no authors file, so no author pages (SA-P32).
+          onInlineAuthors: 'ignore',
           onInlineTags: 'throw',
           onUntruncatedBlogPosts: 'throw',
           feedOptions: {
@@ -130,7 +141,8 @@ const config: Config = {
           changefreq: null,
           priority: null,
           filename: 'sitemap.xml',
-          ignorePatterns: ['/tags/**', '/blog/tags/**', '/blog/archive', '/blog/authors/**', '/search'],
+          // Slashed forms too: under `trailingSlash: true` routes end in `/`.
+          ignorePatterns: ['/tags/**', '/blog/tags/**', '/blog/archive', '/blog/archive/', '/blog/authors/**', '/search', '/search/'],
           // A page git cannot date (the blog list, a category index, /sitemap, /feed) takes the newest date it lists.
           createSitemapItems: async ({ defaultCreateSitemapItems, ...params }) =>
             withLastmod(await defaultCreateSitemapItems(params), BLOG_PATH),
@@ -141,7 +153,11 @@ const config: Config = {
   ],
 
   // `/sitemap` and `/feed` for people, and `/feed.xml` beside `/sitemap.xml` for machines.
-  plugins: [sitePages({ blogPath: BLOG_PATH })],
+  plugins: [
+    sitePages({ blogPath: BLOG_PATH }),
+    // Retired tag and author pages lead to real pages; plugins/seo-contract.mts re-checks every one after the build.
+    ['@docusaurus/plugin-client-redirects', { redirects: seoRedirects(__dirname) }],
+  ],
 
   themes: [
     [

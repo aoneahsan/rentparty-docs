@@ -2,7 +2,7 @@
 title: Help and FAQ
 description: Answers about signing in, where games are saved, switching devices, paused games, buying a plan, turn alerts, deleting an account and reporting someone, plus how to reach the Rent Party team.
 sidebar_position: 6
-tags: [help]
+topics: [help]
 ---
 
 Quick answers to the questions players ask most. Still stuck? Ask the help assistant on the game’s [Help page](https://rentparty.aoneahsan.com/help), typed or out loud, or [write to the team](#write-to-the-team).

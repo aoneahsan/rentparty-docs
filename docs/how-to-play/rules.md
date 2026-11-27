@@ -2,7 +2,7 @@
 title: The rules
 description: How a Rent Party game plays, rule by rule. Turns, buying, auctions, rent, Jail, the two card decks, building, trading, mortgages, bankruptcy and winning.
 sidebar_position: 1
-tags: [rules]
+topics: [rules]
 ---
 
 You roll two dice, buy the unowned streets you land on, trade for full color sets, and build houses and hotels so the rent on your streets keeps climbing. The game runs the bank, and play can pause and pick up again over several evenings. The last player who isn’t bankrupt wins.

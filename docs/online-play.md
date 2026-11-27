@@ -2,7 +2,7 @@
 title: Online play
 description: Playing Rent Party online. Live rooms and games over days, game invites and room codes, turn timers and strikes, the 2-minute offline rule, sealed bids, table votes, End by agreement, watching, chat, voice at the table, trading on anyone's turn and rated games.
 sidebar_position: 3
-tags: [online]
+topics: [online]
 ---
 
 Start a room for your friends, or join one with a code. Same table, any distance.

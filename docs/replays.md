@@ -3,7 +3,7 @@ title: Replays
 sidebar_label: Replays
 description: "Every finished Rent Party game has a replay. Where to open one, what it shows, the controls, and how long an online replay is kept."
 sidebar_position: 3.7
-tags: [basics, online]
+topics: [basics, online]
 ---
 
 Your game just ended, and its replay is already waiting: **Watch replay** on the results page, or under **History** in [Games](https://rentparty.aoneahsan.com/games). Open it and the whole game plays back, from the table it started on to the last move. Online, pass-and-play or against CPU characters: all three.

@@ -2,7 +2,7 @@
 title: Community
 description: Rent Party’s community feed. Writing a post, choosing who sees it, likes and comments, reporting a post or comment, blocking someone, and why a post may not go through.
 sidebar_position: 4.5
-tags: [community]
+topics: [community]
 ---
 
 [Community](https://rentparty.aoneahsan.com/community) is for game-night stories, rematch calls and the odd building tip from the people you play with.

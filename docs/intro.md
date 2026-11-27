@@ -4,7 +4,7 @@ title: Getting started with Rent Party
 sidebar_label: Getting started
 sidebar_position: 1
 description: What Rent Party is, the three ways to play, and how to start your first game, with or without an account.
-tags: [basics]
+topics: [basics]
 ---
 
 Rent Party is a property-trading party game for friends and family. Take on friends online or around one phone, or play CPU characters offline, then pause any game and pick it up days later.

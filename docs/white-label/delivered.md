@@ -2,7 +2,7 @@
 title: What you get on each platform
 sidebar_label: Each platform
 description: What a white-label Rent Party includes on the web and on Android and iOS, and what stays the same as Rent Party itself.
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 2
 last_update:
   date: 2026-11-13

@@ -2,7 +2,7 @@
 title: Two-step sign-in
 sidebar_position: 6
 description: Turn on two-step sign-in for your Rent Party account with an authenticator app, keep your recovery codes safe, choose whether to remember a browser for 7 days, and what to do if you lose your phone.
-tags: [account]
+topics: [account]
 last_update:
   date: 2026-11-19
 ---

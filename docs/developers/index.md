@@ -3,7 +3,7 @@ title: Rent Party for developers
 sidebar_label: Overview
 sidebar_position: 1
 description: Three ways to take your Rent Party record somewhere else, from a script with an access token, an AI assistant through MCP, or your own server through webhooks, and what none of them can ever do.
-tags: [account]
+topics: [account]
 last_update:
   date: 2026-11-19
 ---

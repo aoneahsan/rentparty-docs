@@ -3,7 +3,7 @@ title: City boards
 sidebar_label: City boards
 description: "Take your table to a new city. Its streets and cards have local names; the rules stay the same. Coins buy looks, never luck."
 sidebar_position: 3.9
-tags: [coins, online]
+topics: [coins, online]
 ---
 
 Take your table to a new city. Its streets and cards have local names; the rules stay the same. Coins buy looks, never luck.

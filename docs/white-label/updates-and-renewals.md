@@ -2,7 +2,7 @@
 title: Updates and renewals
 sidebar_label: Updates and renewals
 description: The updates included with a white-label license or a buyout, what counts as an update, and how to renew with your license key.
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 4
 last_update:
   date: 2026-11-13

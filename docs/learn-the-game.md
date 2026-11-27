@@ -3,7 +3,7 @@ title: Learn the game
 sidebar_label: Learn the game
 description: "Rent Party’s Learn the game: the real game screen on a demo table, a coach through every control in 16 steps, then a practice game against a CPU character."
 sidebar_position: 1.6
-tags: [help]
+topics: [help]
 ---
 
 Learn the game is the real Rent Party game screen on a demo table, with a coach that walks you through every control in 16 steps and then takes you to set up a practice game. Open it at [rentparty.aoneahsan.com/learn](https://rentparty.aoneahsan.com/learn). Nothing on the demo table is saved.

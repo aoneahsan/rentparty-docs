@@ -3,7 +3,7 @@ title: Time for a new version
 sidebar_label: New versions
 description: "Update now, or Rent Party asks you to the next time you open it. Your games are saved. You’ll pick up right where you left off."
 sidebar_position: 5.8
-tags: [basics]
+topics: [basics]
 ---
 
 Update now, or Rent Party asks you to the next time you open it.

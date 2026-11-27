@@ -2,7 +2,7 @@
 title: Setting up your Rent Party
 sidebar_label: Setup
 description: What happens between paying for a white-label license and your Rent Party going live, step by step.
-tags: [white-label]
+topics: [white-label]
 sidebar_position: 3
 last_update:
   date: 2026-11-13

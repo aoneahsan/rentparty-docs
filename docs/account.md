@@ -2,7 +2,7 @@
 title: Your account
 description: Signing in to Rent Party with Google, setting up your name and token, your profile and the leaderboard, your inbox and notifications, downloading your data, blocking and reporting, and deleting your account.
 sidebar_position: 4
-tags: [account]
+topics: [account]
 ---
 
 Your seat follows you. Sign in with Google to play online, keep cloud saves and earn coins.
