@@ -1,6 +1,6 @@
 ---
 title: CPU characters
-description: Rent Party’s six computer rivals, from Sunny to Pip, the level each one is best at, and how to practice against them with no account and no connection.
+description: Rent Party’s six computer rivals, from Sunny to Pip, the level each one is best at, and how to practice against them without an account.
 sidebar_position: 4
 topics: [rules]
 ---
@@ -24,7 +24,7 @@ Every rival talks back, and one of them holds grudges. You can hear them out lou
 
 Choose CPU characters when you [start a game](../intro.md#start-a-game), then add them at the Players step. Up to 5 CPU characters can join one game, each with a difficulty you pick, and each character plays their own token.
 
-CPU games need no account and no connection, and the game saves on your device after every move. Play signed in and they earn coins too.
+CPU games need no account, but a connection is needed to open one. The game saves on your device after every move. Play signed in and they earn coins too.
 
 A CPU game pauses any time, so a practice round can wait while you check a rule on [the rules page](./rules.md).
 

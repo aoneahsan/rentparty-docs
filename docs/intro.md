@@ -7,7 +7,7 @@ description: What Rent Party is, the three ways to play, and how to start your f
 topics: [basics]
 ---
 
-Rent Party is a property-trading party game for friends and family. Take on friends online or around one phone, or play CPU characters offline, then pause any game and pick it up days later.
+Rent Party is a property-trading party game for friends and family. Take on friends online or around one phone, or play CPU characters without an account, then pause any game and pick it up days later.
 
 **Get Rent Party:** [play in your browser](https://rentparty.aoneahsan.com/play) on any phone, tablet or computer · [all apps](/apps)
 
@@ -16,8 +16,8 @@ You roll two dice, buy the unowned streets you land on, trade for full color set
 ## Three ways to pull up a chair {#ways-to-play}
 
 - **Online.** Live tonight, or one turn at a time over days. Online play needs an account: sign in with Google to start or join a room. [Online play](./online-play.md) covers rooms, invites and timers.
-- **Pass-and-play.** 2 to 8 people, one phone or tablet, one crowded couch. Each time the phone changes hands, a hand-off screen keeps your trades and auction bids private. No account, no internet, no peeking.
-- **CPU characters.** Rivals with names, personalities and opinions, on Easy, Normal, Hard or Expert. No account, no signal, and every move saves on your device. [Meet the rivals](./how-to-play/cpu-characters.md).
+- **Pass-and-play.** 2 to 8 people, one phone or tablet, one crowded couch. Each time the phone changes hands, a hand-off screen keeps your trades and auction bids private. No account, no peeking.
+- **CPU characters.** Rivals with names, personalities and opinions, on Easy, Normal, Hard or Expert. No account needed, and every move saves on your device. [Meet the rivals](./how-to-play/cpu-characters.md).
 
 ## How do you start a game? {#start-a-game}
 
@@ -35,11 +35,11 @@ No. Pass-and-play and CPU games work without one, and they’re saved on this de
 
 ## Where does Rent Party run? {#devices}
 
-Rent Party runs in a current browser on phones, tablets and computers, iPhone and iPad included, with the same game, the same account and the same table everywhere. It isn’t in an app store yet.
+Rent Party runs in a current browser on phones, tablets and computers, iPhone and iPad included, with the same game, the same account and the same table everywhere. On Android, it is also on [Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.rentparty).
 
 Once you’re signed in, your games follow you from screen to screen. In your phone’s browser it’s laid out like an app. On a computer you get the full board, with room for your deeds.
 
-When the Start a game page offers **Install Rent Party**, choosing Install adds it to your home screen, so you can start pass-and-play or CPU games offline in one tap. On iPhone or iPad, tap Share, then Add to Home Screen.
+When the Start a game page offers **Install Rent Party**, choosing Install adds it to your home screen. Starting a game still needs a connection. On iPhone or iPad, tap Share, then Add to Home Screen.
 
 ## Where next? {#next}
 

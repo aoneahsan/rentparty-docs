@@ -272,6 +272,8 @@ const config: Config = {
           // Three pages, then four files. Files written after the pages are built (feeds, sitemap, llms.txt) are
           // invisible to the link checker, so they use `pathname://`, which links to the file as it is without routing.
           items: [
+            { label: 'More from Zaions', to: '/ecosystem' },
+            { label: 'About the developer', to: '/about-developer' },
             { label: 'What’s new', to: BLOG_PATH },
             { label: 'Feed', to: '/feed' },
             { label: 'Sitemap', to: '/sitemap' },
@@ -282,7 +284,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: 'Made by the Rent Party team.',
+      copyright: 'developed with love by the Zaions team',
     },
   } satisfies Preset.ThemeConfig,
 };
