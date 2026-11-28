@@ -1,0 +1,8 @@
+{
+  "label": "Desarrolladores",
+  "position": 6.8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "developers/index" },
+  "description": "Consulta tus partidas y resultados de Rent Party desde tu código o un asistente de IA, recibe un webhook al terminar una partida y activa la verificación en dos pasos."
+}

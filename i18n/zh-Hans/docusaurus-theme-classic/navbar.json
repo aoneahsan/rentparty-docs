@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "Rent Party文档",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Rent Party",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.How to play": {
+    "message": "玩法说明",
+    "description": "Navbar item with label How to play"
+  },
+  "item.label.Online play": {
+    "message": "在线游戏",
+    "description": "Navbar item with label Online play"
+  },
+  "item.label.Plans": {
+    "message": "套餐",
+    "description": "Navbar item with label Plans"
+  },
+  "item.label.Help": {
+    "message": "帮助",
+    "description": "Navbar item with label Help"
+  },
+  "item.label.Get Rent Party": {
+    "message": "获取Rent Party",
+    "description": "Navbar item with label Get Rent Party"
+  },
+  "item.label.Start a game": {
+    "message": "开始游戏",
+    "description": "Navbar item with label Start a game"
+  },
+  "item.label.Rent Party web app": {
+    "message": "Rent Party网页版",
+    "description": "Navbar item with label Rent Party web app"
+  },
+  "item.label.Google Play": {
+    "message": "Google Play",
+    "description": "Navbar item with label Google Play"
+  },
+  "item.label.All apps": {
+    "message": "所有平台",
+    "description": "Navbar item with label All apps"
+  }
+}

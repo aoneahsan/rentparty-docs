@@ -50,6 +50,8 @@ When a friend opens a room for friends, it’s listed for you on Play online.
 
 **Reporting**: you can report someone’s profile, a chat message or a room. Choose Report on it, pick a reason and add details if you like. Reports are private both ways. They never learn who reported them, and you won’t see the outcome.
 
+[Community posts](./community.md) have the same block and report controls when the conversation continues off the board.
+
 ## How do you message a friend? {#message-a-friend}
 
 Open Friends, press Message on a friend’s row and say hi. Only friends can message each other, messages stay between the two of you, and a block from either side closes the conversation.
@@ -59,6 +61,8 @@ Open Friends, press Message on a friend’s row and say hi. Only friends can mes
 Yes. In Settings, under Your data, **Download my data** gives you one file with everything tied to your account: profile, settings, stats, coins, collection, badges, plan history, payments, friends, blocks, game history and messages to the team.
 
 Rent Party counts anonymous use of the game to make it better. The details are in the [Privacy Policy](https://rentparty.aoneahsan.com/privacy).
+
+[Privacy and terms in these docs](./privacy-and-terms.md) collects the account and game-data answers in one place.
 
 ## How do you delete your account? {#delete-account}
 

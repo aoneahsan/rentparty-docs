@@ -1,0 +1,8 @@
+{
+  "label": "Ваш бренд и лицензия",
+  "position": 6.5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "white-label/index" },
+  "description": "Запустите Rent Party под своим брендом по лицензии или полностью выкупите исходный код."
+}

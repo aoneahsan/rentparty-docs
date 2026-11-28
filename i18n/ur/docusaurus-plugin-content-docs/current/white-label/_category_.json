@@ -1,0 +1,8 @@
+{
+  "label": "White-label & licensing",
+  "position": 6.5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "white-label/index" },
+  "description": "Run Rent Party under your own brand with a white-label license, or buy its source code outright."
+}

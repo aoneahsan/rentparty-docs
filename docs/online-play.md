@@ -9,6 +9,8 @@ Start a room for your friends, or join one with a code. Same table, any distance
 
 Online play needs an account. Sign in with Google to start or join a room.
 
+After the last turn, [replays](./replays.md) let the people at the table watch its public moves again. For a real board played away from the screen, [table records](./table-records.md) keep the deeds and bucks between nights.
+
 :::note[Numbers on this page]
 
 They match the game’s current settings. The game’s own [How to play](https://rentparty.aoneahsan.com/how-to-play) page always shows the latest.

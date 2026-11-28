@@ -5,12 +5,14 @@ description: Run Rent Party under your own name, logo and domain, hosted by the 
 slug: /white-label
 topics: [white-label]
 last_update:
-  date: 2026-11-13
+  date: 2026-11-28
 ---
 
 A white-label license puts your name on Rent Party. We host it, deploy it, connect your domain and apply your name, logo and colors, and you offer it to your own players. They get the whole game: live tables, games over days, pass-and-play and CPU characters.
 
 The current prices, and the total for the platforms you pick, are on the [white-label prices page](https://rentparty.aoneahsan.com/white-label/pricing). This section explains what you get; that page is the one to quote from.
+
+Before buying, read the [license questions](./faq.md) and the [setup steps](./setup.md), so the domain and brand files are ready when the license is issued.
 
 ## What's the difference between a license and a buyout? {#license-or-buyout}
 
@@ -33,3 +35,5 @@ Yes. A house rule of your own, a board for your city or a feature nobody else ha
 ## Where are the full terms? {#terms}
 
 The [license in plain words](https://rentparty.aoneahsan.com/white-label/license-terms) is the short version, and the [Terms of Service](https://rentparty.aoneahsan.com/terms#what-do-white-label-licenses-and-buyouts-cover) are the full agreement.
+
+[Updates and renewals](./updates-and-renewals.md) explains what happens after the included update period.

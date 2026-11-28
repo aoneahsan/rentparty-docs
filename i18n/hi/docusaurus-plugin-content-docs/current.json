@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "अगला",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.How to play": {
+    "message": "कैसे खेलें",
+    "description": "The label for category 'How to play' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.How to play.link.generated-index.title": {
+    "message": "Rent Party कैसे खेलें",
+    "description": "The generated-index page title for category 'How to play' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.How to play.link.generated-index.description": {
+    "message": "संपत्ति के सौदों के नियम, जो खेल खुद लागू करता है: नीलामी, किराया, निर्माण, गिरवी, जेल, दिवालिया होना, घर के नियम, CPU पात्र और कई दिनों बाद खेल पूरा करने के लिए उसे रोकना।",
+    "description": "The generated-index page description for category 'How to play' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Moving to Rent Party": {
+    "message": "Rent Party पर आना",
+    "description": "The label for category 'Moving to Rent Party' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.White-label & licensing": {
+    "message": "व्हाइट लेबल और लाइसेंस",
+    "description": "The label for category 'White-label & licensing' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Developers": {
+    "message": "डेवलपर",
+    "description": "The label for category 'Developers' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.More from Zaions": {
+    "message": "Zaions के और उत्पाद",
+    "description": "The label for category 'More from Zaions' in sidebar 'docs'"
+  }
+}

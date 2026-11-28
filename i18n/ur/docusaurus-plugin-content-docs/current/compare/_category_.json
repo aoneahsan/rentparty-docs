@@ -1,0 +1,7 @@
+{
+  "label": "Moving to Rent Party",
+  "position": 5.9,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "compare/index" }
+}

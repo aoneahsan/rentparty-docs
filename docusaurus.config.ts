@@ -1,7 +1,8 @@
 import type { Config } from '@docusaurus/types';
 import { seoRedirects } from './plugins/seo-redirects.mts';
 import type * as Preset from '@docusaurus/preset-classic';
-import sitePages, { withLastmod } from './plugins/site-pages';
+import sitePages, { withLastmod, withLocaleAlternates } from './plugins/site-pages';
+import localeProof from './plugins/locale-proof';
 import { OTHER_PLATFORMS, platformHref } from './src/data/platforms';
 
 /** The docs site's own address. `static/CNAME` holds the same host for GitHub Pages. */
@@ -72,8 +73,19 @@ const config: Config = {
 
   i18n: {
     defaultLocale: 'en',
-    locales: ['en'],
-    localeConfigs: { en: { htmlLang: 'en-US' } },
+    locales: ['en', 'zh-Hans', 'hi', 'es', 'ar', 'fr', 'pt-BR', 'ru', 'ja', 'ur'],
+    localeConfigs: {
+      en: { label: 'English', htmlLang: 'en' },
+      'zh-Hans': { label: '简体中文', htmlLang: 'zh-Hans' },
+      hi: { label: 'हिन्दी', htmlLang: 'hi' },
+      es: { label: 'Español', htmlLang: 'es' },
+      ar: { label: 'العربية', htmlLang: 'ar', direction: 'rtl' },
+      fr: { label: 'Français', htmlLang: 'fr' },
+      'pt-BR': { label: 'Português (Brasil)', htmlLang: 'pt-BR' },
+      ru: { label: 'Русский', htmlLang: 'ru' },
+      ja: { label: '日本語', htmlLang: 'ja' },
+      ur: { label: 'اردو', htmlLang: 'ur', direction: 'rtl' },
+    },
   },
 
   headTags: [
@@ -145,7 +157,7 @@ const config: Config = {
           ignorePatterns: ['/tags/**', '/blog/tags/**', '/blog/archive', '/blog/archive/', '/blog/authors/**', '/search', '/search/'],
           // A page git cannot date (the blog list, a category index, /sitemap, /feed) takes the newest date it lists.
           createSitemapItems: async ({ defaultCreateSitemapItems, ...params }) =>
-            withLastmod(await defaultCreateSitemapItems(params), BLOG_PATH),
+            withLocaleAlternates(withLastmod(await defaultCreateSitemapItems(params), BLOG_PATH)),
         },
         ...(GA_MEASUREMENT_ID ? { gtag: { trackingID: GA_MEASUREMENT_ID, anonymizeIP: true } } : {}),
       } satisfies Preset.Options,
@@ -154,6 +166,7 @@ const config: Config = {
 
   // `/sitemap` and `/feed` for people, and `/feed.xml` beside `/sitemap.xml` for machines.
   plugins: [
+    localeProof,
     sitePages({ blogPath: BLOG_PATH }),
     // Retired tag and author pages lead to real pages; plugins/seo-contract.mts re-checks every one after the build.
     ['@docusaurus/plugin-client-redirects', { redirects: seoRedirects(__dirname) }],
@@ -214,6 +227,7 @@ const config: Config = {
           ],
         },
         { href: `${APP_URL}/play`, label: 'Start a game', position: 'right', className: 'navbar-cta' },
+        { type: 'localeDropdown', position: 'right' },
       ],
     },
     docs: {

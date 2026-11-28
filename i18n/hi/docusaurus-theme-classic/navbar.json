@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "Rent Party की गाइड",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Rent Party",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.How to play": {
+    "message": "कैसे खेलें",
+    "description": "Navbar item with label How to play"
+  },
+  "item.label.Online play": {
+    "message": "ऑनलाइन खेल",
+    "description": "Navbar item with label Online play"
+  },
+  "item.label.Plans": {
+    "message": "प्लान",
+    "description": "Navbar item with label Plans"
+  },
+  "item.label.Help": {
+    "message": "मदद",
+    "description": "Navbar item with label Help"
+  },
+  "item.label.Get Rent Party": {
+    "message": "Rent Party पाएँ",
+    "description": "Navbar item with label Get Rent Party"
+  },
+  "item.label.Start a game": {
+    "message": "खेल शुरू करें",
+    "description": "Navbar item with label Start a game"
+  },
+  "item.label.Rent Party web app": {
+    "message": "Rent Party वेब ऐप",
+    "description": "Navbar item with label Rent Party web app"
+  },
+  "item.label.Google Play": {
+    "message": "Google Play",
+    "description": "Navbar item with label Google Play"
+  },
+  "item.label.All apps": {
+    "message": "सभी ऐप",
+    "description": "Navbar item with label All apps"
+  }
+}

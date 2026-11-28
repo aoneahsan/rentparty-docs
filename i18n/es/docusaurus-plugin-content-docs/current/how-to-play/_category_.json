@@ -1,0 +1,13 @@
+{
+  "label": "Cómo jugar",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "slug": "/how-to-play",
+    "title": "Cómo jugar a Rent Party",
+    "description": "Las reglas del juego de compraventa de propiedades aplicadas por ti: subastas, alquileres, construcciones, hipotecas, cárcel, bancarrota, reglas de la casa, personajes CPU y pausas para terminar una partida otro día.",
+    "keywords": ["reglas", "cómo jugar", "reglas de la casa", "pausar"]
+  }
+}

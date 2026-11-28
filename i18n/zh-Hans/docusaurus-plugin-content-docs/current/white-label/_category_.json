@@ -1,0 +1,11 @@
+{
+  "label": "白标与授权",
+  "position": 6.5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "white-label/index"
+  },
+  "description": "使用白标许可，让Rent Party以你的品牌运营；也可以直接购买源代码。"
+}

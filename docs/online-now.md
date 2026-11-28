@@ -63,3 +63,5 @@ A coin table can open at a set reputation level, and you need enough coins for i
 ## What if nobody’s online? {#empty}
 
 Start a room and share the link. Friends get a nudge when you open one. [Online play](./online-play.md#start-a-room) covers rooms and invites.
+
+For a conversation between games, [Community posts](./community.md) give your group another place to talk about the last table.

@@ -1,0 +1,11 @@
+{
+  "label": "開発者向け",
+  "position": 6.8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "developers/index"
+  },
+  "description": "自分のRent Partyの記録や結果をコードやAIアシスタントから読み、ゲーム終了時にWebhookを受け取り、2段階認証を有効にする方法。"
+}

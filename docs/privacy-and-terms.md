@@ -42,7 +42,7 @@ These terms are the rules for using Rent Party, on the website at rentparty.aone
 
 ## Permissions {#permissions}
 
-Rent Party asks for two permissions: notifications and the microphone. Each comes only after you tap. Notifications come up when you turn alerts on. The microphone comes up when you press the mic and then Start to record, and Rent Party uses it only while you record. Say no to either and the game plays the same. Without the microphone, you type.
+Rent Party asks for notifications, the microphone and the camera only after you choose the feature that needs them. Turn alerts on to be asked about notifications. Press Start to record or Mic at the table to be asked about the microphone. Tap Scan code to join a room to be asked about the camera; you can type the room code instead. Closing the scanner stops the camera.
 
 The permissions page lists every permission the Android app and the website use, what each is for, when you’re asked and what happens if you refuse. [See the permissions](https://rentparty.aoneahsan.com/permissions).
 

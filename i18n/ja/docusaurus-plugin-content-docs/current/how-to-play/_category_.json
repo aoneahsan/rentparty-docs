@@ -1,0 +1,18 @@
+{
+  "label": "遊び方",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "slug": "/how-to-play",
+    "title": "Rent Partyの遊び方",
+    "description": "不動産を交換しながら遊ぶルールをゲームが処理します。競売、家賃、建築、抵当、Jail、破産、ハウスルール、CPUキャラクター、数日かけて遊ぶための一時停止を紹介します。",
+    "keywords": [
+      "ルール",
+      "遊び方",
+      "ハウスルール",
+      "一時停止"
+    ]
+  }
+}

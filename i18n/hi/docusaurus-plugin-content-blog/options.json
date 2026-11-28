@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Rent Party गाइड में नया क्या है",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "Rent Party गाइड में बदलाव, सबसे नए पहले।",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "हाल की पोस्ट",
+    "description": "The label for the left sidebar"
+  }
+}

@@ -35,6 +35,8 @@ Press **Learn the game** in the site header, in the footer’s Play group or in 
 
 It covers the game screen only. Every other page has a [tour of its own](./tours-and-walkthrough.md#page-tour), from the button in the header.
 
+If a space or card has a name you don't recognize, the [Rent Party names guide](./how-to-play/names.md) keeps the board's wording beside the rules.
+
 The first time you open a game, a short note offers it: *Your first roll can wait. Learn the game screen first.* Choose **Show me** to start. The note appears once in each browser and once for your account, so a second device won’t show it again.
 
 ## Can I skip steps or leave? {#controls}

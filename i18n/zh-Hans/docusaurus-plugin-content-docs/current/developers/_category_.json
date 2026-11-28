@@ -1,0 +1,11 @@
+{
+  "label": "开发者",
+  "position": 6.8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "developers/index"
+  },
+  "description": "从代码或AI助手读取你自己的Rent Party记录和结果，在游戏结束时接收Webhook，并开启两步验证。"
+}

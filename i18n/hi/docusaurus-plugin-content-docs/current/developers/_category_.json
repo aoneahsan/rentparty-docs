@@ -1,0 +1,11 @@
+{
+  "label": "डेवलपर",
+  "position": 6.8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "developers/index"
+  },
+  "description": "अपने कोड या AI सहायक से Rent Party के अपने रिकॉर्ड और नतीजे पढ़ें, खेल खत्म होने पर वेबहुक पाएँ और दो चरणों वाला साइन इन चालू करें।"
+}

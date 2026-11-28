@@ -1,0 +1,8 @@
+{
+  "label": "Разработчикам",
+  "position": 6.8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "developers/index" },
+  "description": "Читайте свои записи и результаты Rent Party из кода или помощника на основе ИИ, получайте вебхук после завершения игры и включайте двухэтапный вход."
+}

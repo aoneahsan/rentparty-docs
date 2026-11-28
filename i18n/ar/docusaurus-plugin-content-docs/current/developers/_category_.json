@@ -1,0 +1,11 @@
+{
+  "label": "للمطورين",
+  "position": 6.8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "developers/index"
+  },
+  "description": "اقرأ سجلاتك ونتائجك في Rent Party من تطبيقك أو مساعد ذكاء اصطناعي، واستقبل خطاف ويب عند انتهاء اللعبة، وفعّل تسجيل الدخول بخطوتين."
+}

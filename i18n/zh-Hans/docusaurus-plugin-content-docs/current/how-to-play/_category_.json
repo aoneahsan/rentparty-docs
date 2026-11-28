@@ -1,0 +1,16 @@
+{
+  "label": "玩法说明",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "title": "Rent Party玩法说明",
+    "description": "经典的地产交易规则，由游戏替你执行。这里介绍拍卖、租金、建房、抵押、监狱、破产、自定规则、电脑角色，以及暂停后跨天继续。",
+    "keywords": [
+      "规则",
+      "玩法说明",
+      "自定规则",
+      "暂停游戏"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "label": "Développeurs",
+  "position": 6.8,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "developers/index"
+  },
+  "description": "Consultez vos données et résultats Rent Party depuis votre code ou un assistant IA, recevez un webhook à la fin d’une partie et activez la connexion en deux étapes."
+}

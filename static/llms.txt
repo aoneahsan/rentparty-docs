@@ -122,3 +122,7 @@ The docs repeat the words of the game's own pages. Numbers the team can change, 
 - [Terms](https://rentparty.aoneahsan.com/terms): the rules for using Rent Party, buying a plan included
 - [Permissions](https://rentparty.aoneahsan.com/permissions): every permission the Android app and the website use
 - [Delete account](https://rentparty.aoneahsan.com/delete-account): how to delete an account, and what goes and what stays
+
+## llms-full.txt
+
+- [llms-full.txt](https://rentparty-docs.aoneahsan.com/llms-full.txt)

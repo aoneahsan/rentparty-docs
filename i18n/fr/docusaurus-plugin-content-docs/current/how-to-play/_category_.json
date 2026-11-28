@@ -1,0 +1,18 @@
+{
+  "label": "Comment jouer",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "slug": "/how-to-play",
+    "title": "Comment jouer à Rent Party",
+    "description": "Les règles classiques des transactions immobilières appliquées pour vous : enchères, loyers, constructions, hypothèques, prison, faillite, règles maison, adversaires contrôlés par l’ordinateur et pauses.",
+    "keywords": [
+      "règles",
+      "comment jouer",
+      "règles maison",
+      "pause"
+    ]
+  }
+}

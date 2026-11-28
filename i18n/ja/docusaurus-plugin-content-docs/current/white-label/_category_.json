@@ -1,0 +1,11 @@
+{
+  "label": "ホワイトラベルとライセンス",
+  "position": 6.5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "white-label/index"
+  },
+  "description": "ホワイトラベルライセンスでRent Partyを自分のブランドとして運用するか、ソースコードを買収する方法。"
+}

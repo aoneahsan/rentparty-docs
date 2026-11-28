@@ -43,6 +43,10 @@ A game that’s still being played isn’t in the API, and nothing in it can cha
 
 Both come from the same source as the API, so neither can list a route that doesn’t exist or miss one that does.
 
+Read the [developer changelog](./changelog.md) for the date the current API, MCP and webhook surfaces were added; the OpenAPI file remains the route-by-route reference.
+
+If your code needs an event when a game finishes instead of another API read, [webhooks](./webhooks.md) cover signed deliveries and retries.
+
 Four parts of the file answer most questions:
 
 - **`paths`**: every route, its method, and the scope it needs.

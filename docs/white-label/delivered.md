@@ -5,10 +5,12 @@ description: What a white-label Rent Party includes on the web and on Android an
 topics: [white-label]
 sidebar_position: 2
 last_update:
-  date: 2026-11-13
+  date: 2026-11-28
 ---
 
 Each platform you license runs the same game as Rent Party, under your name. The rules, the board engine and the game modes are the ones on rentparty.aoneahsan.com today.
+
+Start with the [white-label overview](./index.md) to choose a license or a buyout. The [setup guide](./setup.md) covers the domain, logo and colors after purchase.
 
 ## What comes with the web app? {#web}
 
@@ -25,3 +27,5 @@ Your name, logo and colors appear where Rent Party's are now, and your domain re
 ## Is anything left out? {#left-out}
 
 A license doesn't include the source code; only a [buyout](https://rentparty.aoneahsan.com/white-label/buyout) does. Paid services you choose to add, and your domain, are yours to pay for.
+
+[Updates and renewals](./updates-and-renewals.md) explains the six months included with either purchase and what follows them.

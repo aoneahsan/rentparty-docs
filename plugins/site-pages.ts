@@ -16,6 +16,7 @@ import type { BlogContent } from '@docusaurus/plugin-content-blog';
 import type { LoadedContent as DocsContent } from '@docusaurus/plugin-content-docs';
 import type { AllContent, LoadContext, Plugin, PluginModule } from '@docusaurus/types';
 import { APPS_LASTMOD } from '../src/data/platforms';
+import { writeLlmsFull } from './llms-full';
 
 /** One page as its `/sitemap` card shows it: its own title, description and tag labels. */
 export interface SitePage {
@@ -69,6 +70,51 @@ const ATOM_NAMESPACE = 'http://www.w3.org/2005/Atom';
 /** How long `postBuild` waits for the blog plugin's RSS file, and how often it looks. */
 const RSS_WAIT_MS = 30_000;
 const RSS_POLL_MS = 25;
+
+const SITE_LOCALES = ['en', 'zh-Hans', 'hi', 'es', 'ar', 'fr', 'pt-BR', 'ru', 'ja', 'ur'] as const;
+const LOCALE_RELEASE_DAY = '2026-11-28';
+const LOCALE_FLAG = process.argv.indexOf('--locale');
+const singleLocale = LOCALE_FLAG < 0 ? process.argv.find((arg) => arg.startsWith('--locale='))?.slice(9)
+  : process.argv[LOCALE_FLAG + 1];
+
+/**
+ * Full builds prefix translated URLs. Docusaurus omits that prefix for a single `--locale` build, so its
+ * immutable CLI argument supplies the locale in that case. Parallel builds never share a mutable locale value.
+ */
+function localeOf(address: string): string {
+  const first = new URL(address).pathname.split('/')[1];
+  return SITE_LOCALES.find((locale) => locale !== 'en' && locale === first) ??
+    SITE_LOCALES.find((locale) => locale === singleLocale) ?? 'en';
+}
+
+/** The same docs route in every language, from the active build's URL. */
+function localeUrl(address: string, locale: string): string {
+  const url = new URL(address);
+  const current = localeOf(address);
+  const currentPrefix = current === 'en' ? '' : `/${current}`;
+  const route = currentPrefix && url.pathname.startsWith(`${currentPrefix}/`)
+    ? url.pathname.slice(currentPrefix.length)
+    : url.pathname;
+  url.pathname = locale === 'en' ? route : `/${locale}${route}`;
+  return url.href;
+}
+
+/** Native Docusaurus sitemap items enriched with reciprocal language links. */
+export function withLocaleAlternates<Item extends { readonly url: string; readonly lastmod?: string | null }>(
+  items: readonly Item[],
+): (Item & { readonly links: readonly { readonly lang: string; readonly url: string }[] })[] {
+  return items.flatMap((item) => {
+    const links = SITE_LOCALES.map((locale) => ({ lang: locale, url: localeUrl(item.url, locale) }));
+    const variants = [...links, { lang: 'x-default', url: localeUrl(item.url, 'en') }];
+    if (localeOf(item.url) !== 'en') return [{ ...item, links: variants }];
+    return SITE_LOCALES.map((locale) => ({
+      ...item,
+      url: localeUrl(item.url, locale),
+      lastmod: locale === 'en' ? item.lastmod : LOCALE_RELEASE_DAY,
+      links: variants,
+    }));
+  });
+}
 
 /**
  * A doc as its card shows it.
@@ -322,6 +368,9 @@ export function withLastmod<Item extends { readonly url: string; readonly lastmo
   items: readonly Item[],
   blogPath: string
 ): Item[] {
+  const paths = items.map((item) => routeKey(new URL(item.url).pathname));
+  const localizedBlog = paths.find((pathname) => pathname.endsWith(blogPath)) ?? blogPath;
+  const prefix = localizedBlog.slice(0, -blogPath.length);
   const dated = items.flatMap((item) =>
     item.lastmod ? [{ path: routeKey(new URL(item.url).pathname), lastmod: item.lastmod }] : []
   );
@@ -329,17 +378,26 @@ export function withLastmod<Item extends { readonly url: string; readonly lastmo
     dated
       .filter((entry) => inside(entry.path))
       .reduce<string | undefined>((max, entry) => (max === undefined || entry.lastmod > max ? entry.lastmod : max), undefined);
-  const isPost = (pathname: string): boolean => pathname.startsWith(`${blogPath}/`);
+  const isPost = (pathname: string): boolean => pathname.startsWith(`${localizedBlog}/`);
 
   return items.map((item) => {
-    if (item.lastmod) return item;
+    if (item.lastmod) {
+      return localeOf(item.url) === 'en' || item.lastmod >= LOCALE_RELEASE_DAY
+        ? item
+        : { ...item, lastmod: LOCALE_RELEASE_DAY };
+    }
     const pathname = routeKey(new URL(item.url).pathname);
     let lastmod: string | undefined;
-    if (pathname === '/sitemap') lastmod = newest(() => true);
+    if (pathname === `${prefix}/sitemap`) lastmod = newest(() => true);
     // `/apps` lists the released surfaces; it changes when their proof date does.
-    else if (pathname === '/apps') lastmod = APPS_LASTMOD;
-    else if (pathname === '/feed' || pathname === blogPath || isPost(pathname)) lastmod = newest(isPost);
+    else if (pathname === `${prefix}/apps`) lastmod = APPS_LASTMOD;
+    else if (pathname === `${prefix}/feed` || pathname === localizedBlog || isPost(pathname)) lastmod = newest(isPost);
     else lastmod = newest((other) => other.startsWith(`${pathname}/`));
+    // Newly added translated files have no git date until their first commit. The first release day is recorded
+    // here, and later edits take their own git last-change date like the English source.
+    if (localeOf(item.url) !== 'en' && (lastmod === undefined || lastmod < LOCALE_RELEASE_DAY)) {
+      lastmod = LOCALE_RELEASE_DAY;
+    }
     if (lastmod === undefined) {
       throw new Error(`site-pages: ${item.url} has no lastmod, and no page it lists has one.`);
     }
@@ -357,11 +415,13 @@ export default function sitePages({ blogPath }: SitePagesOptions): PluginModule 
   return function sitePagesPlugin(context: LoadContext): Plugin {
     const base = context.baseUrl.replace(/\/$/, '');
     let hasPosts = false;
+    let siteData: SitePagesData | null = null;
     return {
       name: 'site-pages',
 
       async allContentLoaded({ allContent, actions }) {
         const data = collect(allContent, `${base}${blogPath}`);
+        siteData = data;
         hasPosts = data.posts.length > 0;
         const dataFile = await actions.createData('site-pages.json', JSON.stringify(data));
         // The route registry ships each module path in the client bundle; an absolute path would publish this
@@ -382,9 +442,54 @@ export default function sitePages({ blogPath }: SitePagesOptions): PluginModule 
       },
 
       async postBuild({ outDir, siteConfig }) {
+        if (siteData === null) throw new Error('site-pages: no loaded docs data for public text files.');
+        await writeLlmsFull(outDir, base, siteConfig.url, siteData);
+        const pages = siteData.groups.flatMap((group) => group.pages);
+        const pricing = pages.find((page) => routeKey(page.permalink).endsWith('/plans-and-pricing'));
+        if (pricing === undefined) throw new Error('site-pages: the pricing guide is missing.');
+        await writeFile(path.join(outDir, 'pricing.md'), [
+          `# ${pricing.title}`,
+          '',
+          `> ${pricing.description}`,
+          '',
+          `- [${pricing.title}](${new URL(pricing.permalink, siteConfig.url).href})`,
+          `- [Rent Party](https://rentparty.aoneahsan.com${base}/pricing.md)`,
+          '',
+        ].join('\n'), 'utf8');
+        if (context.i18n.currentLocale !== 'en') {
+          const intro = pages.find((page) => routeKey(page.permalink) === (base || '/'));
+          const grouped = siteData.groups.map((group) => [
+            `## ${group.kind === 'category' ? group.label : 'Rent Party'}`,
+            '',
+            ...group.pages.map((page) => `- [${page.title}](${new URL(page.permalink, siteConfig.url).href}): ${page.description}`),
+          ].join('\n')).join('\n\n');
+          const posts = siteData.posts.map((post) => `- [${post.title}](${new URL(post.permalink, siteConfig.url).href}): ${post.description}`).join('\n');
+          await writeFile(path.join(outDir, 'llms.txt'), [
+            '# Rent Party',
+            '',
+            ...(intro === undefined ? [] : [`> ${intro.description}`, '']),
+            grouped,
+            '',
+            `## ${siteData.blog.title}`,
+            '',
+            posts,
+            '',
+            '## llms-full.txt',
+            '',
+            `- [llms-full.txt](${siteConfig.url}${base}/llms-full.txt)`,
+            '',
+          ].join('\n'), 'utf8');
+        }
         // With no post the blog writes no feed, so there is nothing to copy.
         if (!hasPosts) return;
-        const rss = await readWrittenRss(path.join(outDir, blogPath, 'rss.xml'));
+        const rssPath = path.join(outDir, blogPath, 'rss.xml');
+        const originalRss = await readWrittenRss(rssPath);
+        const language = context.i18n.currentLocale === 'en' ? 'en-US' : context.i18n.currentLocale;
+        const rss = originalRss.replace(/<language>[^<]*<\/language>/, `<language>${language}</language>`);
+        if (rss === originalRss && !originalRss.includes(`<language>${language}</language>`)) {
+          throw new Error('site-pages: RSS channel has no language field.');
+        }
+        if (rss !== originalRss) await writeFile(rssPath, rss, 'utf8');
         const feed = rootFeed({
           rss,
           selfUrl: new URL(`${base}/feed.xml`, siteConfig.url).href,

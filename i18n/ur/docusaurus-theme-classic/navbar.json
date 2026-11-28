@@ -1,0 +1,46 @@
+{
+  "title": {
+    "message": "Rent Party docs",
+    "description": "The title in the navbar"
+  },
+  "logo.alt": {
+    "message": "Rent Party",
+    "description": "The alt text of navbar logo"
+  },
+  "item.label.How to play": {
+    "message": "How to play",
+    "description": "Navbar item with label How to play"
+  },
+  "item.label.Online play": {
+    "message": "Online play",
+    "description": "Navbar item with label Online play"
+  },
+  "item.label.Plans": {
+    "message": "Plans",
+    "description": "Navbar item with label Plans"
+  },
+  "item.label.Help": {
+    "message": "Help",
+    "description": "Navbar item with label Help"
+  },
+  "item.label.Get Rent Party": {
+    "message": "Get Rent Party",
+    "description": "Navbar item with label Get Rent Party"
+  },
+  "item.label.Start a game": {
+    "message": "Start a game",
+    "description": "Navbar item with label Start a game"
+  },
+  "item.label.Rent Party web app": {
+    "message": "Rent Party web app",
+    "description": "Navbar item with label Rent Party web app"
+  },
+  "item.label.Google Play": {
+    "message": "Google Play",
+    "description": "Navbar item with label Google Play"
+  },
+  "item.label.All apps": {
+    "message": "All apps",
+    "description": "Navbar item with label All apps"
+  }
+}

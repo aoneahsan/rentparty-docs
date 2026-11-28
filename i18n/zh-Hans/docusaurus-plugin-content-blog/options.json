@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "Rent Party文档更新",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "Rent Party文档的最新变更，按时间从新到旧排列。",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "最近文章",
+    "description": "The label for the left sidebar"
+  }
+}

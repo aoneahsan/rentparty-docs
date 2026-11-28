@@ -1,0 +1,10 @@
+{
+  "label": "Rent Party पर आना",
+  "position": 5.9,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "compare/index"
+  }
+}

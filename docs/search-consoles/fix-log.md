@@ -3,6 +3,17 @@
 Fixed path in every repo (`aoneahsan-cccs-search-issue-remediation`). Newest first. Not published: excluded in
 `docusaurus.config.ts`. The audit session retests with the commands under **Retest**.
 
+## 2026-11-28 source pass for rentparty-docs#1
+
+The eleven comparison guides now each link to a relevant peer, so each has the hub plus a contextual inbound
+route. The competitors' own pricing and feature pages were refreshed on 2026-11-27 in the shared data; the old
+11-07 refresh warning below is historical. The docs home, account, online play, first-game guide, help, apps,
+licensing pages and API reference now link to related guides with descriptive anchors. `new-versions.md` now
+explains the product's normal and urgent release behavior, browser and Android update paths, and where to get
+help. The English Docusaurus build and `yarn typecheck` pass. A full ten-locale build and `yarn seo:contract` still
+need the unfinished locale files; an English-only output cannot satisfy the all-locale sitemap contract. These
+changes have not passed live render or Search Console validation, so the issue remains open.
+
 ## rentparty-docs#1 — URL-level indexing + AEO fix list · 2026-11-27 · commit: see `git log -- docs/search-consoles/fix-log.md`
 
 Status: boxes 4, 5, 7 and 8 plus the slash switch fixed; 1, 2 and 6 Pending; 3 answered by owner law. `yarn build`

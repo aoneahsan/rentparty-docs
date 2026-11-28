@@ -5,10 +5,14 @@ description: What happens between paying for a white-label license and your Rent
 topics: [white-label]
 sidebar_position: 3
 last_update:
-  date: 2026-11-13
+  date: 2026-11-28
 ---
 
 Setup runs in the order below. We tell you at each step what we need next.
+
+The [white-label overview](./index.md) explains what the license covers. The [questions page](./faq.md) covers source code, exclusivity and payments before the first setup step.
+
+[What you get on each platform](./delivered.md) shows which game and app surfaces the team will brand before you send a domain or logo.
 
 ## What happens right after I pay? {#after-paying}
 

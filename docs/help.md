@@ -49,6 +49,8 @@ You can report someone’s profile, a chat message or a room: choose Report on i
 
 Yes, for Android: [Rent Party on Google Play](https://play.google.com/store/apps/details?id=com.aoneahsan.rentparty). Rent Party also runs in a current browser on phones, tablets and computers, iPhone and iPad included. It’s the same game, the same account and the same table everywhere. The one difference: plans are bought on the website, and the app shows yours.
 
+The [apps page](./apps.mdx) keeps the browser and store links together. If Rent Party asks for a newer version, [New versions](./new-versions.md) explains the notice and the update button.
+
 ## Can I ask the game a question? {#help-assistant}
 
 Yes. On the game’s [Help page](https://rentparty.aoneahsan.com/help), choose **Ask a question**, or in a game, open the pause menu and choose it there. The help assistant answers only from these docs and the Help page, and it names the pages it used so you can check. Rather talk? Choose **Ask by voice**, say your question and check the words before it’s asked. [AI features and voice](./ai-features.md#help-assistant) has the details.

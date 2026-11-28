@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "What’s new in the Rent Party docs",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "Les changements de la documentation Rent Party, du plus récent au plus ancien.",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "Articles récents",
+    "description": "The label for the left sidebar"
+  }
+}

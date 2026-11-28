@@ -138,4 +138,6 @@ As long as your table wants. Quick mode ends after a set number of rounds and th
 
 Nobody has to stay up till 1 a.m. to see who wins anymore. [Pausing a game](./pausing.md) shows how.
 
+Wondering which rules another game handles for you? The [game-by-game guides](../compare/index.mdx) put Rent Party beside eleven other tables.
+
 Rather learn by playing? [Practice against a CPU character](https://rentparty.aoneahsan.com/play).

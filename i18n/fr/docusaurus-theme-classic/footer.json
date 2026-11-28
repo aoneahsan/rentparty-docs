@@ -1,0 +1,134 @@
+{
+  "link.title.Get Rent Party": {
+    "message": "Obtenir Rent Party",
+    "description": "The title of the footer links column with title=Get Rent Party in the footer"
+  },
+  "link.title.Docs": {
+    "message": "Documentation",
+    "description": "The title of the footer links column with title=Docs in the footer"
+  },
+  "link.title.Play": {
+    "message": "Jouer",
+    "description": "The title of the footer links column with title=Play in the footer"
+  },
+  "link.title.Legal": {
+    "message": "Informations légales",
+    "description": "The title of the footer links column with title=Legal in the footer"
+  },
+  "link.title.Site": {
+    "message": "Site",
+    "description": "The title of the footer links column with title=Site in the footer"
+  },
+  "link.item.label.Rent Party web app": {
+    "message": "Application Web Rent Party",
+    "description": "The label of footer link with label=Rent Party web app linking to https://rentparty.aoneahsan.com"
+  },
+  "link.item.label.Google Play": {
+    "message": "Google Play",
+    "description": "The label of footer link with label=Google Play linking to https://play.google.com/store/apps/details?id=com.aoneahsan.rentparty"
+  },
+  "link.item.label.All apps": {
+    "message": "Toutes les applications",
+    "description": "The label of footer link with label=All apps linking to /apps"
+  },
+  "link.item.label.Getting started": {
+    "message": "Pour commencer",
+    "description": "The label of footer link with label=Getting started linking to /"
+  },
+  "link.item.label.How to play": {
+    "message": "Comment jouer",
+    "description": "The label of footer link with label=How to play linking to https://rentparty.aoneahsan.com/how-to-play"
+  },
+  "link.item.label.Online play": {
+    "message": "Jeu en ligne",
+    "description": "The label of footer link with label=Online play linking to /online-play"
+  },
+  "link.item.label.Coins": {
+    "message": "Pièces",
+    "description": "The label of footer link with label=Coins linking to /coins"
+  },
+  "link.item.label.Your account": {
+    "message": "Votre compte",
+    "description": "The label of footer link with label=Your account linking to /account"
+  },
+  "link.item.label.Plans and pricing": {
+    "message": "Formules et tarifs",
+    "description": "The label of footer link with label=Plans and pricing linking to /plans-and-pricing"
+  },
+  "link.item.label.Help and FAQ": {
+    "message": "Aide et questions fréquentes",
+    "description": "The label of footer link with label=Help and FAQ linking to /help"
+  },
+  "link.item.label.Start a game": {
+    "message": "Lancer une partie",
+    "description": "The label of footer link with label=Start a game linking to https://rentparty.aoneahsan.com/play"
+  },
+  "link.item.label.Play online": {
+    "message": "Jouer en ligne",
+    "description": "The label of footer link with label=Play online linking to https://rentparty.aoneahsan.com/online"
+  },
+  "link.item.label.Pricing": {
+    "message": "Tarifs",
+    "description": "The label of footer link with label=Pricing linking to https://rentparty.aoneahsan.com/pricing"
+  },
+  "link.item.label.Help": {
+    "message": "Aide",
+    "description": "The label of footer link with label=Help linking to https://rentparty.aoneahsan.com/help"
+  },
+  "link.item.label.Privacy": {
+    "message": "Confidentialité",
+    "description": "The label of footer link with label=Privacy linking to https://rentparty.aoneahsan.com/privacy"
+  },
+  "link.item.label.Terms": {
+    "message": "Conditions d’utilisation",
+    "description": "The label of footer link with label=Terms linking to https://rentparty.aoneahsan.com/terms"
+  },
+  "link.item.label.Permissions": {
+    "message": "Autorisations",
+    "description": "The label of footer link with label=Permissions linking to https://rentparty.aoneahsan.com/permissions"
+  },
+  "link.item.label.Delete account": {
+    "message": "Supprimer le compte",
+    "description": "The label of footer link with label=Delete account linking to https://rentparty.aoneahsan.com/delete-account"
+  },
+  "link.item.label.More from Zaions": {
+    "message": "Plus de Zaions",
+    "description": "The label of footer link with label=More from Zaions linking to /ecosystem"
+  },
+  "link.item.label.About the developer": {
+    "message": "À propos du développeur",
+    "description": "The label of footer link with label=About the developer linking to /about-developer"
+  },
+  "link.item.label.What’s new": {
+    "message": "Nouveautés",
+    "description": "The label of footer link with label=What’s new linking to /blog"
+  },
+  "link.item.label.Feed": {
+    "message": "Flux",
+    "description": "The label of footer link with label=Feed linking to /feed"
+  },
+  "link.item.label.Sitemap": {
+    "message": "Plan du site",
+    "description": "The label of footer link with label=Sitemap linking to /sitemap"
+  },
+  "link.item.label.RSS feed": {
+    "message": "Flux RSS",
+    "description": "The label of footer link with label=RSS feed linking to pathname:///blog/rss.xml"
+  },
+  "link.item.label.Atom feed": {
+    "message": "Flux Atom",
+    "description": "The label of footer link with label=Atom feed linking to pathname:///blog/atom.xml"
+  },
+  "link.item.label.sitemap.xml": {
+    "message": "sitemap.xml",
+    "description": "The label of footer link with label=sitemap.xml linking to pathname:///sitemap.xml"
+  },
+  "link.item.label.llms.txt": {
+    "message": "llms.txt",
+    "description": "The label of footer link with label=llms.txt linking to pathname:///llms.txt"
+  },
+  "copyright": {
+    "message": "développé avec amour par l’équipe Zaions",
+    "description": "The footer copyright"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": {
+    "message": "الجديد في وثائق Rent Party",
+    "description": "The title for the blog used in SEO"
+  },
+  "description": {
+    "message": "تغييرات وثائق Rent Party، من الأحدث إلى الأقدم.",
+    "description": "The description for the blog used in SEO"
+  },
+  "sidebar.title": {
+    "message": "أحدث المقالات",
+    "description": "The label for the left sidebar"
+  }
+}

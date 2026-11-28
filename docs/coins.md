@@ -6,7 +6,7 @@ sidebar_position: 3.8
 topics: [coins, online]
 ---
 
-Coins are in-app only. They can’t be withdrawn, cashed out or exchanged for money, and they have no cash value.
+Coins stay in Rent Party. They have no cash value and can’t be exchanged for money.
 
 You earn coins by playing, and on the website you can also get a coin pack. Spend them on looks in the [shop](https://rentparty.aoneahsan.com/shop), put them in at a coin table, or send some to another player.
 
@@ -39,7 +39,7 @@ Or pick **Your own amount**: any whole number of dollars from $21, at the same 2
 
 Checkout goes through our payment partner. Once the payment goes through, the coins land in your coin history in a moment.
 
-Every purchase is final, coin packs included. The [Terms](https://rentparty.aoneahsan.com/terms) cover coin packs.
+The [Terms](https://rentparty.aoneahsan.com/terms) cover coin packs.
 
 ## How do coin tables work? {#coin-tables}
 

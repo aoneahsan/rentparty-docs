@@ -5,8 +5,10 @@ description: Answers about white-label Rent Party licenses and the source buyout
 topics: [white-label]
 sidebar_position: 6
 last_update:
-  date: 2026-11-13
+  date: 2026-11-28
 ---
+
+Start with the [white-label overview](./index.md) if you are still deciding between a hosted license and a source buyout. After you choose, the [setup guide](./setup.md) covers the domain and brand files.
 
 ## Do I get the source code with a license? {#source-code}
 

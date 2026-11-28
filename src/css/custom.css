@@ -21,6 +21,12 @@
   font-display: swap;
 }
 
+@font-face { font-family: 'RP CJK SC'; src: url('../fonts/noto-sans-cjk-sc.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'RP Devanagari'; src: url('../fonts/noto-sans-devanagari.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'RP Arabic'; src: url('../fonts/noto-sans-arabic.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'RP Nastaliq'; src: url('../fonts/noto-nastaliq-urdu.woff2') format('woff2'); font-display: swap; }
+@font-face { font-family: 'RP Cyrillic'; src: url('../fonts/noto-sans-cyrillic.woff2') format('woff2'); font-display: swap; }
+
 :root {
   --ifm-color-primary: #a32190;
   --ifm-color-primary-dark: #931e82;
@@ -48,6 +54,12 @@
   --rp-cta-ink: #ffffff;
   --rp-footer-ground: #301a2b;
 }
+
+:root:lang(zh-Hans) { --ifm-font-family-base: 'RP CJK SC', 'Atkinson Hyperlegible Next', sans-serif; --ifm-heading-font-family: 'RP CJK SC', 'Atkinson Hyperlegible Next', sans-serif; }
+:root:lang(hi) { --ifm-font-family-base: 'RP Devanagari', 'Atkinson Hyperlegible Next', sans-serif; --ifm-heading-font-family: 'RP Devanagari', 'Atkinson Hyperlegible Next', sans-serif; }
+:root:lang(ar) { --ifm-font-family-base: 'RP Arabic', 'Atkinson Hyperlegible Next', sans-serif; --ifm-heading-font-family: 'RP Arabic', 'Atkinson Hyperlegible Next', sans-serif; }
+:root:lang(ur) { --ifm-font-family-base: 'RP Nastaliq', 'Atkinson Hyperlegible Next', sans-serif; --ifm-heading-font-family: 'RP Nastaliq', 'Atkinson Hyperlegible Next', sans-serif; --ifm-line-height-base: 2; }
+:root:lang(ru) { --ifm-font-family-base: 'RP Cyrillic', 'Atkinson Hyperlegible Next', sans-serif; --ifm-heading-font-family: 'RP Cyrillic', 'Atkinson Hyperlegible Next', sans-serif; }
 
 [data-theme='dark'] {
   --ifm-color-primary: #f39be0;

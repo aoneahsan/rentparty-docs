@@ -94,6 +94,15 @@ export function checkLocale({outDir, prefix, siteUrl, redirects, skip}: {
     }
     problems.push(...pageProblems(readFileSync(path.join(outDir, file), 'utf8'), relative, siteUrl));
   }
+  for (const name of ['llms.txt', 'llms-full.txt', 'pricing.md']) {
+    const file = path.join(outDir, name);
+    if (!existsSync(file)) problems.push(`${name} is missing`);
+    else if (!readFileSync(file, 'utf8').trimStart().startsWith('# ')) problems.push(`${name} is not Markdown`);
+  }
+  const full = path.join(outDir, 'llms-full.txt');
+  if (existsSync(full) && !readFileSync(full, 'utf8').includes('\n## ')) {
+    problems.push('llms-full.txt has no guide pages');
+  }
   const sitemap = path.join(outDir, 'sitemap.xml');
   if (existsSync(sitemap)) {
     for (const [, loc = ''] of readFileSync(sitemap, 'utf8').matchAll(/<loc>([^<]+)<\/loc>/g)) {

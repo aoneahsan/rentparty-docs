@@ -1,0 +1,18 @@
+{
+  "label": "Como jogar",
+  "position": 2,
+  "collapsible": true,
+  "collapsed": false,
+  "link": {
+    "type": "generated-index",
+    "slug": "/how-to-play",
+    "title": "Como jogar Rent Party",
+    "description": "As regras clássicas de negociação de propriedades, aplicadas pelo jogo: leilões, aluguel, construções, hipotecas, prisão, falência, regras da casa, personagens da CPU e pausas para terminar uma partida dias depois.",
+    "keywords": [
+      "regras",
+      "como jogar",
+      "regras da casa",
+      "pausar"
+    ]
+  }
+}

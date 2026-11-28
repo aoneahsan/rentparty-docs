@@ -1,0 +1,34 @@
+{
+  "version.label": {
+    "message": "À venir",
+    "description": "The label for version current"
+  },
+  "sidebar.docs.category.How to play": {
+    "message": "Comment jouer",
+    "description": "The label for category 'How to play' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.How to play.link.generated-index.title": {
+    "message": "Comment jouer à Rent Party",
+    "description": "The generated-index page title for category 'How to play' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.How to play.link.generated-index.description": {
+    "message": "Les règles classiques des transactions immobilières appliquées pour vous : enchères, loyers, constructions, hypothèques, prison, faillite, règles maison, adversaires contrôlés par l’ordinateur et pauses.",
+    "description": "The generated-index page description for category 'How to play' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Moving to Rent Party": {
+    "message": "Découvrir Rent Party",
+    "description": "The label for category 'Moving to Rent Party' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.White-label & licensing": {
+    "message": "Marque blanche et licences",
+    "description": "The label for category 'White-label & licensing' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.Developers": {
+    "message": "Développeurs",
+    "description": "The label for category 'Developers' in sidebar 'docs'"
+  },
+  "sidebar.docs.category.More from Zaions": {
+    "message": "Plus de Zaions",
+    "description": "The label for category 'More from Zaions' in sidebar 'docs'"
+  }
+}

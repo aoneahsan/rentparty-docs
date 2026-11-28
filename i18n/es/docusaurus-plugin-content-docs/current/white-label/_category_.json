@@ -1,0 +1,8 @@
+{
+  "label": "Marca blanca y licencias",
+  "position": 6.5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": { "type": "doc", "id": "white-label/index" },
+  "description": "Ofrece Rent Party con tu marca mediante una licencia de marca blanca o compra su código fuente."
+}

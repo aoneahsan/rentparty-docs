@@ -1,0 +1,11 @@
+{
+  "label": "Marque blanche et licences",
+  "position": 6.5,
+  "collapsible": true,
+  "collapsed": true,
+  "link": {
+    "type": "doc",
+    "id": "white-label/index"
+  },
+  "description": "Proposez Rent Party sous votre propre marque avec une licence, ou rachetez entièrement son code source."
+}
