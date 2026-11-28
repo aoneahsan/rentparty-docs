@@ -10,9 +10,10 @@ route. The competitors' own pricing and feature pages were refreshed on 2026-11-
 11-07 refresh warning below is historical. The docs home, account, online play, first-game guide, help, apps,
 licensing pages and API reference now link to related guides with descriptive anchors. `new-versions.md` now
 explains the product's normal and urgent release behavior, browser and Android update paths, and where to get
-help. The English Docusaurus build and `yarn typecheck` pass. A full ten-locale build and `yarn seo:contract` still
-need the unfinished locale files; an English-only output cannot satisfy the all-locale sitemap contract. These
-changes have not passed live render or Search Console validation, so the issue remains open.
+help. All ten locale guides and UI catalogues are pushed at `cf9c15a`. The full Docusaurus build and
+`yarn typecheck` passed; `yarn seo:contract` re-ran on 2026-11-28 and passed all ten locales. The new output
+has not passed the 1440/390 browser render gate, been published, or been checked in Search Console, so the issue
+remains open.
 
 ## rentparty-docs#1 — URL-level indexing + AEO fix list · 2026-11-27 · commit: see `git log -- docs/search-consoles/fix-log.md`
 
@@ -34,9 +35,9 @@ and author URLs land; 0 unslashed sitemap URLs.
 
 | Box | Why not done | Who | Next action |
 |---|---|---|---|
-| 2 · 10 compare pages | the competitor facts are past the 14-day refresh | `/comparison-hub` refresh | re-read each competitor's own pages |
-| 1 · home not indexed | needs a stronger above-the-fold angle (Story Bible copy) | content pass | unique home copy, links in from the app and aoneahsan.com |
-| 6 · 30 other pages | quality and authority signal | content pass | a unique angle per page; two inbound links each |
+| 2 · 10 compare pages | competitor facts were refreshed in source on 2026-11-27; the new guides are not published | Rent Party terminal | render, publish, then verify the live guides and dated facts |
+| 1 · home not indexed | new source links and localized home are not published; Google's decision still needs a fresh console report | Rent Party terminal + desktop session | render and publish, then inspect the home URL in Search Console |
+| 6 · 30 other pages | descriptive internal links and ten-locale source are not published; indexing remains unconfirmed | Rent Party terminal + desktop session | render and publish, check live route links, then inspect the affected URLs in Search Console |
 | Google re-crawl and Validate fix | console | daily audit | Validate fix |
 
 ### Retest
